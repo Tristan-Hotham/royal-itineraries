@@ -1,0 +1,219 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Governing on the Move: Where England's Kings Slept},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Governing on the Move: Where England's Kings Slept.\\[2pt] Itineraries of Henry II, John, Edward I and Elizabeth I as Data\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: \href{https://doi.org/10.5281/zenodo.23729639}{https://doi.org/10.5281/zenodo.23729639}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Medieval English government had no fixed seat: the king's council, household and writing office travelled with him, and royal letters were dated at the place where he was. Victorian and earlier editors turned those dates into printed itineraries, which survive as public-domain scans with messy optical character recognition (OCR). I parse four of them into open data: T. D. Hardy's itinerary of King John (1835), Henry Gough's itinerary of Edward I (1900), a sample of dated stays of Henry II from R. W. Eyton (1878) and the progresses of Elizabeth I from John Nichols (1823). After matching old and Latin place forms to modern gazetteers, I can place John on {{coverage.John.days_with_point|int}} of the {{coverage.John.reign_days|int}} days of his reign and Edward I on {{coverage.Edward I.days_with_point|int}} of {{coverage.Edward I.reign_days|int}}, and {{checks_passed|words}} of {{checks_n|words}} independent fixed points are recovered. John slept in {{monarchs.John.distinct_night_places|int}} places and moved on {{monarchs.John.moved_share|pct0}} of consecutive recorded days, against {{monarchs.Edward I.moved_share|pct0}} for Edward I; in a typical year John covered {{monarchs.John.km_per_year_median|int}} km in straight lines and Edward {{monarchs.Edward I.km_per_year_median|int}} km. {{john.continent_1199_1203|pct0}} of John's recorded days before December 1203 were spent on the continent and {{john.continent_1204_1216|pct0}} afterwards. Edward I's nights follow his wars in Wales, Gascony, Flanders and Scotland, yet he also spent {{headline.edward_westminster_nights|int}} nights at Westminster, {{headline.edward_westminster_share|pct0}} of those I can place, against {{headline.john_westminster_nights|int}} for John. The data show a court that moved constantly and a capital slowly forming around it.
+
+\textbf{Keywords:} itinerant kingship; royal itineraries; King John; Edward I; Henry II; Elizabeth I; royal progresses; Westminster; royal forests; historical GIS; OCR
+\end{quote}
+
+\section{Introduction}
+
+For most of the Middle Ages the government of England was wherever the king was. The small \textit{curia regis}, in the summary of a standard reference, ``met constantly and travelled with the king from place to place'' (Wikipedia, \textit{Curia regis}); the departments of the household, the Chamber and the Wardrobe, went with him; and orders took effect when sealed with the Great Seal, whose keeper was the Chancellor. Royal letters close and patent were dated at the place where the king was, and the right of purveyance allowed the Crown to requisition food and carriage for the household as it passed (Wikipedia, \textit{Itinerant court}; \textit{Wardrobe (government)}; \textit{Great Seal of the Realm}; \textit{Purveyance}).
+
+That habit of dating left a long trail. In the nineteenth century archivists and antiquaries reassembled it into itineraries: day-by-day lists of where a king was, built from the place-dates of letters, charters and accounts. These books are the closest thing we have to a medieval king's diary. They are out of copyright and scanned, but they are tables printed in narrow columns, and the OCR text of the scans scrambles them. This note turns four of them into data and asks three questions. How much did kings move, and how did two well-documented kings, John and Edward I, differ? Where did they spend their nights, and how far does that geography follow politics and war? And how far had Westminster, where the Exchequer and the Court of Common Pleas were fixed, become the centre of royal life?
+
+An interactive version, with an animated map that follows each monarch night by night, is at \url{https://tristan-hotham.github.io/royal-itineraries/}. This is one of a series of open-data notes on English historical geography; the previous one followed the medieval market places of England and Wales to today (Hotham 2026).
+
+\section{Sources}
+
+\subsection{King John}
+
+T. D. Hardy's \textit{Description of the Patent Rolls in the Tower of London} (1835) ends with an itinerary of King John from his accession in May 1199 to his death in October 1216, compiled from the rolls of the reign, and an index of places. The itinerary table is printed in two columns per page and the OCR interleaves them. The index, by contrast, is a single column: each place, with its county or French province, followed by calendar years, regnal years, months and days. I parse the index, not the table.
+
+\subsection{Edward I}
+
+Henry Gough's \textit{Itinerary of King Edward the First throughout his Reign} (1900, two volumes) gives one page per month: every day of the month on its own line, with the weekday and Sunday, then the place or places where the king is found, the county and the record authority (Patent, Close, Fine and Charter Rolls, Wardrobe accounts). Gough also prints an index of places divided into England, Wales, Scotland and foreign parts, with the years and months of each visit.
+
+\subsection{Henry II}
+
+R. W. Eyton's \textit{Court, Household and Itinerary of King Henry II} (1878) is a dated narrative rather than a table: paragraphs headed by dates under year headings, with the place where the king is found repeated in the margin. It yields a sample of dated statements, not a full itinerary.
+
+\subsection{Elizabeth I}
+
+John Nichols's \textit{Progresses and Public Processions of Queen Elizabeth} (1823) is a collection of documents. Two parts are usable here: the Latin household account of the progress of 1561 into Essex, Suffolk and Hertfordshire, which gives the household's place day by day, and the year-by-year summary of the progresses in Nichols's preface. The Internet Archive scan labelled as volume 3 of this work is in fact Nichols's \textit{Progresses of King James I}, and I did not use it.
+
+\subsection{Gazetteers and context}
+
+Places were matched to OS Open Names (Ordnance Survey 2026), Wikidata items for royal residences, palaces, castles, hunting lodges, abbeys and priories (Wikidata 2026), and GeoNames towns of 1,000 or more people for France, the Low Countries, Ireland and other countries (GeoNames, via lutangar 2026). The list of royal forests comes from the table in the Wikipedia article \textit{Royal forest}; the dates of the events used as checks come from the Wikipedia articles on John and Edward I. Static maps use the Natural Earth land outline.
+
+\section{Methods}
+
+\subsection{Parsing}
+
+\textbf{John.} The index has {{parse.john.index_entries|int}} place entries. A line is a date line if, after tolerant cleaning of OCR noise (spaced digits, misread months, stray symbols), it consists of an optional calendar year, an optional regnal year (``an.''), an optional month and day numbers. In long entries the OCR often separates the year labels from the month lines. I therefore read each entry as two ordered sequences, labels and month lines, and assign month lines to labelled years by dynamic programming: years in printed order, months non-decreasing within a year, years printed on the same line as a month respected, and a reward for each year whose dates imply exactly the regnal years printed beside it. John's regnal years ran from Ascension Day, so the regnal year of each date is computed from Easter on the Julian calendar. The parse yields {{parse.john.valid|int}} valid place-days on {{parse.john.distinct_days|int}} days; for {{parse.john.assigned_year|int}} of them the year came from this assignment rather than from the same line. Hardy's index places John at Runnymede on 15 June 1215, the day of the meeting with the barons, which was the first test.
+
+\textbf{Edward I.} Gough's index was parsed into {{parse.edward.index_entries|int}} names with county and the months of each visit ({{parse.edward.index_entries_with_dates|int}} with dates). The daily pages were then walked month by month. Each day line is recognised by its expected day number and the weekday computed on the Julian calendar, so that a garbled day number does not break the sequence, and the year is re-synchronised from each page's running head (``A.D. 1296, 24 Edw. I.''). {{parse.edward.day_lines_found|int}} of the {{parse.edward.days_in_span|int}} day lines from 16 November 1272 to 7 July 1307 were found. Within a day's text, record authorities, ditto marks, feast days and county columns are removed; a remaining fragment is accepted as a place only if it matches a place that Gough's index lists for that year and month (difflib similarity of 0.78 or more), or very closely matches any indexed place (0.90). {{parse.edward.supplementary_names|words}} frequent names that the OCR of the index lost (Berwick-upon-Tweed among them) were added because they match an OS Open Names or GeoNames place letter for letter.
+
+\textbf{Henry II.} A statement is kept when a dated paragraph says that the king (``K. Henry'', ``the King'') is, keeps court, holds a council, lands, stays or spends a feast at a place in Eyton's own index of places, when a royal charter is dated at such a place, or when the margin repeats a place named in the paragraph. This gives {{parse.henry_rows|int}} dated statements ({{parse.henry_uncertain|int}} flagged as uncertain because of ``probably'', ``about'' or a ``c.'' date) and a separate list of Christmas courts.
+
+\textbf{Elizabeth I.} Each Latin day line of the 1561 account (``Jovis, decimo die Julii, ibidem \& Charterhowse'') gives a weekday, a Latin ordinal day and month, and the place reached; ``ibidem'' alone keeps the previous place. The stops named for other years in Nichols's preface were transcribed with the words that name them.
+
+\subsection{Placing}
+
+Each distinct name, with the county or province the editor prints, was placed in this order: (1) a manual table of {{placed_manual_rows|int}} identifications of the commonest and hardest names, each pointing to a named entry in one of the gazetteers rather than to a typed coordinate (for example Hardy's ``Runnemead'' to OS Open Names Runnymede, ``Clarendon'' to the Wikidata item for Clarendon Palace, Westminster to GeoNames City of Westminster); (2) exact matches in OS Open Names, Wikidata residences and GeoNames, after normalising spelling and inverting forms such as ``Mans (le)''; (3) a close spelling (similarity 0.86 or more) within the same county or country. Namesakes were separated by the editor's county, using county centroids computed from OS Open Names; a namesake outside the printed county was rejected unless it was the only city or town of that name, which catches OCR slips in the county column. Remaining ambiguity was resolved by the itinerary itself, choosing the candidate nearest to the places where the king is found within three days either side. Continental matches were restricted to the Plantagenet lands of western France unless the editor named another region.
+
+\subsection{Nights, moves and flags}
+
+Where a day has more than one place, I order them by nearest neighbour from the previous night, and call the last place the night. Two kinds of record are flagged and left out of nights, distances and speeds: a place more than 120 km from every placed record within three days either side (isolated), and, on a day with two places more than 150 km apart, the place that is further from the median position of the surrounding five days (same-day conflict). The flags remove {{headline.john_flagged|int}} of John's entries and {{headline.edward_flagged|int}} of Edward's. A day counts as a move when consecutive recorded days have nights more than 3 km apart. Yearly distance is the sum of straight-line distances between records no more than seven days apart, leaving out legs faster than 100 km a day. Country comes from GeoNames country codes or the nearest OS settlement. ``Near Westminster'' means within 5 km. ``Near a royal forest'' means within 10 km of one of the {{forests.located|int}} forests in the Wikipedia list ({{forests.listed|int}} in all) that I could place at a point, using an OS Open Names wood or forest feature, the article's coordinates, or the settlement it is named after.
+
+\section{Results}
+
+\subsection{Coverage and checks}
+
+{{TABLE_COVERAGE}}
+
+Table~\ref{tab:coverage} summarises what the four sources give. {{coverage.John.share_point|pct0}} of John's index entries and {{coverage.Edward I.share_point|pct0}} of Edward's daily entries could be placed at a point. Most days of both reigns are blank: I have a placed record for {{coverage.John.share_days_with_point|pct0}} of John's days and {{coverage.Edward I.share_days_with_point|pct0}} of Edward's. A blank day means that no document the editor found was dated that day.
+
+{{TABLE_CHECKS}}
+
+All {{checks_n|words}} fixed points in Table~\ref{tab:checks} are recovered: John at Runnymede on 15 June 1215 and at Newark before his death in October 1216, and Edward I at Rhuddlan in August 1277, at Conwy in the spring of 1283, at Berwick in the spring of 1296, at Ghent in October 1297 and at Caerlaverock in July 1300. The last check is weaker: Gough has no placed entry for 6 or 7 July 1307, and the nearest record, at Carlisle on 30 June, is {{checks.7.km|f1}} km from Burgh by Sands. As a further check on parsing, {{plausibility.John.share_under_40km|pct0}} of John's day-to-day moves and {{plausibility.Edward I.share_under_40km|pct0}} of Edward's are 40 km or less, and {{plausibility.John.share_over_100km|pct1}} and {{plausibility.Edward I.share_over_100km|pct1}} exceed 100 km; some of these are Channel crossings and some are errors that remain.
+
+\subsection{Where they slept}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_map.png}
+\caption{Every placed night of King John (1199 to 1216) and Edward I (1272 to 1307). Circle area is proportional to the number of nights. The six places with most nights are labelled.}\label{fig:map}
+\end{figure}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_top.png}
+\caption{The twelve places with most nights for each king.}\label{fig:top}
+\end{figure}
+
+John's most frequent stopping places (Figures~\ref{fig:map} and \ref{fig:top}) are Rouen ({{headline.john_rouen_nights|int}} nights) and Winchester ({{headline.john_winchester_nights|int}}), followed by the castle of Orival on the Seine, the hunting palaces of Woodstock and Clarendon, Windsor, Marlborough and the archbishop's house at Lambeth. Westminster is tenth, with {{headline.john_westminster_nights|int}} nights. Edward I's list is headed by Westminster with {{headline.edward_westminster_nights|int}} nights, then Rhuddlan, Windsor, Lanercost Priory, Conwy, Canterbury, Winchester, Caernarfon, Stirling and Berwick. The {{edward.lanercost_nights|int}} nights at Lanercost fall between {{edward.lanercost_first|raw}} and {{edward.lanercost_last|raw}}, the winter the ailing king spent near the Scottish border before his death.
+
+\subsection{How often and how far}
+
+{{TABLE_COMPARE}}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_km.png}
+\caption{Straight-line distance travelled per year, between records no more than seven days apart and leaving out legs faster than 100 km a day. Open circles: years with fewer than 150 placed nights.}\label{fig:km}
+\end{figure}
+
+The two kings travelled very differently (Table~\ref{tab:compare}, Figure~\ref{fig:km}). John's court moved on {{monarchs.John.moved_share|pct0}} of consecutive recorded days and Edward's on {{monarchs.Edward I.moved_share|pct0}}; the median move was {{monarchs.John.km_per_moving_day_median|km0}} km for John and {{monarchs.Edward I.km_per_moving_day_median|km0}} km for Edward; the mean stay was {{monarchs.John.stay_mean_nights|f1}} and {{monarchs.Edward I.stay_mean_nights|f1}} nights. In years with at least 150 placed nights, the median distance was {{monarchs.John.km_per_year_median|int}} km for John and {{monarchs.Edward I.km_per_year_median|int}} km for Edward. John's busiest year was {{monarchs.John.km_per_year_max.year|raw}} ({{monarchs.John.km_per_year_max.km|int}} km), the year Normandy was lost. Some of the difference may come from the sources: John's itinerary comes from an index whose dates I had partly to reconstruct, and noise in dates adds spurious moves. But the flags remove the worst of it, and the gap is large in every year.
+
+\subsection{An empire, then a kingdom}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_continent.png}
+\caption{Share of King John's recorded days spent abroad, by year. A day is abroad if its place is in France or the Low Countries or, if unplaced, if Hardy prints a French province.}\label{fig:cont}
+\end{figure}
+
+Henry II's sample of {{coverage.Henry II.days_with_entry|int}} dated statements is split evenly: {{headline.henry_france_share|pct0}} of the placed ones are in France and {{headline.henry_england_share|pct0}} in England, and {{headline.henry_christmas_france|int}} of the {{headline.henry_christmas_n|int}} Christmas courts Eyton places were held on the continent. For John the break is sharp (Figure~\ref{fig:cont}). Until he crossed from Barfleur to Hampshire in early December 1203, {{john.continent_1199_1203|pct0}} of his recorded days were on the continent; from then to his death, {{john.continent_1204_1216|pct0}}. The exceptions are expeditions: Poitou in the second half of 1206 ({{john.poitou_1206|pct0}} of placed nights), Ireland in the summer of 1210 ({{john.ireland_1210|pct0}}) and Poitou again in 1214 ({{john.poitou_1214|pct0}}).
+
+\subsection{The geography of war}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_war.png}
+\caption{Edward I's placed nights per year by country.}\label{fig:war}
+\end{figure}
+
+Edward I's itinerary follows his campaigns closely (Figure~\ref{fig:war}). {{edward.wales_1277_aug_nov|pct0}} of his placed nights from mid-July to November 1277 were in Wales; {{edward.wales_1282_1283|pct0}} in 1282 and 1283; {{edward.wales_1284|pct0}} in 1284. From May 1286 to August 1289, {{edward.france_1286_1289|pct0}} were in France, and from August 1297 to March 1298, {{edward.lowc_1297_1298|pct0}} in the Low Countries. Scotland took {{edward.scotland_1296|pct0}} of his nights from March to September 1296 and {{edward.scotland_1303_1304|pct0}} from May 1303 to August 1304. By decade, Wales accounts for {{edward.war_share_by_decade.1282 to 1291.Wales|pct0}} of placed nights in 1282 to 1291 and Scotland for {{edward.war_share_by_decade.1302 to 1307.Scotland|pct0}} in 1302 to 1307. The Gascon years are thinly placed, because many small Gascon places are not in the gazetteers I used.
+
+\subsection{Seasons, forests and Christmas}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_months.png}
+\caption{By month: share of placed nights within 5 km of Westminster (left) and share of nights in England within 10 km of a placed royal forest (right).}\label{fig:months}
+\end{figure}
+
+{{monarchs.John.forest_share|pct0}} of John's nights in England and {{monarchs.Edward I.forest_share|pct0}} of Edward's were within 10 km of a placed royal forest (Figure~\ref{fig:months}). For John the share was highest in {{headline.forest_month_john_max.1|month}} ({{headline.forest_month_john_max.0|pct0}}) and lowest in {{headline.forest_month_john_min.1|month}} ({{headline.forest_month_john_min.0|pct0}}). I would not read much into the monthly pattern: forests were large and their bounds moved, many could not be placed, and many royal residences stood in or by forests whether or not the king hunted. Christmas, the great feast of the court, moved too: John's {{headline.john_christmas_n|int}} placed Christmases were in {{headline.john_christmas_distinct|int}} places, Edward's {{headline.edward_christmas_n|int}} in {{headline.edward_christmas_distinct|int}}.
+
+\subsection{Westminster}
+
+Within 5 km of Westminster (Westminster, Lambeth, the Tower and the Temple) lie {{monarchs.John.london_share|pct0}} of John's placed nights and {{monarchs.Edward I.london_share|pct0}} of Edward's. Edward's share swings with war: in 1282 to 1284 he was hardly there, in some other years for more than a third of his nights. The Exchequer had been at Westminster since the twelfth century and Magna Carta's clause 17 required common pleas to be heard in ``some fixed place'', which became Westminster Hall (Wikipedia, \textit{Exchequer}; \textit{Court of Common Pleas (England)}). By Edward's reign the institutions were settling faster than the king.
+
+\subsection{Elizabeth's progresses}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\textwidth]{f_elizabeth.png}
+\caption{Left: stops of Elizabeth I's progresses named in Nichols's preface (year only). Right: the progress of 1561 from the household account, circle area proportional to nights.}\label{fig:eliz}
+\end{figure}
+
+The 1561 household account covers {{elizabeth.days_1561|int}} days from {{elizabeth.first|raw}} to {{elizabeth.last|raw}} (Figure~\ref{fig:eliz}). The household used {{elizabeth.places_1561|int}} places, moved on {{elizabeth.moves_1561|int}} days, about {{elizabeth.km_per_moving_day_1561|km0}} km at a time, and covered {{elizabeth.km_1561|int}} km in straight lines. Nichols's preface names {{elizabeth.preface_stops|int}} stops in {{coverage.Elizabeth I preface.years|int}} progress years between 1559 and 1602. These are visits to the houses of courtiers and to towns and universities near London, not the circuit of a government that had nowhere else to sit.
+
+\section{Discussion}
+
+The data confirm, in numbers, what historians of medieval kingship describe in words. The court of John and of Edward I was a travelling institution. Over a reign it touched hundreds of places, and in a typical year it slept in dozens: a median of {{monarchs.John.places_per_year_median|f1}} places a year for John and {{monarchs.Edward I.places_per_year_median|f1}} for Edward. Its geography was set by politics: the Angevin lands until 1204, then England for John; for Edward the conquest of Wales, the duchy of Gascony, the alliance in Flanders and the long Scottish wars.
+
+The difference between the two kings is large. John moved almost twice as often and much further. Part of this may be personality and part circumstance: John lost Normandy in his fifth year and faced rebellion in his last, while Edward could spend long spells at Westminster, Windsor or a campaign base. Part may be the sources, since Hardy's index and Gough's daily pages are not built in the same way. But the most direct evidence for a change in the nature of royal government is the rise of Westminster: {{headline.edward_westminster_nights|int}} nights for Edward against {{headline.john_westminster_nights|int}} for John. By Elizabeth's reign the progress had become a summer tour, measured in tens of kilometres, from a government that no longer needed to move.
+
+\section{Limitations}
+
+The itineraries record where documents were dated, which is a proxy for the king's presence, not proof of it. Most days have no record, and gaps are not random: wartime and foreign stays are often worse recorded. OCR and parsing introduce errors in dates and places; I reconstructed years for many of John's entries and flagged records that are far from their neighbours, but some errors remain, as the {{plausibility.John.share_over_100km|pct1}} of John's moves over 100 km in a day show. Old place names are hard to identify: some small French and Irish places are not in the gazetteers I used and remain unplaced, and a few manual identifications are approximate (Freemantle is placed at Kingsclere and the New Temple at the centre of London). Distances are straight lines between points. Royal forests are points from a list that is itself incomplete. Henry II is a sample of {{coverage.Henry II.days_with_entry|int}} statements, and Elizabeth I one summer and a list of stops. The Gough and Hardy itineraries are themselves editorial reconstructions with their own errors, which I cannot correct.
+
+\section{Conclusion}
+
+Four old books, read by machine and checked against fixed points, give a day-by-day picture of medieval government on the move. King John spent his reign on horseback across England and, until 1204, half of France; Edward I travelled less often and less far, followed his wars across Wales, Gascony, Flanders and Scotland, and returned to Westminster more than to anywhere else. The open data and the animated map should make it easy to ask further questions of where England's kings were, and when.
+
+\section*{Data and code availability}
+
+Data, code and the interactive page: \url{https://github.com/Tristan-Hotham/royal-itineraries} and \url{https://tristan-hotham.github.io/royal-itineraries/}. Archived release: \url{https://doi.org/10.5281/zenodo.23729639}. The derived data are released under CC BY-SA 4.0 because they include material derived from Wikipedia; code is MIT.
+
+\section*{Funding and competing interests}
+
+None.
+
+\section*{Use of AI}
+
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\section*{References}
+\setlength{\parskip}{0.35em}
+\hangindent=1.5em Eyton, R.~W. (1878). \textit{Court, Household, and Itinerary of King Henry II}. Scan: \url{https://archive.org/details/courthouseholdit00eyto}
+
+\hangindent=1.5em GeoNames. Cities with a population of 1,000 or more, via lutangar, \textit{cities.json}, \url{https://github.com/lutangar/cities.json}. CC BY 4.0. \url{https://www.geonames.org}
+
+\hangindent=1.5em Gough, H. (1900). \textit{Itinerary of King Edward the First throughout his Reign, A.D. 1272 to 1307}. 2 vols. Scans: \url{https://archive.org/details/itineraryofkinge01gouguoft}, \url{https://archive.org/details/itineraryofkinge02gouguoft}
+
+\hangindent=1.5em Hardy, T.~D. (1835). \textit{A Description of the Patent Rolls in the Tower of London; to which is added an Itinerary of King John}. London. Scan: \url{https://archive.org/details/descriptionofpat00hard}
+
+\hangindent=1.5em Hotham, T. (2026). Market Towns That Failed: What Became of the Medieval Market Places of England and Wales. Zenodo. \url{https://doi.org/10.5281/zenodo.23727144}
+
+\hangindent=1.5em Natural Earth. 1:10m land. Public domain. \url{https://www.naturalearthdata.com}
+
+\hangindent=1.5em Nichols, J. (1823). \textit{The Progresses and Public Processions of Queen Elizabeth}. New edition. Scans of vols 1 and 2: \url{https://archive.org/details/progressespublic01nich}, \url{https://archive.org/details/progressespublic02nich}
+
+\hangindent=1.5em Ordnance Survey (2026). OS Open Names. Open Government Licence v3.0. \url{https://www.ordnancesurvey.co.uk/products/os-open-names}
+
+\hangindent=1.5em Wikidata (2026). Items for royal residences, palaces, castles, hunting lodges, manor houses, abbeys and priories, queried via QLever. CC0. \url{https://www.wikidata.org}
+
+\hangindent=1.5em Wikipedia contributors (2026). \textit{Royal forest}; \textit{Itinerant court}; \textit{Curia regis}; \textit{Wardrobe (government)}; \textit{Great Seal of the Realm}; \textit{Purveyance}; \textit{Exchequer}; \textit{Court of Common Pleas (England)}; \textit{John, King of England}; \textit{Edward I}; \textit{Henry II of England}. English Wikipedia, CC BY-SA 4.0. \url{https://en.wikipedia.org}
+
+\end{document}

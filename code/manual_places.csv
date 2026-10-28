@@ -1,0 +1,224 @@
+monarch,raw,modern,gazetteer,note
+*,Westminster,Westminster,gn:City of Westminster|GB,"OS Open Names has no Westminster settlement; an automatic match went to West Minster, Kent"
+*,Vestmmster,Westminster,gn:City of Westminster|GB,OCR form
+*,Clarendon,Clarendon Palace,wd:Q404530,royal palace and hunting lodge near Salisbury
+*,Freemantle or Fremanton,Freemantle (near Kingsclere),os:Kingsclere|Hampshire,"approximate: John's house at Freemantle lay in Kingsclere parish; OS Freemantle is a Southampton suburb"
+*,Corfe,Corfe Castle,os:Corfe Castle|Dorset,
+*,Porchester,Portchester Castle,wd:Q732249,
+*,Portchester,Portchester Castle,wd:Q732249,
+*,Temple (New),"New Temple, London",gn:London|GB,approximate: centre of London
+*,New Temple.,"New Temple, London",gn:London|GB,approximate: centre of London
+*,New Temple,"New Temple, London",gn:London|GB,approximate: centre of London
+*,Gerdington,Geddington,os:Geddington|Northamptonshire,
+*,Saint Maixent,Saint-Maixent-l'Ecole,region:Poitou,not in the gazetteers used
+*,Seez,Sees,gn:Sées|FR,
+*,Kingston,Kingston upon Thames,os:Kingston upon Thames|Greater London,John's Kingston in Surrey
+*,Sutton (at Hone),Sutton at Hone,os:Sutton at Hone|Kent,
+*,Cliffe (King's),King's Cliffe,os:King's Cliffe|Northamptonshire,
+*,King's- Cliffe,King's Cliffe,os:King's Cliffe|Northamptonshire,
+*,Stoke (Bishop's^,Bishopstoke,os:Bishopstoke|Hampshire,
+*,Lexington or Laxton,Laxton,os:Laxton|Nottinghamshire,
+*,Ewell,Temple Ewell,os:Temple Ewell|Kent,Hardy's Ewell is in Kent (Temple Ewell near Dover)
+*,Domus Templi juxta Dover,Temple Ewell,os:Temple Ewell|Kent,
+*,Roche-Orival,Orival,gn:Orival|FR,Hardy: Rupes Aurivallis or Orival-sur-Seine
+*,Orival {Aurival,Orival,gn:Orival|FR,
+*,Aurival,Orival,gn:Orival|FR,
+*,Re or l'isle de Re,Ile de Re (Saint-Martin-de-Re),gn:Saint-Martin-de-Ré|FR,
+*,Rhe,Ile de Re (Saint-Martin-de-Re),gn:Saint-Martin-de-Ré|FR,
+*,Andely (le Petit),Les Andelys,gn:Les Andelys|FR,
+*,L'isi.e d'Andely,Les Andelys,gn:Les Andelys|FR,
+*,Roche -Andely,Les Andelys,gn:Les Andelys|FR,
+*,Chateau d'Andely (Je Chateau- Gaillard),Les Andelys,gn:Les Andelys|FR,
+*,Insula Andeey (Le Chateau-Gaillard) {Normandy),Les Andelys,gn:Les Andelys|FR,
+*,Opiham,Odiham,os:Odiham|Hampshire,OCR form
+*,Ocliham,Odiham,os:Odiham|Hampshire,OCR form
+*,H ekeeoki),Hereford,os:Hereford|Herefordshire,OCR form of HEREFORD
+*,Bedford] Bedforduh ire.,Bedford,os:Bedford|Bedford,OCR form
+*,Poorstock,Powerstock,os:Powerstock|Dorset,
+*,Craike,Crayke,os:Crayke|North Yorkshire,"then a detached part of Durham"
+*,Fi n M e k e,Finmere,os:Finmere|Oxfordshire,OCR form
+*,IIedingham (Castle),Castle Hedingham,os:Castle Hedingham|Essex,
+*,Hemingham,Castle Hedingham,os:Castle Hedingham|Essex,
+*,Maize or Mause,Mauze-sur-le-Mignon,gn:Mauzé-sur-le-Mignon|FR,
+*,Runnemead,Runnymede,os:Runnymede|Surrey,the meadow of Magna Carta
+*,Inter Windsor et Staines,Runnymede,os:Runnymede|Surrey,Hardy refers this to Runnymede
+*,Blanc (le),Le Blanc,gn:Le Blanc|FR,
+*,Chateau-Neff-sur- Sarte,Chateauneuf-sur-Sarthe,gn:Châteauneuf-sur-Sarthe|FR,
+*,Clere (Bishop's),Highclere,os:Highclere|Hampshire,the Bishop of Winchester's Clere
+*,Kinfare,Kinver,os:Kinver|Staffordshire,
+*,Knep-Castle,Knepp Castle,wd:Q6421967,
+*,Suse (la),La Suze-sur-Sarthe,gn:La Suze-sur-Sarthe|FR,
+*,Bauge,Bauge,gn:Baugé-en-Anjou|FR,
+*,Dol,Dol-de-Bretagne,gn:Dol-de-Bretagne|FR,
+*,Harptree,East Harptree,os:East Harptree|Bath and North East Somerset,
+*,Karebroc,Charborough,osw:Charborough Park|Dorset,
+*,Aix or Esse,Aixe-sur-Vienne,gn:Aixe-sur-Vienne|FR,
+*,Bardfield,Great Bardfield,os:Great Bardfield|Essex,
+*,Conches,Conches-en-Ouche,gn:Conches-en-Ouche|FR,
+*,Gournay,Gournay-en-Bray,gn:Gournay-en-Bray|FR,
+*,Hallingbury,Great Hallingbury,os:Great Hallingbury|Essex,
+*,MiTFORn,Mitford,os:Mitford|Northumberland,OCR form
+*,Romney,New Romney,os:New Romney|Kent,
+*,Uphaven,Upavon,os:Upavon|Wiltshire,
+*,Sarum,Old Sarum,os:Old Sarum|Wiltshire,
+*,Canford,Canford Magna,os:Canford Magna|Bournemouth,
+*,Walungford,Wallingford,os:Wallingford|Oxfordshire,
+*,Bourg-sur-Mer,Bourg (Gironde),gn:Bourg|FR,
+*,Ostring,Ospringe,os:Ospringe|Kent,
+*,Melbcrn,Melbourne,os:Melbourne|Derbyshire,
+*,Tower oe London,Tower of London,wd:Q62378,
+*,Tower of London.,Tower of London,wd:Q62378,
+*,"London, Tower",Tower of London,wd:Q62378,
+*,Verneuil,Verneuil-sur-Avre,gn:Verneuil-sur-Avre|FR,
+*,Rochelle (la),La Rochelle,gn:La Rochelle|FR,
+*,Ghent,Ghent,gn:Gent|BE,
+*,Aardenburg,Aardenburg,gn:Aardenburg|NL,
+*,Sluys,Sluis,gn:Sluis|NL,
+*,Holme-Cultram,Abbeytown (Holm Cultram Abbey),os:Abbeytown|Cumberland,
+*,Shene,Sheen (Richmond),wd:Q1059945,Richmond Palace stands on the site of the royal manor of Sheen
+*,Oleron,Oloron-Sainte-Marie,gn:Oloron-Sainte-Marie|FR,
+*,La Rose,Rose Castle,region:Cumberland,not in the gazetteers used
+*,Bambrough,Bamburgh,os:Bamburgh|Northumberland,
+*,Liddinfton,Lyddington,os:Lyddington|Rutland,
+*,Windsor fark,Windsor Great Park,osw:Windsor Great Park|Windsor,
+*,Rhuthyn,Ruthin,os:Ruthin|Denbighshire,
+*,Carlaverock,Caerlaverock Castle,wd:Q1025398,
+*,Woolmer,Woolmer Forest,osw:Woolmer Forest|Hampshire,
+*,Wolmer,Woolmer Forest,osw:Woolmer Forest|Hampshire,
+*,Saint-Edmund's,Bury St Edmunds,os:Bury St Edmunds|Suffolk,
+*,Bury St. Edmunds,Bury St Edmunds,os:Bury St Edmunds|Suffolk,
+*,Wimborne,Wimborne Minster,os:Wimborne Minster|Dorset,
+*,Hampall,Hampole,os:Hampole,
+*,Llangerniew,Llangernyw,os:Llangernyw|Conwy,
+*,Foulmire,Fowlmere,os:Fowlmere|Cambridgeshire,
+*,Camel (Queen's-),Queen Camel,os:Queen Camel|Somerset,
+*,Hayles,Hailes Abbey,wd:Q1478728,
+*,Kildrummie,Kildrummy Castle,wd:Q1741270,
+*,Aberbrothock,Arbroath,os:Arbroath|Angus,
+*,Tarwin,Tarvin,os:Tarvin|Cheshire,
+*,Basing (Old-),Old Basing,os:Old Basing|Hampshire,
+*,Nevyn,Nefyn,os:Nefyn|Gwynedd,
+*,Blanchefort,Blanquefort,gn:Blanquefort|FR,
+*,Marnham,High Marnham,os:High Marnham|Nottinghamshire,
+*,Yetholm,Town Yetholm,os:Town Yetholm|Scottish Borders,
+*,Aberconway,Conwy,os:Conwy|Conwy,
+*,Carnarvon,Caernarfon,os:Caernarfon|Gwynedd,
+*,"Langley (King's-)",Kings Langley,wd:Q6412947,royal palace
+*,"King's-Langley",Kings Langley,wd:Q6412947,royal palace
+*,Ashridge,Ashridge,wd:Q15192660,
+*,Ashridt'e Bucks,Ashridge,wd:Q15192660,
+*,Havering-atte-Bower,Havering-atte-Bower,wd:Q5683831,
+*,Burgh-on-the-Sands,Burgh by Sands,os:Burgh-by-Sands|Cumberland,where Edward I died on 7 July 1307
+*,Wilts,Wiltshire,region:Wiltshire,county only
+*,Midd'x,Middlesex,region:Middlesex,county only
+*,Merioneth,Merioneth,region:Merioneth,county only
+*,Anglesey,Anglesey,region:Anglesey,county only
+Henry II,Normandy,Normandy,region:Normandy,
+Henry II,England,England,region:England,
+Henry II,Guienne,Guienne,region:Guienne,
+Henry II,Anjou,Anjou,region:Anjou,
+Henry II,Bretagne,Brittany,region:Bretagne,
+Henry II,Ireland,Ireland,region:Ireland,
+Henry II,Poitou,Poitou,region:Poitou,
+Henry II,Wales,Wales,region:Wales,
+Henry II,Church,,region:none,not a place
+Henry II,Croch,,region:Ireland,"Crook, near Waterford: not in the gazetteers used"
+Henry II,Stokes,,region:England,not identified
+Henry II,Newport,Newport (Pembrokeshire),os:Newport|Pembrokeshire,
+Henry II,Rouen,Rouen,gn:Rouen|FR,
+Henry II,Le Mans,Le Mans,gn:Le Mans|FR,
+Henry II,Gisors,Gisors,gn:Gisors|FR,
+Henry II,Limoges,Limoges,gn:Limoges|FR,
+Henry II,Bayeux,Bayeux,gn:Bayeux|FR,
+Henry II,Argentan,Argentan,gn:Argentan|FR,
+Henry II,Angers,Angers,gn:Angers|FR,
+Henry II,Caen,Caen,gn:Caen|FR,
+Henry II,Falaise,Falaise,gn:Falaise|FR,
+Henry II,Bordeaux,Bordeaux,gn:Bordeaux|FR,
+Henry II,Sees,Sees,gn:Sées|FR,
+Henry II,Tours,Tours,gn:Tours|FR,
+Henry II,Mantes,Mantes-la-Jolie,gn:Mantes-la-Jolie|FR,
+Henry II,Avranches,Avranches,gn:Avranches|FR,
+Henry II,Lisieux,Lisieux,gn:Lisieux|FR,
+Henry II,Chinon,Chinon,gn:Chinon|FR,
+Henry II,Nantes,Nantes,gn:Nantes|FR,
+Henry II,Poitiers,Poitiers,gn:Poitiers|FR,
+Henry II,Sens,Sens,gn:Sens|FR,
+Henry II,Rome,Rome,gn:Rome|IT,
+Henry II,Mortain,Mortain,gn:Mortain|FR,
+Henry II,Domfront,Domfront,gn:Domfront|FR,
+Henry II,Cherbourg,Cherbourg,gn:Cherbourg-Octeville|FR,
+Henry II,Valognes,Valognes,gn:Valognes|FR,
+Henry II,Alencon,Alencon,gn:Alençon|FR,
+Henry II,Barfleur,Barfleur,gn:Barfleur|FR,
+Henry II,Montmirail,Montmirail,region:France,ambiguous
+Elizabeth I,Charterhowse,Charterhouse (London),os:Clerkenwell|Greater London,the Charterhouse lies in Clerkenwell
+Elizabeth I,Charterhouse,Charterhouse (London),os:Clerkenwell|Greater London,the Charterhouse lies in Clerkenwell
+Elizabeth I,Stronde,"Strand (Somerset House, London)",os:Strand|Greater London,
+Elizabeth I,Purgo,Pyrgo Park,wd:Q7263490,
+Elizabeth I,Lowtenhall,Loughton Hall,os:Loughton|Essex,Nichols: Lowten [Loughton] Hall
+Elizabeth I,Hingerstone,Ingatestone,os:Ingatestone|Essex,
+Elizabeth I,Ingerstone,Ingatestone,os:Ingatestone|Essex,
+Elizabeth I,Newhall,"New Hall, Boreham",os:Boreham|Essex,Nichols: New Hall in the parish of Boreham by Chelmsford
+Elizabeth I,New Hall,"New Hall, Boreham",os:Boreham|Essex,Nichols: New Hall in the parish of Boreham by Chelmsford
+Elizabeth I,Smale,Smallbridge (Bures),os:Bures|Suffolk,approximate: Smallbridge Hall by Bures
+Elizabeth I,Smalebridge,Smallbridge (Bures),os:Bures|Suffolk,approximate: Smallbridge Hall by Bures
+Elizabeth I,Cobham,Cobham (Kent),os:Cobham|Kent,
+Elizabeth I,Weston,Weston Park by Long Compton,os:Cherington|Warwickshire,approximate: Nichols's Weston juxta Cheriton
+Elizabeth I,Ippeswiche,Ipswich,os:Ipswich|Suffolk,
+Elizabeth I,Ippeswich,Ipswich,os:Ipswich|Suffolk,
+Elizabeth I,Hinchinbroke Priory,Hinchingbrooke,os:Huntingdon|Cambridgeshire,approximate: Hinchingbrooke House by Huntingdon
+Elizabeth I,Stanton-All-Saints,Long Stanton,os:Longstanton|Cambridgeshire,
+Elizabeth I,Burghley,Burghley House,os:Stamford|Lincolnshire,approximate: Burghley House by Stamford
+Elizabeth I,Gorhambury,Gorhambury,os:St Albans|Hertfordshire,approximate: Gorhambury by St Albans
+Elizabeth I,Cowdray,Cowdray,os:Midhurst|West Sussex,approximate: Cowdray House by Midhurst
+Elizabeth I,Bisham,Bisham,os:Bisham|Windsor,
+Elizabeth I,Rycote,Rycote,os:Thame|Oxfordshire,approximate: Rycote by Thame
+Elizabeth I,Blackfriars,Blackfriars,gn:City of London|GB,approximate: City of London
+Elizabeth I,Fulham,Fulham,os:Fulham|Greater London,
+Elizabeth I,Harefield,Harefield,os:Harefield|Greater London,
+Elizabeth I,Hampton Court,Hampton Court,os:Hampton Court|Greater London,
+Elizabeth I,Grafton,Grafton Regis,os:Grafton Regis|Northamptonshire,
+*,Barfleur,Barfleur,none:,not in the gazetteers used (a close spelling gave Harfleur)
+*,Chambrai,Chambrais (Broglie),gn:Broglie|FR,Chambrais is the old name of Broglie
+*,Coignac,Cognac,gn:Cognac|FR,
+*,Hi: ron (i-e),,none:,unidentified OCR form
+*,Harcourt,Harcourt,none:,not in the gazetteers used
+*,Pontigny,Pontigny,none:,not in the gazetteers used
+*,Morlanne,Morlanne,none:,not in the gazetteers used
+*,Wolvesley,Wolvesey (Winchester),os:Winchester|Hampshire,the Bishop of Winchester's palace
+*,Sainte Barbe,Sainte-Barbe,none:,not in the gazetteers used
+*,Boulogne,Boulogne-sur-Mer,gn:Boulogne-sur-Mer|FR,
+*,Massingham,Great Massingham,os:Great Massingham|Norfolk,
+*,Lasenby,,none:,uncertain
+*,Bishop's Clere (Hampshire),Highclere,os:Highclere|Hampshire,
+*,Ferte (la),,none:,ambiguous
+*,La Ferte,,none:,ambiguous
+*,Lions,Lyons-la-Foret,none:,not in the gazetteers used
+*,Stortford (Bisiiop's\ Hertfo,Bishop's Stortford,os:Bishop's Stortford|Hertfordshire,
+*,Cressy,Crecy,none:,not in the gazetteers used
+*,Walding'field,Great Waldingfield,os:Great Waldingfield|Suffolk,
+*,Weighton (Market-),Market Weighton,os:Market Weighton|East Riding,
+*,Cokesford,Coxford,none:,not in the gazetteers used
+*,Wheel,,none:,unidentified
+*,Blandford,Blandford Forum,os:Blandford Forum|Dorset,
+*,Chezelles,,none:,not in the gazetteers used
+*,Totham,Great Totham,os:Great Totham|Essex,
+*,Donhead,Donhead St Andrew,os:Donhead St Andrew|Wiltshire,
+*,Saint Paul's,"St Paul's, London",gn:City of London|GB,approximate: City of London
+*,Saint Pauls.,"St Paul's, London",gn:City of London|GB,approximate: City of London
+*,Milton,Milton Abbas,os:Milton Abbas|Dorset,
+*,Newbridge,,none:,Ireland: not in the gazetteers used
+*,Balimore,,none:,Ireland: not in the gazetteers used
+*,Thomastowh,,none:,Ireland: not in the gazetteers used
+*,Sutton (Bishop's),Bishop's Sutton,os:Bishop's Sutton|Hampshire,
+*,Hinton,,none:,ambiguous
+*,Leghton,,none:,ambiguous
+*,Ford,,none:,ambiguous
+*,Hi: ron,,none:,unidentified
+*,Lynn (King's),King's Lynn,os:King's Lynn|Norfolk,
+*,Higham (Ferrers),Higham Ferrers,os:Higham Ferrers|Northamptonshire,
+*,Waltham (Bishop's-),Bishop's Waltham,os:Bishop's Waltham|Hampshire,
+*,Waltham (Bishop's),Bishop's Waltham,os:Bishop's Waltham|Hampshire,
+*,Stockton,Stockton-on-Tees,os:Stockton-on-Tees|Stockton,
+*,Lire,Lyre (La Vieille-Lyre),none:,not in the gazetteers used (an automatic match gave Lire in Anjou)

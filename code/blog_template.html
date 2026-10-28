@@ -1,0 +1,165 @@
+<!-- wp:paragraph -->
+<p><em>For most of the Middle Ages England had no capital. Government went wherever the king went, and the king hardly ever stopped. I turned four old printed itineraries into maps, night by night: where Henry II, John, Edward I and Elizabeth I slept, how far they rode, and how Westminster slowly won.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://tristan-hotham.github.io/royal-itineraries/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23729639">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>On 15 June 1215 King John was at Runnymede, the meadow by the Thames where he met the rebel barons. We know that from Magna Carta. But we could also know it from the paperwork. Royal letters were dated at the place where the king was, and in 1835 the archivist Thomas Duffus Hardy went through the rolls of John's reign and listed, day by day, every place they name. His index puts John at Runnymede that day, and for the following week shuttling between the meadow and Windsor Castle.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Later scholars did the same for Henry II, Edward I and Elizabeth I's summer progresses. The books are long out of copyright and scanned, but their tables are trapped in messy OCR text. I wrote parsers to pull out the dates and places, matched {{coverage.John.share_point|pct0}} of John's entries and {{coverage.Edward I.share_point|pct0}} of Edward I's to a point on the map, and built an animated map that follows each monarch night by night.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">A government on horseback</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>There was no ministry to visit. The king's council travelled with him, as did the household departments, the clerks who wrote his letters, and the Great Seal that made those letters law. The Crown's right of purveyance let the household requisition food and carts as it went, so a big court ate a district bare and moved on, round royal manors, castles, abbeys and hunting lodges such as Woodstock and Clarendon. If you wanted justice, a grant or a favour, you had to find the king.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Only slowly did some of government settle. The Exchequer had its home by Westminster Hall from the twelfth century, and Magna Carta itself required common pleas to be heard in "some fixed place". The maps let us watch that happen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_map.png|Two maps of England, Wales, southern Scotland and western France. On the left, blue circles for King John's nights cluster in southern England and run down France from Rouen to the Gironde. On the right, gold circles for Edward I's nights cover England and north Wales, with a large circle at Westminster and clusters in Scotland and a few dots in Gascony.|Every placed night of King John (left, {{monarchs.John.nights|int}} nights) and Edward I (right, {{monarchs.Edward I.nights|int}} nights). Circle size shows the number of nights.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Restless John</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Across his seventeen years as king I can put John in {{monarchs.John.distinct_night_places|int}} different places for the night. On consecutive days for which I know both places, his court had moved on {{monarchs.John.moved_share|pct0}} of the time. For Edward I, ruling a century later, it was {{monarchs.Edward I.moved_share|pct0}}. A typical day on the road took John {{monarchs.John.km_per_moving_day_median|km0}} km in a straight line and Edward {{monarchs.Edward I.km_per_moving_day_median|km0}} km. Add it up and, in a well-recorded year, John covered about {{monarchs.John.km_per_year_median|int}} km and Edward about {{monarchs.Edward I.km_per_year_median|int}} km, and those are straight lines, so the real distances on medieval roads were longer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_km.png|Two line charts of straight-line kilometres travelled per year. John's line, from 1199 to 1216, mostly sits between 4,000 and 6,500 km and peaks at {{monarchs.John.km_per_year_max.km|int}} km in 1204. Edward I's line, from 1273 to 1307, mostly sits between 1,000 and 2,500 km.|Kilometres between recorded nights each year, in straight lines. Open circles are thinly recorded years.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Some of that gap could be noise: John's itinerary comes from an index in which I had to rebuild many of the years, and misread dates make impossible jumps. I flagged and left out {{headline.john_flagged|int}} of his entries that sit far from everything around them. The gap survives in every year.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">An empire, then a kingdom</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>John's favourite stopping place was not in England at all. It was Rouen, the capital of Normandy, with {{headline.john_rouen_nights|int}} nights, just ahead of Winchester. Until he crossed from Barfleur to Hampshire in December 1203, {{john.continent_1199_1203|pct0}} of his recorded days were spent in France. After Normandy fell it was {{john.continent_1204_1216|pct0}}, and most of that was two expeditions to Poitou. His father had been even more continental: in my sample of {{coverage.Henry II.days_with_entry|int}} dated stays of Henry II, half are in France, and {{headline.henry_christmas_france|int}} of the {{headline.henry_christmas_n|int}} Christmas courts I can place were held there, at Bordeaux, Falaise, Le Mans, Caen and elsewhere.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_continent.png|Line chart of the share of King John's recorded days spent abroad, by year. It is around 90 percent in 1199, 1202 and 1203, falls to zero in 1204 after a dotted line marking the fall of Rouen, and afterwards rises only for the Poitou expeditions of 1206 and 1214.|King John's share of days abroad, by year.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Edward I's wars, night by night</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Edward I's itinerary is a history of his wars. In the conquest of Wales in 1282 and 1283, {{edward.wales_1282_1283|pct0}} of his placed nights were in Wales, and Rhuddlan, Conwy and Caernarfon are among his ten most frequent stopping places. From 1286 he spent almost three years in Gascony. In the winter of 1297 he was in Flanders. Then came Scotland: {{edward.scotland_1303_1304|pct0}} of his nights from May 1303 to August 1304, the campaign that ended with the siege of Stirling.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_war.png|Stacked bar chart of Edward I's placed nights per year from 1273 to 1307, coloured by country. Gold England dominates, with large red Wales blocks in 1282 to 1284, pale blue France in the Gascon years around 1287 to 1289, purple Low Countries in 1297 to 1298, and dark blue Scotland in 1296 and 1300 to 1304.|Edward I's placed nights per year, by country.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>One of his most visited places is a surprise: Lanercost Priory, near Hadrian's Wall, with {{edward.lanercost_nights|int}} nights. That is the winter of 1306 to 1307, when the old king, in failing health, stayed there for months. He died in July 1307 at Burgh by Sands, on his way north again.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>Edward I spent {{headline.edward_westminster_nights|int}} nights at Westminster. John, a century earlier, spent {{headline.john_westminster_nights|int}}.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The pull of Westminster</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For all his wars, Edward I's most frequent stopping place by far is Westminster: {{headline.edward_westminster_nights|int}} nights, {{headline.edward_westminster_share|pct0}} of all those I can place. For John it is tenth, with {{headline.john_westminster_nights|int}}. Counting everything within 5 km (Lambeth, the Tower, the Temple), the share rises from {{monarchs.John.london_share|pct0}} of John's nights to {{monarchs.Edward I.london_share|pct0}} of Edward's. The king was still on the move, but the courts and the treasury had stopped moving, and he was starting to come back to them.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Royal forests, the vast hunting preserves under their own law, show up too. About {{monarchs.John.forest_share|pct0}} of John's nights in England were within 10 km of a royal forest I could place, against {{monarchs.Edward I.forest_share|pct0}} of Edward's. It is a rough measure, since forests had wide and shifting bounds, but it fits the picture of John riding between hunting lodges.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Elizabeth: the progress as theatre</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>By the sixteenth century the summer progress was something else: a tour of the home counties to be seen and entertained, staying with courtiers at their expense. Nichols prints the household account of Elizabeth I's progress of 1561, day by day in Latin. I parsed it: {{elizabeth.days_1561|int}} days from the Charterhouse in London through Havering, Ingatestone, New Hall, Colchester, Harwich and Ipswich to Hedingham, at {{elizabeth.places_1561|int}} places, covering only {{elizabeth.km_1561|int}} km in straight lines. At his pace, John would have covered that in about a week of riding.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_elizabeth.png|Two maps of south-east England. On the left, open gold circles mark places Nichols names for Elizabeth's progresses, labelled with years such as Kenilworth 1565, 1572, 1575, Bristol 1574 and Cowdray 1591. On the right, a red line traces the 1561 progress from the Charterhouse and Strand in London through Havering, Ingatestone and New Hall to Colchester, Harwich, Ipswich, Smallbridge and Castle Hedingham.|Left: stops named in Nichols's summary of the progresses. Right: the 1561 progress from the household account.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How sure is this?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I tested the data against dates nobody disputes: John at Runnymede in June 1215 and at Newark before his death in October 1216; Edward I at Rhuddlan in 1277, Conwy in 1283, Berwick in 1296, Ghent in 1297 and Caerlaverock in 1300; and his last days near Burgh by Sands. All {{checks_n|int}} come out right. Even so, most days are blank: I have a placed record for {{coverage.John.share_days_with_point|pct0}} of John's days and {{coverage.Edward I.share_days_with_point|pct0}} of Edward's. Some small French and Irish places could not be identified, and a few are placed approximately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The OCR texts come from the Internet Archive scans of Hardy (1835), Gough (1900, two volumes), Eyton (1878) and Nichols (1823). For John I parsed Hardy's index rather than his two-column table, rebuilding years where the OCR separated them from the months. For Edward I I walked Gough's daily pages using the expected weekday of each date as a check, and accepted a place only if Gough's own index lists it for that month. For Henry II I kept dated statements that put the king at a named place. Places were matched to OS Open Names, Wikidata and GeoNames, with {{placed_manual_rows|int}} identifications of old and Latin names by hand. Distances are straight lines.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://tristan-hotham.github.io/royal-itineraries/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23729639">Read the paper</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/royal-itineraries">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>T. D. Hardy (1835), <a href="https://archive.org/details/descriptionofpat00hard">A Description of the Patent Rolls in the Tower of London, with an Itinerary of King John</a>; R. W. Eyton (1878), <a href="https://archive.org/details/courthouseholdit00eyto">Court, Household and Itinerary of King Henry II</a>; H. Gough (1900), <a href="https://archive.org/details/itineraryofkinge01gouguoft">Itinerary of King Edward the First</a> (<a href="https://archive.org/details/itineraryofkinge02gouguoft">vol. 2</a>); J. Nichols (1823), <a href="https://archive.org/details/progressespublic01nich">The Progresses of Queen Elizabeth</a>. All public domain, via the Internet Archive.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Places: <a href="https://www.ordnancesurvey.co.uk/products/os-open-names">OS Open Names</a> (Open Government Licence v3.0, contains OS data © Crown copyright and database right 2026); <a href="https://www.geonames.org">GeoNames</a> via <a href="https://github.com/lutangar/cities.json">cities.json</a> (CC BY 4.0); <a href="https://www.wikidata.org">Wikidata</a> (CC0).</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Context, royal forests and event dates: Wikipedia (CC BY-SA 4.0), <a href="https://en.wikipedia.org/wiki/Itinerant_court">Itinerant court</a>, <a href="https://en.wikipedia.org/wiki/Royal_forest">Royal forest</a>, <a href="https://en.wikipedia.org/wiki/Purveyance">Purveyance</a>, <a href="https://en.wikipedia.org/wiki/Court_of_Common_Pleas_(England)">Court of Common Pleas</a>, <a href="https://en.wikipedia.org/wiki/John,_King_of_England">John, King of England</a>, <a href="https://en.wikipedia.org/wiki/Edward_I_of_England">Edward I</a>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Paper, data and code: <a href="https://doi.org/10.5281/zenodo.23729639">Zenodo</a> and <a href="https://github.com/Tristan-Hotham/royal-itineraries">GitHub</a>. Data CC BY-SA 4.0, code MIT.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

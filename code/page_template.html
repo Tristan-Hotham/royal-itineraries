@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Governing on the Move</title>
+<meta name="description" content="Where England's kings slept: {{coverage.John.days_with_point|int}} placed days of King John and {{coverage.Edward I.days_with_point|int}} of Edward I, parsed from public-domain itineraries, with Henry II and Elizabeth I's progresses. Medieval government travelled with the king.">
+<meta property="og:title" content="Governing on the move: where England's kings slept">
+<meta property="og:description" content="King John moved on {{monarchs.John.moved_share|pct0}} of the days we can follow him; Edward I on {{monarchs.Edward I.moved_share|pct0}}, and spent {{headline.edward_westminster_nights|int}} nights at Westminster. An animated map of medieval kingship on the road.">
+<meta property="og:image" content="https://tristan-hotham.github.io/royal-itineraries/header.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Vellum. Royal blue = John. Gold = Edward I. Green = Henry II. Crimson = Elizabeth I. */
+:root{
+  --bg:#F6F0E1; --panel:#EDE4CF; --fg:#2A2218; --muted:#6E6250; --rule:#DCD0B6; --card:#FCF8EE; --border:#C8B892; --sea:#EFE8D6;
+  --john:#24427A; --edw:#A8720F; --hen:#3D6E4A; --eliz:#9E2B40; --gold:#B8862B; --forest:#4F7A3A;
+  --eng:#B8862B; --wal:#9E2B40; --sco:#24427A; --fra:#6E8FB5; --low:#7A6A9A; --ire:#4F7A3A;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1B1914; --panel:#24211B; --fg:#EEE7D7; --muted:#B0A48F; --rule:#3A3429; --card:#211E18; --border:#4B4333; --sea:#17150F;
+  --john:#86A6E0; --edw:#E3B354; --hen:#7FB98C; --eliz:#E27C8F; --gold:#E3B354; --forest:#8DBA6F;
+  --eng:#E3B354; --wal:#E27C8F; --sco:#86A6E0; --fra:#A9C2E2; --low:#B6A6D6; --ire:#8DBA6F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1B1914; --panel:#24211B; --fg:#EEE7D7; --muted:#B0A48F; --rule:#3A3429; --card:#211E18; --border:#4B4333; --sea:#17150F;
+  --john:#86A6E0; --edw:#E3B354; --hen:#7FB98C; --eliz:#E27C8F; --gold:#E3B354; --forest:#8DBA6F;
+  --eng:#E3B354; --wal:#E27C8F; --sco:#86A6E0; --fra:#A9C2E2; --low:#B6A6D6; --ire:#8DBA6F; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--gold);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--john);color:var(--bg);padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(48px,11.5vw,98px)/.9 var(--display);letter-spacing:-.02em;margin:0;color:var(--fg)}
+h1 em{font-style:normal;color:var(--gold)}
+.mark{width:clamp(88px,20vw,160px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:48ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--gold);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--gold)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(26px,5.6vw,38px)/1 var(--display)}
+.stats b.j{color:var(--john)}.stats b.e{color:var(--edw)}.stats b.g{color:var(--gold)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:270px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+select.btn{padding:7px 8px}
+.slider{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;margin:0 0 8px}
+.slider input{width:100%;accent-color:var(--gold)}
+.now{font:800 26px/1.1 var(--display);margin:2px 0 4px;min-height:1.2em}
+.now small{font:400 13px/1.35 var(--mono);color:var(--muted);display:block;margin-top:4px}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:820px){.mapgrid{grid-template-columns:1fr}}
+#map{height:clamp(440px,74vh,680px);border:1px solid var(--border);background:var(--sea);border-radius:2px;z-index:0}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.side{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card b.t{font:600 18px/1.2 var(--display);display:block;margin-bottom:6px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:6px 0 0}
+.card dt{color:var(--muted)}.card dd{margin:0;overflow-wrap:anywhere}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--gold);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+.train{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0;font:400 13.5px/1.45 var(--body)}
+.train div{background:var(--card);border:1px solid var(--border);border-top:4px solid var(--gold);padding:12px}
+.train b{display:block;font:600 17px/1.2 var(--display);margin-bottom:4px}
+@media (max-width:600px){.train{grid-template-columns:1fr}}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0;vertical-align:bottom}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right}
+.tablewrap{overflow-x:auto;max-height:540px;overflow-y:auto;border-bottom:1px solid var(--rule)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--john);border-color:var(--john);color:var(--bg)}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1001}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--sea)}
+.leaflet-tooltip{font:400 12px/1.4 var(--mono)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)!important;font-size:10px}
+.leaflet-control-attribution a{color:var(--fg)!important}
+.leaflet-bar a{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-bar{border:1px solid var(--border)!important}
+.crown{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+@media (prefers-reduced-motion:reduce){.crown{animation:none}}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>Itineraries × maps</span><span>England, 1154 to 1603</span></div>
+<header class="hero">
+  <h1>Governing on the <em>move</em></h1>
+  <svg class="mark" viewBox="-100 -100 200 200" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">For most of the Middle Ages England had no fixed capital. The government went wherever the king went, and the king rarely stayed anywhere long. I turned four old printed itineraries into maps, day by day: where Henry II, John, Edward I and Elizabeth I slept, how far they rode, and how Westminster slowly won.</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Data: T. D. Hardy (1835), R. W. Eyton (1878), H. Gough (1900), J. Nichols (1823), via the Internet Archive; OS Open Names; GeoNames; Wikidata; Wikipedia</div>
+
+<div class="stats">
+  <div><b class="j">{{monarchs.John.distinct_night_places|int}}</b><span>places where I can put King John for the night, {{monarchs.John.nights|int}} nights in all</span></div>
+  <div><b class="j">{{monarchs.John.moved_share|pct0}}</b><span>of John's recorded days were spent moving on, against {{monarchs.Edward I.moved_share|pct0}} for Edward I</span></div>
+  <div><b class="e">{{headline.edward_westminster_nights|int}}</b><span>nights at Westminster for Edward I ({{headline.edward_westminster_share|pct0}}); John managed {{headline.john_westminster_nights|int}}</span></div>
+  <div><b class="g">{{checks_passed|int}} of {{checks_n|int}}</b><span>known fixed points recovered, from Runnymede in 1215 to Edward I's last days</span></div>
+</div>
+
+<p class="lede">On 15 June 1215 King John was at Runnymede, the meadow by the Thames where he met the rebel barons. We know this from Magna Carta, but we could also know it from the dull business of government: letters sealed in the king's name were dated with the place where he was. In 1835 the archivist Thomas Duffus Hardy went through the rolls of John's reign and listed, day by day, every place those letters name. His index places John at Runnymede on that day, and for the next week he came and went between Runnymede and Windsor Castle, a few kilometres up the river.</p>
+<p>Later scholars did the same for Henry II (Robert Eyton, 1878) and Edward I (Henry Gough, 1900), and John Nichols collected the progresses of Elizabeth I (1823). The books are out of copyright and scanned by the Internet Archive, but their tables are locked in messy OCR text. I wrote parsers to pull out the dates and places, matched {{coverage.John.share_point|pct0}} of John's entries and {{coverage.Edward I.share_point|pct0}} of Edward I's to a point on the map, and checked the result against events whose dates are not in doubt.</p>
+
+<h2><span class="n">01 · Context</span>A government on horseback</h2>
+<p>The <a href="https://en.wikipedia.org/wiki/Itinerant_court">itinerant court</a> was the normal way to rule a medieval kingdom. There was no ministry building to visit. The king's council, the small <a href="https://en.wikipedia.org/wiki/Curia_regis"><i>curia regis</i></a>, "met constantly and travelled with the king from place to place", in Wikipedia's words. Royal power was personal, and to be governed you had to find the king.</p>
+<div class="train">
+  <div><b>The household</b>The king's Chamber and <a href="https://en.wikipedia.org/wiki/Wardrobe_(government)">Wardrobe</a>, the departments that ran the king's household, travelling with servants, clerks, horses and carts.</div>
+  <div><b>The seal and the clerks</b>Orders took effect when sealed with the <a href="https://en.wikipedia.org/wiki/Great_Seal_of_the_Realm">Great Seal</a>, kept by the Chancellor. Royal letters were dated at a named place, where the king was: those places are how these itineraries were built.</div>
+  <div><b>Living off the land</b><a href="https://en.wikipedia.org/wiki/Purveyance">Purveyance</a> was the Crown's right to requisition goods and carriage for the household. A large court ate a district bare and had to move on, round the royal manors, castles and abbeys.</div>
+  <div><b>Hunting country</b>A <a href="https://en.wikipedia.org/wiki/Royal_forest">royal forest</a> was land set aside in law for royal hunting. Hunting lodges such as <a href="https://en.wikipedia.org/wiki/Woodstock_Palace">Woodstock</a> and <a href="https://en.wikipedia.org/wiki/Clarendon_Palace">Clarendon</a> grew into palaces, and the court came back to them again and again.</div>
+</div>
+<p>Some of government did settle. The <a href="https://en.wikipedia.org/wiki/Exchequer">Exchequer</a>, where sheriffs accounted for the king's revenue, had its home by Westminster Hall from the twelfth century. Clause 17 of Magna Carta required common pleas, suits between subjects, to be heard in "some fixed place", and the <a href="https://en.wikipedia.org/wiki/Court_of_Common_Pleas_(England)">Court of Common Pleas</a> sat in Westminster Hall. So the question these maps can answer is not whether kings travelled, but how much, where, and how that changed as Westminster became a capital.</p>
+
+<h2><span class="n">02 · The map</span>Follow the king, night by night</h2>
+<p>Pick a monarch and press play. The crown marks where the king spent the night (the last place named that day), the line shows the last weeks of travel, and the faint circles are every place he slept, sized by the number of nights. Dates are Old Style (Julian), as the editors print them. Gaps in the record are gaps on the map: the crown waits where the king was last seen.</p>
+<div class="figure bleed">
+  <div class="controls" id="monBtns"></div>
+  <div class="mapgrid">
+    <div>
+      <div class="controls">
+        <button class="btn" id="play" aria-pressed="false">▶ Play</button>
+        <select class="btn" id="speed" aria-label="Speed">
+          <option value="2">2 days a second</option><option value="7" selected>1 week a second</option><option value="30">1 month a second</option><option value="120">4 months a second</option>
+        </select>
+        <button class="btn" id="bFor" aria-pressed="false"><i style="background:var(--forest)"></i>Royal forests</button>
+      </div>
+      <div class="slider"><span class="lab m" style="font:400 12px var(--mono)">Date</span><input type="range" id="t" min="0" max="100" value="0" aria-label="Date"></div>
+      <div id="map" role="region" aria-label="Map of the king's travels"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="side">
+      <div class="now" id="now"></div>
+      <div class="card" id="card"></div>
+      <div class="card" id="mcard"></div>
+    </div>
+  </div>
+  <div class="src">Places: OS Open Names, GeoNames (cities of 1,000 people or more) and Wikidata, with my identifications of old and Latin forms (listed in the repository). Where the record has two or more places in a day, the night is the last place on that day's route. Royal forests: the forests listed in Wikipedia's "Royal forest" article that I could place at a point ({{forests.located|int}} of {{forests.listed|int}}). Base map tiles © Esri.</div>
+</div>
+
+<h2><span class="n">03 · Where they slept</span>Favourite houses</h2>
+<p>John's most frequent stopping places are a map of the Angevin realm: Rouen, the capital of Normandy, with {{headline.john_rouen_nights|int}} nights, then Winchester ({{headline.john_winchester_nights|int}}), the castle of Orival on the Seine, the hunting palaces of Woodstock and Clarendon, Windsor, Marlborough, and the archbishop's house at Lambeth. Westminster is only tenth. Across his reign I can put John in {{monarchs.John.distinct_night_places|int}} different places for the night.</p>
+<div class="figure">
+  <div class="fig-h">Most nights, by place</div>
+  <div class="fig-sub">Nights with a placed record. Toggle the monarch.</div>
+  <div class="controls" id="topBtns"></div>
+  <div class="chart" id="top"></div>
+</div>
+<p>Edward I's list is headed by Westminster, with {{headline.edward_westminster_nights|int}} nights, {{headline.edward_westminster_share|pct0}} of all the nights I can place. The rest of his top ten is a record of war: Rhuddlan and Conwy in north Wales, Caernarfon, Stirling, Berwick, Carlisle, and Lanercost Priory, where the sick old king spent {{edward.lanercost_nights|int}} nights between {{edward.lanercost_first|date}} and {{edward.lanercost_last|date}} before his last march north.</p>
+
+<h2><span class="n">04 · Restless John</span>How often, and how far</h2>
+<p>The data show John on the road far more often than Edward. On consecutive days for which both places are known, John's court had moved on {{monarchs.John.moved_share|pct0}} of the time (more than 3 km between nights), against {{monarchs.Edward I.moved_share|pct0}} for Edward I. A typical day on the road took John {{monarchs.John.km_per_moving_day_median|km0}} km in a straight line (the median), and Edward {{monarchs.Edward I.km_per_moving_day_median|km0}} km. John's average stay in one place was {{monarchs.John.stay_mean_nights|f1}} nights, Edward's {{monarchs.Edward I.stay_mean_nights|f1}}.</p>
+<div class="figure">
+  <div class="fig-h">Distance travelled each year</div>
+  <div class="fig-sub">Straight-line km between recorded nights no more than a week apart, leaving out legs faster than 100 km a day. Years with fewer than 150 placed nights are faint.</div>
+  <div class="chart" id="km"></div>
+  <div class="src">These are lower bounds: roads wind, and days without a record hide journeys.</div>
+</div>
+<p>In a typical well-recorded year (the median of years with at least 150 placed nights), that adds up to {{monarchs.John.km_per_year_median|int}} km for John and {{monarchs.Edward I.km_per_year_median|int}} km for Edward, in a straight line. John's busiest year was {{monarchs.John.km_per_year_max.year|raw}}, the year Normandy fell, at {{monarchs.John.km_per_year_max.km|int}} km. Some of John's restlessness is noise: misread dates in the old index make a few impossible jumps, and I left out the {{headline.john_flagged|int}} entries that are far from every other record around them or clash with another place on the same day (see section 10). But the difference with Edward is too large and too steady to be an artefact.</p>
+
+<h2><span class="n">05 · Two realms</span>An empire, then a kingdom</h2>
+<p>Henry II, in the words of Wikipedia's article, "controlled more of France than any ruler since the 9th century Carolingians". Eyton's narrative gives me only {{coverage.Henry II.days_with_entry|int}} dated statements of where Henry II was, a sample rather than an itinerary, but it splits exactly: {{headline.henry_france_share|pct0}} of the placed ones are in France and {{headline.henry_england_share|pct0}} in England. Of the {{headline.henry_christmas_n|int}} Christmas courts Eyton places, {{headline.henry_christmas_france|int}} were held on the continent, at Bordeaux, Falaise, Le Mans, Bayeux, Nantes, Argentan, Angers and Caen.</p>
+<div class="figure">
+  <div class="fig-h">King John's share of nights on the continent, by year</div>
+  <div class="fig-sub">Share of days with a record whose place is in France (or, if unplaced, whose province Hardy prints as French).</div>
+  <div class="chart" id="cont"></div>
+</div>
+<p>For John the break is sudden. From his accession to his crossing from Barfleur to Hampshire in December 1203, {{john.continent_1199_1203|pct0}} of his recorded days were spent across the Channel; from then to his death, only {{john.continent_1204_1216|pct0}}. The exceptions are his expeditions: to Poitou in 1206 ({{john.poitou_1206|pct0}} of placed nights from June to December), Ireland in the summer of 1210 ({{john.ireland_1210|pct0}}), and Poitou again in 1214 ({{john.poitou_1214|pct0}}). Once Normandy was lost, the itinerant court became an English one.</p>
+
+<h2><span class="n">06 · The geography of war</span>Edward I on campaign</h2>
+<div class="figure bleed">
+  <div class="fig-h">Where Edward I spent his nights, year by year</div>
+  <div class="fig-sub">Placed nights per year, coloured by country. Hover for numbers.</div>
+  <div class="chart" id="war"></div>
+  <div class="legend" id="warLeg"></div>
+</div>
+<p>Edward I's itinerary is his wars, almost to the month. In the first Welsh war (from July to November 1277) {{edward.wales_1277_aug_nov|pct0}} of his placed nights were in Wales; in the conquest of 1282 and 1283, {{edward.wales_1282_1283|pct0}}; in 1284, the year of the Statute of Rhuddlan, {{edward.wales_1284|pct0}}. From 1286 he stayed in Gascony for almost three years ({{edward.france_1286_1289|pct0}} of placed nights in France), and in the winter of 1297 to 1298 in Flanders ({{edward.lowc_1297_1298|pct0}} in the Low Countries). Then Scotland: {{edward.scotland_1296|pct0}} of his nights from March to September 1296, and {{edward.scotland_1303_1304|pct0}} from May 1303 to August 1304, when he besieged Stirling.</p>
+
+<h2><span class="n">07 · The rhythm of the year</span>Hunting seasons and Christmas courts</h2>
+<p>About {{monarchs.John.forest_share|pct0}} of John's nights in England were within 10 km of a royal forest I could place, and {{monarchs.Edward I.forest_share|pct0}} of Edward's. For John the share is highest in {{headline.forest_month_john_max.1|month}} ({{headline.forest_month_john_max.0|pct0}}) and lowest in {{headline.forest_month_john_min.1|month}} ({{headline.forest_month_john_min.0|pct0}}). This is a crude measure: forests were large, their bounds changed, and only {{forests.located|int}} of the {{forests.listed|int}} I listed could be placed at all.</p>
+<div class="figure">
+  <div class="fig-h">By month: near Westminster, and near a royal forest</div>
+  <div class="fig-sub">Share of placed nights within 5 km of Westminster (solid) and, for nights in England, within 10 km of a royal forest point (dashed).</div>
+  <div class="chart" id="months"></div>
+</div>
+<p>Christmas was the great feast of the court, held where the king chose to be. Of {{headline.john_christmas_n|int}} Christmases I can place for John, {{headline.john_christmas_distinct|int}} were in different places; Edward's {{headline.edward_christmas_n|int}} were in {{headline.edward_christmas_distinct|int}}. Neither king kept Christmas in one fixed palace.</p>
+<div class="figure">
+  <div class="fig-h">Christmas courts</div>
+  <div class="tablewrap"><table class="t" id="xmas"></table></div>
+  <div class="src">Henry II: Eyton's statements that the king kept Christmas at a place. John and Edward I: the place recorded on 25 December.</div>
+</div>
+
+<h2><span class="n">08 · The pull of Westminster</span>A capital in the making</h2>
+<div class="figure">
+  <div class="fig-h">Share of nights within 5 km of Westminster, by year</div>
+  <div class="fig-sub">John (blue) and Edward I (gold), years with at least 60 placed nights.</div>
+  <div class="chart" id="lon"></div>
+</div>
+<p>Only {{monarchs.John.london_share|pct0}} of John's nights were in or near Westminster (Westminster, Lambeth, the Tower or the Temple); for Edward I it was {{monarchs.Edward I.london_share|pct0}}. Edward still spent most of his life elsewhere, and in war years he hardly came at all. But the Exchequer and the Court of Common Pleas were already fixed there. Government was settling in one place, and the king was becoming a visitor to it.</p>
+
+<h2><span class="n">09 · Elizabeth I</span>The progress: travel as theatre</h2>
+<p>By Elizabeth's reign the courts and the Exchequer had long been fixed at Westminster. The summer <a href="https://en.wikipedia.org/wiki/Tudor_Royal_Progresses">progress</a> survived, but it was a different thing: a tour of the counties near London to be seen, to stay with courtiers at their expense, and to be entertained. Nichols prints the household account of the progress of 1561, day by day in Latin, which I parsed: {{elizabeth.days_1561|int}} days from {{elizabeth.first|date}} to {{elizabeth.last|date}}, {{elizabeth.places_1561|int}} stopping places from the Charterhouse in London through Havering, Ingatestone, New Hall, Colchester, Harwich and Ipswich to Hedingham, and only {{elizabeth.km_1561|int}} km in a straight line. She moved on {{elizabeth.moves_1561|int}} days, about {{elizabeth.km_per_moving_day_1561|km0}} km at a time, and stayed {{monarchs.Elizabeth I.stay_mean_nights|f1}} nights on average.</p>
+<p>For other years I have only Nichols's year-by-year summary in his preface, which names {{elizabeth.preface_stops|int}} stops in {{coverage.Elizabeth I preface.years|int}} years, among them Kenilworth in 1575, Bristol and Longleat in 1574, and Cowdray and Elvetham in 1591. Choose "Elizabeth I" on the map to see them. A progress went where the hosts were, not where the government needed to be.</p>
+
+<h2><span class="n">10 · How sure is this?</span>Coverage, checks and errors</h2>
+<div class="figure">
+  <div class="fig-h">Checks against fixed points</div>
+  <div class="tablewrap"><table class="t" id="checks"></table></div>
+  <div class="src">Pass: a placed record within the stated distance of the target within the window of days. Event dates from the Wikipedia articles on John and Edward I.</div>
+</div>
+<div class="figure">
+  <div class="fig-h">Coverage</div>
+  <div class="tablewrap"><table class="t" id="cov"></table></div>
+</div>
+<p><b>Most days are blank.</b> I have a record for {{coverage.John.share_days_with_entry|pct0}} of the days of John's reign and {{coverage.Edward I.share_days_with_entry|pct0}} of Edward I's. A blank day is not a day of rest: it means no surviving document was dated there that the editor found. For Henry II I have only {{coverage.Henry II.days_with_entry|int}} dated statements, and for Elizabeth one summer plus a list of named stops.</p>
+<p><b>The OCR is messy and so are my parsers.</b> I parsed Hardy's index rather than his two-column table, which the OCR scrambles; for {{parse.john.assigned_year|int}} of John's {{parse.john.valid|int}} entries the year had to be reconstructed from the order of the index (see methods). Gough's daily pages were read line by line, with each place accepted only if it closely matches a place his own index lists for that month. Of John's day-to-day moves, {{plausibility.John.share_over_100km|pct1}} exceed 100 km in a day, as do {{plausibility.Edward I.share_over_100km|pct1}} of Edward's; some are Channel crossings, some are errors. I flagged and left out {{headline.john_flagged|int}} of John's entries and {{headline.edward_flagged|int}} of Edward's that are far from every record around them or that clash with another place on the same day.</p>
+<p><b>Old names are hard to place.</b> I identified the commonest old and Latin forms by hand, pointing each to a named entry in a gazetteer, and matched the rest automatically. Some small French and Irish places are not in the gazetteers I could use and are left unplaced; a few are placed approximately (Freemantle at Kingsclere, the New Temple at the centre of London). Distances are straight lines between such points.</p>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>King John.</b> T. D. Hardy, <i>A Description of the Patent Rolls in the Tower of London, to which is added an Itinerary of King John</i> (1835). I parsed the index of the itinerary: {{parse.john.index_entries|int}} place entries, each with county or French province, then calendar year, regnal year, month and days. Where the OCR separated a long entry's year labels from its month lines, I reassigned months to years with a small dynamic programme: years in printed order, months rising within a year, and the regnal years printed beside each year matching the regnal years implied by the dates (John's regnal year began on Ascension Day). Result: {{parse.john.valid|int}} place-days on {{parse.john.distinct_days|int}} days.</p>
+  <p><b>Edward I.</b> H. Gough, <i>Itinerary of King Edward the First throughout his Reign</i> (1900, 2 vols). I parsed Gough's index of places into {{parse.edward.index_entries|int}} names with their county and the months he was there, then walked the daily pages month by month, recognising each day line by its expected day number and weekday (computed on the Julian calendar) and re-synchronising on each page's running head. {{parse.edward.day_lines_found|int}} of the {{parse.edward.days_in_span|int}} day lines were found; {{parse.edward.days_with_place|int}} days carry a place matched to the index.</p>
+  <p><b>Henry II.</b> R. W. Eyton, <i>Court, Household and Itinerary of King Henry II</i> (1878), a dated narrative. I kept a statement when a dated paragraph says the King is, keeps court, lands or stays at a place in Eyton's own index of places, or a charter is dated there, or Eyton's margin repeats the place: {{parse.henry_rows|int}} statements, {{parse.henry_uncertain|int}} flagged as uncertain ("probably", "c.").</p>
+  <p><b>Elizabeth I.</b> J. Nichols, <i>The Progresses and Public Processions of Queen Elizabeth</i> (1823, vols 1 and 2): the Latin household account of the 1561 progress, and the stops named in the preface. The scan labelled volume 3 is in fact Nichols's <i>Progresses of King James I</i> and was not used.</p>
+  <p><b>Places.</b> Manual identifications for the commonest names, then OS Open Names, Wikidata royal residences, castles and abbeys, and GeoNames towns, choosing between namesakes by the county the editor prints (a namesake outside it is rejected unless it is the only town of that name) or, failing that, by the places where the king is found within three days either side. Country of each point from GeoNames or the nearest OS settlement.</p>
+</div>
+
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/royal-itineraries">Data and code</a>
+  <a href="https://doi.org/10.5281/zenodo.23729639">Paper (Zenodo)</a>
+  <a href="https://tristan-hotham.github.io/medieval-markets/">Market towns that failed</a>
+  <a href="https://blog.tristanhotham.com/">More history data posts</a>
+</div>
+
+<footer>
+  <p>Dr Tristan Hotham, researcher on social media, campaigns and politics. Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+  <p>Cite as: Hotham, T. (2026) Governing on the move: where England's kings slept. Itineraries of Henry II, John, Edward I and Elizabeth I as data. Zenodo. <a href="https://doi.org/10.5281/zenodo.23729639">https://doi.org/10.5281/zenodo.23729639</a></p>
+  <p><b>Itineraries</b> (public domain, OCR from the Internet Archive): T. D. Hardy (1835) <a href="https://archive.org/details/descriptionofpat00hard">archive.org/details/descriptionofpat00hard</a>; R. W. Eyton (1878) <a href="https://archive.org/details/courthouseholdit00eyto">archive.org/details/courthouseholdit00eyto</a>; H. Gough (1900) <a href="https://archive.org/details/itineraryofkinge01gouguoft">vol. 1</a> and <a href="https://archive.org/details/itineraryofkinge02gouguoft">vol. 2</a>; J. Nichols (1823) <a href="https://archive.org/details/progressespublic01nich">vol. 1</a> and <a href="https://archive.org/details/progressespublic02nich">vol. 2</a>.</p>
+  <p><b>Places:</b> OS Open Names, Ordnance Survey, Open Government Licence v3.0, contains OS data © Crown copyright and database right 2026. GeoNames (geonames.org) via github.com/lutangar/cities.json, CC BY 4.0. Wikidata, CC0. Context and the list of royal forests: Wikipedia, CC BY-SA 4.0 (articles linked in the text, and "Royal forest"). Coastline in static figures: Natural Earth (public domain). Base map tiles © Esri. Map library: Leaflet.</p>
+  <p>The derived data and the text on this page are released under CC BY-SA 4.0, because they include material derived from Wikipedia. Code is MIT.</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<div class="tip" id="tip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+/*DATA*/
+const R = D.R, P = D.P;
+const $ = s => document.getElementById(s);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmt = n => n.toLocaleString("en-GB");
+const pc = v => Math.round(v * 100) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const redraws = [];
+$("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; redraws.forEach(f => f()); };
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraws.forEach(f => f()));
+const NS = "http://www.w3.org/2000/svg";
+function el(t, a, p) { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; }
+const tip = $("tip");
+function hover(node, html, box) {
+  node.addEventListener("pointerenter", () => { tip.innerHTML = html; tip.style.display = "block"; });
+  node.addEventListener("pointermove", ev => { tip.style.left = ev.pageX + "px"; tip.style.top = ev.pageY + "px"; });
+  node.addEventListener("pointerleave", () => tip.style.display = "none");
+}
+const MON = { "John": "--john", "Edward I": "--edw", "Henry II": "--hen", "Elizabeth I": "--eliz" };
+const LABEL = { "John": "John, 1199 to 1216", "Edward I": "Edward I, 1272 to 1307", "Henry II": "Henry II (sample), 1154 to 1189", "Elizabeth I": "Elizabeth I, progress of 1561" };
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const MONTHS_L = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+// Julian calendar helpers (the itineraries use Old Style dates)
+function jdn(s) { const y = +s.slice(0, 4), m = +s.slice(5, 7), d = +s.slice(8, 10), a = Math.floor((14 - m) / 12), y2 = y + 4800 - a, m2 = m + 12 * a - 3; return d + Math.floor((153 * m2 + 2) / 5) + 365 * y2 + Math.floor(y2 / 4) - 32083; }
+function jstr(j) { const c = j + 32082, d = Math.floor((4 * c + 3) / 1461), e = c - Math.floor(1461 * d / 4), m = Math.floor((5 * e + 2) / 153); const day = e - Math.floor((153 * m + 2) / 5) + 1, mon = m + 3 - 12 * Math.floor(m / 10), yr = d - 4800 + Math.floor(m / 10); return `${day} ${MONTHS_L[mon - 1]} ${yr}`; }
+
+// hero mark: a crown of route dots
+(function () {
+  const g = $("heroMark"), c = ["--john", "--edw", "--hen", "--eliz"];
+  for (let i = 0; i < 4; i++) el("circle", { cx: -66 + i * 44, cy: 40, r: 13, fill: `var(${c[i]})` }, g);
+  el("path", { d: "M-80 20 L-70 -55 L-35 -10 L0 -70 L35 -10 L70 -55 L80 20 Z", fill: "none", stroke: "var(--gold)", "stroke-width": 9, "stroke-linejoin": "round" }, g);
+})();
+
+// ------------------------------------------------------------------ map
+(function () {
+  const map = L.map("map", { zoomSnap: .5, scrollWheelZoom: false, attributionControl: true }).setView([51.8, -1.2], 6);
+  const tileUrl = () => `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/${isDark() ? "World_Dark_Gray_Base" : "World_Light_Gray_Base"}/MapServer/tile/{z}/{y}/{x}`;
+  let tiles = L.tileLayer(tileUrl(), { maxZoom: 13, attribution: "Tiles &copy; Esri · Itineraries: Hardy, Eyton, Gough, Nichols · Places: OS Open Names (OGL), GeoNames (CC BY), Wikidata" }).addTo(map);
+  const base = L.layerGroup().addTo(map), trailL = L.layerGroup().addTo(map), forL = L.layerGroup(), extraL = L.layerGroup().addTo(map);
+  let mon = "John", M, nights, t = 0, playing = false, last = null, crown = null, showFor = false;
+  const order = ["John", "Edward I", "Henry II", "Elizabeth I"];
+  $("monBtns").innerHTML = order.map(m => `<button class="btn" data-m="${m}" aria-pressed="${m === mon}"><i style="background:var(${MON[m]})"></i>${LABEL[m]}</button>`).join("");
+  $("monBtns").querySelectorAll("button").forEach(b => b.onclick = () => { setMon(b.dataset.m); });
+  function col() { return css(MON[mon]); }
+  function drawBase() {
+    base.clearLayers(); extraL.clearLayers();
+    const c = col();
+    M.places.forEach((p, i) => {
+      const r = 2.2 + Math.sqrt(p[3]) * (mon === "Edward I" ? .75 : 1.05);
+      L.circleMarker([p[1], p[2]], { radius: r, color: c, weight: .8, opacity: .45, fillColor: c, fillOpacity: .14 })
+        .bindTooltip(`<b>${esc(p[0])}</b><br>${p[3]} night${p[3] > 1 ? "s" : ""}`).on("click", () => jumpTo(i)).addTo(base);
+    });
+    if (mon === "Elizabeth I") {
+      P.elizabeth_preface.forEach(p => L.circleMarker([p[3], p[4]], { radius: 4, color: css("--gold"), weight: 1.4, fillColor: css("--card"), fillOpacity: 1 })
+        .bindTooltip(`<b>${esc(p[2])}</b><br>${p[0]} progress (named in Nichols's preface)`).addTo(extraL));
+    }
+    forL.clearLayers();
+    P.forests.forEach(f => L.circleMarker([f[1], f[2]], { radius: 4, color: css("--forest"), weight: 1, fillColor: css("--forest"), fillOpacity: .5 }).bindTooltip(esc(f[0])).addTo(forL));
+  }
+  function jumpTo(pi) { const k = nights.findIndex(n => n[1] === pi); if (k >= 0) { t = nights[k][0]; $("t").value = t; update(true); } }
+  function setMon(m) {
+    mon = m; M = P.monarchs[m]; nights = M.nights; t = 0; playing = false; $("play").textContent = "▶ Play"; $("play").setAttribute("aria-pressed", "false");
+    $("monBtns").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.m === m));
+    $("t").max = nights[nights.length - 1][0]; $("t").value = 0;
+    $("speed").value = m === "Elizabeth I" ? "2" : (m === "Henry II" ? "120" : "7");
+    drawBase(); last = null; update(true);
+    const b = L.latLngBounds(M.places.map(p => [p[1], p[2]]).concat(m === "Elizabeth I" ? P.elizabeth_preface.map(p => [p[3], p[4]]) : []));
+    map.fitBounds(b, { padding: [20, 20], maxZoom: 7.5 });
+    const S = R.monarchs[m];
+    $("mcard").innerHTML = `<b class="t">${esc(LABEL[m])}</b><dl>
+      <dt>Nights placed</dt><dd>${fmt(S.nights)}</dd><dt>Places</dt><dd>${fmt(S.distinct_night_places)}</dd>
+      ${S.moved_share != null ? `<dt>Moved on</dt><dd>${pc(S.moved_share)} of days</dd><dt>Typical move</dt><dd>${Math.round(S.km_per_moving_day_median)} km</dd>` : ""}
+      <dt>Near Westminster</dt><dd>${pc(S.london_share)} of nights</dd>
+      <dt>Top place</dt><dd>${esc(S.top_places[0].place)} (${S.top_places[0].nights})</dd></dl>`;
+    $("legend").innerHTML = `<span><i style="background:${col()}"></i>Nights (size = number of nights)</span><span><i style="background:${css("--gold")};border-radius:0"></i>Crown = tonight</span>` +
+      (m === "Elizabeth I" ? `<span><i style="background:var(--card);border:1.5px solid var(--gold)"></i>Other progresses, named in Nichols's preface</span>` : "") +
+      (showFor ? `<span><i style="background:var(--forest)"></i>Royal forest (point)</span>` : "");
+  }
+  function idxAt(tt) { let lo = 0, hi = nights.length - 1; if (tt < nights[0][0]) return 0; while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (nights[mid][0] <= tt) lo = mid; else hi = mid - 1; } return lo; }
+  function update(force) {
+    const k = idxAt(t); if (k === last && !force) return; last = k;
+    const n = nights[k], p = M.places[n[1]], j0 = jdn(M.start), c = col();
+    trailL.clearLayers();
+    const pts = []; for (let i = k; i >= 0 && n[0] - nights[i][0] <= 45; i--) pts.unshift([M.places[nights[i][1]][1], M.places[nights[i][1]][2]]);
+    if (pts.length > 1) L.polyline(pts, { color: c, weight: 2.5, opacity: .8 }).addTo(trailL);
+    const icon = L.divIcon({ className: "", iconSize: [26, 26], iconAnchor: [13, 13], html: `<svg class="crown" width="26" height="26" viewBox="-13 -13 26 26"><circle r="11" fill="${css("--card")}" stroke="${c}" stroke-width="2"/><path d="M-7 4 L-6 -5 L-3 -1 L0 -7 L3 -1 L6 -5 L7 4 Z" fill="${css("--gold")}"/></svg>` });
+    L.marker([p[1], p[2]], { icon, interactive: false }).addTo(trailL);
+    const seen = new Set(); let nAt = 0; for (let i = 0; i <= k; i++) { seen.add(nights[i][1]); if (nights[i][1] === n[1]) nAt++; }
+    const gap = Math.floor(t) - n[0];
+    $("now").innerHTML = `${esc(p[0])}<small>${jstr(j0 + n[0])}${gap > 0 ? ` · last record; ${gap} day${gap > 1 ? "s" : ""} later, no record yet` : ""}</small>`;
+    $("card").innerHTML = `<dl><dt>Record</dt><dd>${fmt(k + 1)} of ${fmt(nights.length)} nights</dd><dt>Places so far</dt><dd>${fmt(seen.size)}</dd><dt>Nights here so far</dt><dd>${nAt}</dd><dt>All nights here</dt><dd>${p[3]}</dd></dl>`;
+  }
+  let lastT = null;
+  function frame(ts) {
+    if (!playing) { lastT = null; return; }
+    if (lastT != null) { t += (ts - lastT) / 1000 * (+$("speed").value); if (t >= +$("t").max) { t = +$("t").max; playing = false; $("play").textContent = "▶ Play"; $("play").setAttribute("aria-pressed", "false"); } $("t").value = Math.floor(t); update(); }
+    lastT = ts; requestAnimationFrame(frame);
+  }
+  $("play").onclick = () => { playing = !playing; if (playing && t >= +$("t").max) t = 0; $("play").textContent = playing ? "❚❚ Pause" : "▶ Play"; $("play").setAttribute("aria-pressed", playing); requestAnimationFrame(frame); };
+  $("t").oninput = e => { t = +e.target.value; update(); };
+  $("bFor").onclick = e => { showFor = !showFor; e.currentTarget.setAttribute("aria-pressed", showFor); if (showFor) forL.addTo(map); else map.removeLayer(forL); setMon(mon); };
+  redraws.push(() => { tiles.setUrl(tileUrl()); drawBase(); update(true); });
+  setMon("John");
+})();
+
+// ------------------------------------------------------------------ charts
+const W = 680, nar = () => innerWidth < 560;
+function topChart(mon) {
+  const box = $("top"); box.innerHTML = "";
+  const rows = R.monarchs[mon].top_places.slice(0, 15), m = { l: nar() ? 150 : 210, r: 46, t: 4, b: 4 }, bh = 22, H = rows.length * bh + m.t + m.b;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `Places with most nights, ${mon}` }, box);
+  const mx = rows[0].nights, X = v => m.l + (W - m.l - m.r) * v / mx;
+  rows.forEach((r, i) => {
+    const y = m.t + i * bh;
+    el("text", { x: m.l - 8, y: y + bh * .68, "text-anchor": "end", class: "lab" }, svg).textContent = r.place.length > (nar() ? 18 : 28) ? r.place.slice(0, nar() ? 17 : 27) + "…" : r.place;
+    const b = el("rect", { x: m.l, y: y + 3, width: X(r.nights) - m.l, height: bh - 7, fill: `var(${MON[mon]})`, rx: 1.5 }, svg);
+    el("text", { x: X(r.nights) + 5, y: y + bh * .68, class: "lab m" }, svg).textContent = r.nights;
+    hover(b, `<b>${esc(r.place)}</b><br>${r.nights} nights · ${pc(r.share)} of ${mon}'s placed nights`);
+  });
+}
+(function () {
+  let mon = "John";
+  const ms = ["John", "Edward I", "Henry II"];
+  $("topBtns").innerHTML = ms.map(m => `<button class="btn" data-m="${m}" aria-pressed="${m === mon}"><i style="background:var(${MON[m]})"></i>${m}</button>`).join("");
+  $("topBtns").querySelectorAll("button").forEach(b => b.onclick = () => { mon = b.dataset.m; $("topBtns").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x.dataset.m === mon)); topChart(mon); });
+  topChart(mon); addEventListener("resize", () => topChart(mon));
+})();
+
+function lineChart(id, series, o) {
+  const box = $(id); box.innerHTML = "";
+  const H = o.h || 260, m = { l: 52, r: 12, t: 12, b: 30 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": o.aria }, box);
+  const X = x => m.l + (W - m.l - m.r) * (x - o.x0) / (o.x1 - o.x0), Y = y => H - m.b - (H - m.t - m.b) * y / o.ymax;
+  for (let k = 0; k <= 4; k++) { const v = o.ymax * k / 4, y = Y(v); el("line", { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: "var(--rule)" }, svg); el("text", { x: m.l - 6, y: y + 4, "text-anchor": "end", class: "lab s m" }, svg).textContent = o.yfmt(v); }
+  (o.xticks || []).forEach(x => el("text", { x: X(x), y: H - 10, "text-anchor": "middle", class: "lab s m" }, svg).textContent = o.xlab ? o.xlab(x) : x);
+  (o.marks || []).forEach(mk => { el("line", { x1: X(mk[0]), x2: X(mk[0]), y1: m.t, y2: H - m.b, stroke: "var(--muted)", "stroke-dasharray": "3 3" }, svg); el("text", { x: X(mk[0]) + 4, y: m.t + 10, class: "lab s m" }, svg).textContent = mk[1]; });
+  series.forEach(s => {
+    let d = "", pen = false;
+    s.pts.forEach(p => { if (p[1] == null) { pen = false; return; } d += (pen ? "L" : "M") + X(p[0]).toFixed(1) + " " + Y(p[1]).toFixed(1); pen = true; });
+    el("path", { d, fill: "none", stroke: `var(${s.col})`, "stroke-width": 2.4, "stroke-dasharray": s.dash || "" }, svg);
+    s.pts.forEach(p => { if (p[1] == null) return; const c = el("circle", { cx: X(p[0]), cy: Y(p[1]), r: p[2] === false ? 2.5 : 4, fill: p[2] === false ? "var(--bg)" : `var(${s.col})`, stroke: `var(${s.col})`, "stroke-width": 1.5 }, svg); hover(c, s.tip(p)); });
+    if (s.label) el("text", { x: X(s.label[0]), y: Y(s.label[1]), class: "lab b", fill: `var(${s.col})`, style: `fill:var(${s.col})` }, svg).textContent = s.label[2];
+  });
+}
+function kmChart() {
+  const ser = ["John", "Edward I"].map(mon => ({
+    col: MON[mon], pts: R.monarchs[mon].years.filter(y => y.nights >= 30).map(y => [y.year, y.km, y.nights >= 150, y]),
+    tip: p => `<b>${mon}, ${p[0]}</b><br>${fmt(p[1])} km between ${p[3].nights} placed nights`, label: mon === "John" ? [1209, 8600, "John"] : [1290, 4600, "Edward I"]
+  }));
+  ser.forEach(s => s.pts = s.pts.map(p => [p[0], p[1], p[2], p[3]]));
+  ser[0].tip = p => `<b>John, ${p[0]}</b><br>${fmt(p[1])} km, ${p[3].nights} placed nights`;
+  ser[1].tip = p => `<b>Edward I, ${p[0]}</b><br>${fmt(p[1])} km, ${p[3].nights} placed nights`;
+  lineChart("km", ser, { x0: 1195, x1: 1310, ymax: 10000, yfmt: v => fmt(v), xticks: [1200, 1220, 1240, 1260, 1280, 1300], aria: "Kilometres travelled per year, John and Edward I", marks: [[1204, "Normandy lost"]] });
+}
+kmChart(); addEventListener("resize", kmChart);
+function contChart() {
+  const ys = R.monarchs.John.years.filter(y => y.nights >= 30);
+  lineChart("cont", [{ col: "--john", pts: ys.map(y => [y.year, (y.france + y.low_countries) / y.nights, true, y]), tip: p => `<b>${p[0]}</b><br>${pc(p[1])} of ${p[3].nights} placed nights abroad` }],
+    { x0: 1199, x1: 1216.5, ymax: 1, yfmt: v => pc(v), xticks: [1200, 1203, 1206, 1209, 1212, 1215], aria: "Share of John's nights abroad by year", marks: [[1204, "Rouen falls"]], h: 230 });
+}
+contChart(); addEventListener("resize", contChart);
+function monthsChart() {
+  const ser = [];
+  ["John", "Edward I"].forEach(mon => {
+    const S = R.monarchs[mon];
+    ser.push({ col: MON[mon], pts: MONTHS.map((_, i) => [i + 1, S.london_by_month[i + 1], true]), tip: p => `<b>${mon}, ${MONTHS_L[p[0] - 1]}</b><br>${pc(p[1])} of nights near Westminster` });
+    ser.push({ col: MON[mon], dash: "5 4", pts: MONTHS.map((_, i) => [i + 1, S.forest_by_month[i + 1], true]), tip: p => `<b>${mon}, ${MONTHS_L[p[0] - 1]}</b><br>${pc(p[1])} of nights in England near a royal forest` });
+  });
+  lineChart("months", ser, { x0: .6, x1: 12.4, ymax: .6, yfmt: v => pc(v), xticks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], xlab: x => MONTHS[x - 1][0], aria: "Share of nights near Westminster and near royal forests by month", h: 240 });
+}
+monthsChart(); addEventListener("resize", monthsChart);
+function lonChart() {
+  const ser = ["John", "Edward I"].map(mon => ({ col: MON[mon], pts: R.monarchs[mon].years.filter(y => y.nights >= 60).map(y => [y.year, y.london / y.nights, true, y]), tip: p => `<b>${mon}, ${p[0]}</b><br>${pc(p[1])} of ${p[3].nights} placed nights near Westminster` }));
+  lineChart("lon", ser, { x0: 1195, x1: 1310, ymax: .6, yfmt: v => pc(v), xticks: [1200, 1220, 1240, 1260, 1280, 1300], aria: "Share of nights near Westminster by year", h: 230 });
+}
+lonChart(); addEventListener("resize", lonChart);
+function warChart() {
+  const box = $("war"); box.innerHTML = "";
+  const ys = R.monarchs["Edward I"].years, keys = [["england", "England", "--eng"], ["wales", "Wales", "--wal"], ["scotland", "Scotland", "--sco"], ["france", "France", "--fra"], ["low_countries", "Low Countries", "--low"]];
+  const WW = 1000, H = 300, m = { l: 44, r: 10, t: 12, b: 30 }, bw = (WW - m.l - m.r) / ys.length;
+  const svg = el("svg", { viewBox: `0 0 ${WW} ${H}`, role: "img", "aria-label": "Edward I's placed nights per year by country" }, box);
+  const Y = v => H - m.b - (H - m.t - m.b) * v / 260;
+  [0, 100, 200].forEach(v => { el("line", { x1: m.l, x2: WW - m.r, y1: Y(v), y2: Y(v), stroke: "var(--rule)" }, svg); el("text", { x: m.l - 6, y: Y(v) + 4, "text-anchor": "end", class: "lab s m" }, svg).textContent = v; });
+  ys.forEach((y, i) => {
+    let acc = 0; const x = m.l + i * bw;
+    keys.forEach(k => { const v = y[k[0]]; if (!v) return; el("rect", { x: x + 1, y: Y(acc + v), width: bw - 2, height: Y(acc) - Y(acc + v), fill: `var(${k[2]})` }, svg); acc += v; });
+    const hit = el("rect", { x, y: m.t, width: bw, height: H - m.t - m.b, fill: "transparent" }, svg);
+    hover(hit, `<b>${y.year}</b><br>` + keys.filter(k => y[k[0]]).map(k => `${k[1]}: ${y[k[0]]}`).join("<br>"));
+    if (y.year % 5 === 0) el("text", { x: x + bw / 2, y: H - 10, "text-anchor": "middle", class: "lab s m" }, svg).textContent = y.year;
+  });
+  [[1277, "Wales", 0], [1282.5, "Wales", 0], [1287, "Gascony", 0], [1297.3, "Flanders", 1], [1296, "Scotland", 0], [1303.5, "Stirling", 0]].forEach(a => {
+    const i = ys.findIndex(y => y.year === Math.floor(a[0])); if (i < 0) return;
+    el("text", { x: m.l + (i + .5 + (a[0] % 1)) * bw, y: m.t + 8 + a[2] * 14, "text-anchor": "middle", class: "lab s m" }, svg).textContent = a[1];
+  });
+  $("warLeg").innerHTML = keys.map(k => `<span><i style="background:var(${k[2]})"></i>${k[1]}</span>`).join("");
+}
+warChart(); addEventListener("resize", warChart);
+// tables
+(function () {
+  const H = R.monarchs["Henry II"].christmas_eyton, J = R.monarchs.John.christmas, E = R.monarchs["Edward I"].christmas;
+  let h = `<thead><tr><th>Year</th><th>King</th><th>Christmas at</th></tr></thead><tbody>`;
+  [...H.map(x => [x.year, "Henry II", x.place]), ...J.map(x => [x.year, "John", x.place]), ...E.map(x => [x.year, "Edward I", x.place])].forEach(r => h += `<tr><td>${r[0]}</td><td style="color:var(${MON[r[1]]})">${r[1]}</td><td>${esc(r[2])}</td></tr>`);
+  $("xmas").innerHTML = h + "</tbody>";
+  let c = `<thead><tr><th>Check</th><th>Date</th><th>Found</th><th class="num">km</th><th>Result</th></tr></thead><tbody>`;
+  R.checks.forEach(k => c += `<tr><td>${esc(k.check)}</td><td>${k.date}${k.window_days ? " ±" + k.window_days : ""}</td><td>${esc(k.found)}</td><td class="num">${k.km}</td><td>${k.passed ? "pass" : "fail"}</td></tr>`);
+  $("checks").innerHTML = c + "</tbody>";
+  const C = R.coverage;
+  let v = `<thead><tr><th>Monarch</th><th class="num">Entries</th><th class="num">Placed</th><th class="num">Days with a record</th><th class="num">Share of reign</th></tr></thead><tbody>`;
+  ["Henry II", "John", "Edward I", "Elizabeth I"].forEach(m => { const x = C[m]; v += `<tr><td>${m}</td><td class="num">${fmt(x.entries)}</td><td class="num">${pc(x.share_point)}</td><td class="num">${fmt(x.days_with_entry)}</td><td class="num">${x.share_days_with_entry != null ? pc(x.share_days_with_entry) : "one summer"}</td></tr>`; });
+  $("cov").innerHTML = v + "</tbody>";
+})();
+</script>
+</body>
+</html>
