@@ -1,0 +1,2812 @@
+{
+ "monarchs": {
+  "Henry II": {
+   "top_places": [
+    {
+     "place": "Winchester",
+     "nights": 14,
+     "share": 0.10687022900763359
+    },
+    {
+     "place": "Caen",
+     "nights": 11,
+     "share": 0.08396946564885496
+    },
+    {
+     "place": "London",
+     "nights": 10,
+     "share": 0.07633587786259542
+    },
+    {
+     "place": "Windsor",
+     "nights": 10,
+     "share": 0.07633587786259542
+    },
+    {
+     "place": "Le Mans",
+     "nights": 8,
+     "share": 0.061068702290076333
+    },
+    {
+     "place": "Rouen",
+     "nights": 6,
+     "share": 0.04580152671755725
+    },
+    {
+     "place": "Gisors",
+     "nights": 6,
+     "share": 0.04580152671755725
+    },
+    {
+     "place": "Northampton",
+     "nights": 4,
+     "share": 0.030534351145038167
+    },
+    {
+     "place": "Limoges",
+     "nights": 4,
+     "share": 0.030534351145038167
+    },
+    {
+     "place": "Nottingham",
+     "nights": 4,
+     "share": 0.030534351145038167
+    },
+    {
+     "place": "Bayeux",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Southampton",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Argentan",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Chinon",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Pembroke",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Reading",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Angers",
+     "nights": 3,
+     "share": 0.022900763358778626
+    },
+    {
+     "place": "Oxford",
+     "nights": 2,
+     "share": 0.015267175572519083
+    },
+    {
+     "place": "Mantes-la-Jolie",
+     "nights": 2,
+     "share": 0.015267175572519083
+    },
+    {
+     "place": "Avranches",
+     "nights": 2,
+     "share": 0.015267175572519083
+    },
+    {
+     "place": "Feckenham",
+     "nights": 2,
+     "share": 0.015267175572519083
+    },
+    {
+     "place": "Ely",
+     "nights": 2,
+     "share": 0.015267175572519083
+    },
+    {
+     "place": "Gloucester",
+     "nights": 2,
+     "share": 0.015267175572519083
+    },
+    {
+     "place": "Bordeaux",
+     "nights": 1,
+     "share": 0.007633587786259542
+    },
+    {
+     "place": "Worcester",
+     "nights": 1,
+     "share": 0.007633587786259542
+    }
+   ],
+   "nights": 131,
+   "country_share": {
+    "France": 0.46564885496183206,
+    "England": 0.46564885496183206,
+    "Italy": 0.022900763358778626,
+    "Wales": 0.030534351145038167,
+    "Ireland": 0.015267175572519083
+   },
+   "london_share": 0.07633587786259542,
+   "forest_share": 0.3114754098360656,
+   "consecutive_pairs": 3,
+   "moved_share": null,
+   "km_per_moving_day_median": null,
+   "km_per_moving_day_p90": null,
+   "moving_days_n": 0,
+   "stay_median_nights": 1.0,
+   "stay_mean_nights": 1.0234375,
+   "distinct_night_places": 44,
+   "years": [
+    {
+     "monarch": "Henry II",
+     "year": 1156,
+     "nights": 3,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 3,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1157,
+     "nights": 1,
+     "km": 0,
+     "distinct_places": 1,
+     "england": 1,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 1,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1158,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 3,
+     "england": 1,
+     "wales": 0,
+     "scotland": 0,
+     "france": 3,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 1,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1159,
+     "nights": 3,
+     "km": 0,
+     "distinct_places": 3,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 3,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1160,
+     "nights": 1,
+     "km": 0,
+     "distinct_places": 1,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 1,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1161,
+     "nights": 2,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1162,
+     "nights": 1,
+     "km": 0,
+     "distinct_places": 1,
+     "england": 1,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1164,
+     "nights": 2,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 1,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1165,
+     "nights": 7,
+     "km": 0,
+     "distinct_places": 7,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 4,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 2,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1168,
+     "nights": 1,
+     "km": 0,
+     "distinct_places": 1,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 1,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1169,
+     "nights": 2,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1170,
+     "nights": 9,
+     "km": 0,
+     "distinct_places": 7,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 6,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 1,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1171,
+     "nights": 7,
+     "km": 0,
+     "distinct_places": 6,
+     "england": 1,
+     "wales": 2,
+     "scotland": 0,
+     "france": 1,
+     "low_countries": 0,
+     "ireland": 2,
+     "london": 1,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1172,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 4,
+     "england": 0,
+     "wales": 2,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1173,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 3,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 4,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1174,
+     "nights": 5,
+     "km": 0,
+     "distinct_places": 5,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 3,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 1,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1175,
+     "nights": 13,
+     "km": 69,
+     "distinct_places": 10,
+     "england": 9,
+     "wales": 0,
+     "scotland": 0,
+     "france": 4,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 1,
+     "forest": 4,
+     "km_per_record_day": 5.3
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1176,
+     "nights": 6,
+     "km": 67,
+     "distinct_places": 3,
+     "england": 6,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 2,
+     "km_per_record_day": 11.2
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1177,
+     "nights": 14,
+     "km": 189,
+     "distinct_places": 9,
+     "england": 12,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 3,
+     "forest": 2,
+     "km_per_record_day": 13.5
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1178,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 3,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 1,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1179,
+     "nights": 7,
+     "km": 67,
+     "distinct_places": 5,
+     "england": 7,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 2,
+     "km_per_record_day": 9.6
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1180,
+     "nights": 5,
+     "km": 0,
+     "distinct_places": 3,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 5,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1181,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 4,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1182,
+     "nights": 2,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1183,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 4,
+     "england": 1,
+     "wales": 0,
+     "scotland": 0,
+     "france": 3,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1184,
+     "nights": 3,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 3,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 2,
+     "forest": 1,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1185,
+     "nights": 1,
+     "km": 0,
+     "distinct_places": 1,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 1,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1186,
+     "nights": 5,
+     "km": 50,
+     "distinct_places": 4,
+     "england": 4,
+     "wales": 0,
+     "scotland": 0,
+     "france": 1,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 1,
+     "km_per_record_day": 9.9
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1187,
+     "nights": 3,
+     "km": 0,
+     "distinct_places": 2,
+     "england": 1,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Henry II",
+     "year": 1188,
+     "nights": 4,
+     "km": 0,
+     "distinct_places": 4,
+     "england": 2,
+     "wales": 0,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 1,
+     "forest": 1,
+     "km_per_record_day": 0.0
+    }
+   ],
+   "km_per_year_median": null,
+   "km_per_year_max": null,
+   "places_per_year_median": null,
+   "by_month": {
+    "1": 7,
+    "2": 13,
+    "3": 2,
+    "4": 19,
+    "5": 8,
+    "6": 14,
+    "7": 7,
+    "8": 7,
+    "9": 13,
+    "10": 9,
+    "11": 6,
+    "12": 26
+   },
+   "christmas": [
+    {
+     "year": 1156,
+     "place": "Bordeaux"
+    },
+    {
+     "year": 1160,
+     "place": "Le Mans"
+    },
+    {
+     "year": 1161,
+     "place": "Bayeux"
+    },
+    {
+     "year": 1169,
+     "place": "Nantes"
+    },
+    {
+     "year": 1174,
+     "place": "Argentan"
+    },
+    {
+     "year": 1176,
+     "place": "Nottingham"
+    },
+    {
+     "year": 1177,
+     "place": "Angers"
+    },
+    {
+     "year": 1178,
+     "place": "Winchester"
+    },
+    {
+     "year": 1179,
+     "place": "Nottingham"
+    },
+    {
+     "year": 1180,
+     "place": "Le Mans"
+    },
+    {
+     "year": 1182,
+     "place": "Caen"
+    },
+    {
+     "year": 1184,
+     "place": "Windsor"
+    },
+    {
+     "year": 1187,
+     "place": "Caen"
+    }
+   ],
+   "christmas_eyton": [
+    {
+     "year": 1156,
+     "place": "Bordeaux"
+    },
+    {
+     "year": 1159,
+     "place": "Falaise"
+    },
+    {
+     "year": 1160,
+     "place": "Le Mans"
+    },
+    {
+     "year": 1161,
+     "place": "Bayeux"
+    },
+    {
+     "year": 1169,
+     "place": "Nantes"
+    },
+    {
+     "year": 1170,
+     "place": "Winchester"
+    },
+    {
+     "year": 1174,
+     "place": "Argentan"
+    },
+    {
+     "year": 1175,
+     "place": "Windsor"
+    },
+    {
+     "year": 1176,
+     "place": "Nottingham"
+    },
+    {
+     "year": 1177,
+     "place": "Angers"
+    },
+    {
+     "year": 1178,
+     "place": "Winchester"
+    },
+    {
+     "year": 1179,
+     "place": "Nottingham"
+    },
+    {
+     "year": 1180,
+     "place": "Le Mans"
+    },
+    {
+     "year": 1181,
+     "place": "Winchester"
+    },
+    {
+     "year": 1182,
+     "place": "Caen"
+    },
+    {
+     "year": 1184,
+     "place": "Windsor"
+    },
+    {
+     "year": 1187,
+     "place": "Caen"
+    }
+   ],
+   "christmas_n": 17,
+   "christmas_top": [
+    [
+     "Winchester",
+     3
+    ],
+    [
+     "Le Mans",
+     2
+    ],
+    [
+     "Windsor",
+     2
+    ],
+    [
+     "Nottingham",
+     2
+    ],
+    [
+     "Caen",
+     2
+    ]
+   ],
+   "christmas_distinct": 11
+  },
+  "John": {
+   "top_places": [
+    {
+     "place": "Rouen",
+     "nights": 142,
+     "share": 0.03716304632295211
+    },
+    {
+     "place": "Winchester",
+     "nights": 138,
+     "share": 0.03611619994765768
+    },
+    {
+     "place": "Orival",
+     "nights": 118,
+     "share": 0.030881968071185553
+    },
+    {
+     "place": "Woodstock",
+     "nights": 94,
+     "share": 0.024600889819419
+    },
+    {
+     "place": "Windsor",
+     "nights": 78,
+     "share": 0.020413504318241297
+    },
+    {
+     "place": "Marlborough",
+     "nights": 78,
+     "share": 0.020413504318241297
+    },
+    {
+     "place": "Lambeth",
+     "nights": 78,
+     "share": 0.020413504318241297
+    },
+    {
+     "place": "Nottingham",
+     "nights": 73,
+     "share": 0.019104946349123266
+    },
+    {
+     "place": "Clarendon Palace",
+     "nights": 71,
+     "share": 0.018581523161476054
+    },
+    {
+     "place": "Westminster",
+     "nights": 67,
+     "share": 0.01753467678618163
+    },
+    {
+     "place": "Tower of London",
+     "nights": 64,
+     "share": 0.016749542004710807
+    },
+    {
+     "place": "Les Andelys",
+     "nights": 61,
+     "share": 0.01596440722323999
+    },
+    {
+     "place": "Freemantle (near Kingsclere)",
+     "nights": 59,
+     "share": 0.015440984035592777
+    },
+    {
+     "place": "Chinon",
+     "nights": 55,
+     "share": 0.014394137660298352
+    },
+    {
+     "place": "New Temple, London",
+     "nights": 52,
+     "share": 0.013609002878827532
+    },
+    {
+     "place": "Corfe Castle",
+     "nights": 51,
+     "share": 0.013347291285003926
+    },
+    {
+     "place": "Northampton",
+     "nights": 49,
+     "share": 0.012823868097356713
+    },
+    {
+     "place": "York",
+     "nights": 47,
+     "share": 0.0123004449097095
+    },
+    {
+     "place": "Ludgershall",
+     "nights": 46,
+     "share": 0.012038733315885893
+    },
+    {
+     "place": "Gillingham",
+     "nights": 45,
+     "share": 0.011777021722062287
+    },
+    {
+     "place": "Canterbury",
+     "nights": 43,
+     "share": 0.011253598534415075
+    },
+    {
+     "place": "Guildford",
+     "nights": 39,
+     "share": 0.010206752159120648
+    },
+    {
+     "place": "Bristol",
+     "nights": 39,
+     "share": 0.010206752159120648
+    },
+    {
+     "place": "Worcester",
+     "nights": 37,
+     "share": 0.009683328971473436
+    },
+    {
+     "place": "Oxford",
+     "nights": 36,
+     "share": 0.00942161737764983
+    }
+   ],
+   "nights": 3821,
+   "country_share": {
+    "England": 0.7482334467416907,
+    "France": 0.23946610834859985,
+    "Wales": 0.003925673907354096,
+    "Ireland": 0.008113059408531798,
+    "Scotland": 0.00026171159382360636
+   },
+   "london_share": 0.07589636220884585,
+   "forest_share": 0.3567681007345226,
+   "consecutive_pairs": 2976,
+   "moved_share": 0.4176747311827957,
+   "km_per_moving_day_median": 34.52332677277707,
+   "km_per_moving_day_p90": 110.55675967157588,
+   "moving_days_n": 1243,
+   "stay_median_nights": 1.0,
+   "stay_mean_nights": 1.798964218455744,
+   "distinct_night_places": 421,
+   "years": [
+    {
+     "monarch": "John",
+     "year": 1199,
+     "nights": 74,
+     "km": 1901,
+     "distinct_places": 23,
+     "england": 7,
+     "wales": 0,
+     "scotland": 0,
+     "france": 67,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 1,
+     "forest": 0,
+     "km_per_record_day": 25.7
+    },
+    {
+     "monarch": "John",
+     "year": 1200,
+     "nights": 195,
+     "km": 5685,
+     "distinct_places": 79,
+     "england": 106,
+     "wales": 0,
+     "scotland": 0,
+     "france": 89,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 7,
+     "forest": 51,
+     "km_per_record_day": 29.2
+    },
+    {
+     "monarch": "John",
+     "year": 1201,
+     "nights": 162,
+     "km": 3239,
+     "distinct_places": 64,
+     "england": 86,
+     "wales": 0,
+     "scotland": 0,
+     "france": 76,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 5,
+     "forest": 25,
+     "km_per_record_day": 20.0
+    },
+    {
+     "monarch": "John",
+     "year": 1202,
+     "nights": 197,
+     "km": 5040,
+     "distinct_places": 33,
+     "england": 16,
+     "wales": 2,
+     "scotland": 0,
+     "france": 179,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 16,
+     "km_per_record_day": 25.6
+    },
+    {
+     "monarch": "John",
+     "year": 1203,
+     "nights": 225,
+     "km": 4226,
+     "distinct_places": 30,
+     "england": 18,
+     "wales": 0,
+     "scotland": 0,
+     "france": 207,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 7,
+     "forest": 3,
+     "km_per_record_day": 18.8
+    },
+    {
+     "monarch": "John",
+     "year": 1204,
+     "nights": 295,
+     "km": 7541,
+     "distinct_places": 61,
+     "england": 295,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 21,
+     "forest": 170,
+     "km_per_record_day": 25.6
+    },
+    {
+     "monarch": "John",
+     "year": 1205,
+     "nights": 288,
+     "km": 5560,
+     "distinct_places": 91,
+     "england": 284,
+     "wales": 0,
+     "scotland": 0,
+     "france": 4,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 33,
+     "forest": 108,
+     "km_per_record_day": 19.3
+    },
+    {
+     "monarch": "John",
+     "year": 1206,
+     "nights": 211,
+     "km": 4486,
+     "distinct_places": 71,
+     "england": 135,
+     "wales": 0,
+     "scotland": 0,
+     "france": 76,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 10,
+     "forest": 40,
+     "km_per_record_day": 21.3
+    },
+    {
+     "monarch": "John",
+     "year": 1207,
+     "nights": 267,
+     "km": 6052,
+     "distinct_places": 82,
+     "england": 267,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 50,
+     "forest": 109,
+     "km_per_record_day": 22.7
+    },
+    {
+     "monarch": "John",
+     "year": 1208,
+     "nights": 174,
+     "km": 4516,
+     "distinct_places": 63,
+     "england": 171,
+     "wales": 0,
+     "scotland": 0,
+     "france": 3,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 19,
+     "forest": 72,
+     "km_per_record_day": 26.0
+    },
+    {
+     "monarch": "John",
+     "year": 1209,
+     "nights": 189,
+     "km": 5402,
+     "distinct_places": 77,
+     "england": 184,
+     "wales": 0,
+     "scotland": 0,
+     "france": 5,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 16,
+     "forest": 72,
+     "km_per_record_day": 28.6
+    },
+    {
+     "monarch": "John",
+     "year": 1210,
+     "nights": 159,
+     "km": 5032,
+     "distinct_places": 70,
+     "england": 119,
+     "wales": 9,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 31,
+     "london": 10,
+     "forest": 28,
+     "km_per_record_day": 31.6
+    },
+    {
+     "monarch": "John",
+     "year": 1211,
+     "nights": 64,
+     "km": 1939,
+     "distinct_places": 35,
+     "england": 62,
+     "wales": 1,
+     "scotland": 0,
+     "france": 1,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 9,
+     "forest": 21,
+     "km_per_record_day": 30.3
+    },
+    {
+     "monarch": "John",
+     "year": 1212,
+     "nights": 203,
+     "km": 5052,
+     "distinct_places": 80,
+     "england": 200,
+     "wales": 1,
+     "scotland": 0,
+     "france": 2,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 30,
+     "forest": 62,
+     "km_per_record_day": 24.9
+    },
+    {
+     "monarch": "John",
+     "year": 1213,
+     "nights": 307,
+     "km": 6502,
+     "distinct_places": 96,
+     "england": 288,
+     "wales": 0,
+     "scotland": 0,
+     "france": 19,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 19,
+     "forest": 78,
+     "km_per_record_day": 21.2
+    },
+    {
+     "monarch": "John",
+     "year": 1214,
+     "nights": 222,
+     "km": 4905,
+     "distinct_places": 67,
+     "england": 103,
+     "wales": 0,
+     "scotland": 0,
+     "france": 119,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 25,
+     "forest": 35,
+     "km_per_record_day": 22.1
+    },
+    {
+     "monarch": "John",
+     "year": 1215,
+     "nights": 319,
+     "km": 5375,
+     "distinct_places": 61,
+     "england": 259,
+     "wales": 0,
+     "scotland": 0,
+     "france": 60,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 26,
+     "forest": 87,
+     "km_per_record_day": 16.8
+    },
+    {
+     "monarch": "John",
+     "year": 1216,
+     "nights": 270,
+     "km": 4003,
+     "distinct_places": 90,
+     "england": 259,
+     "wales": 2,
+     "scotland": 1,
+     "france": 8,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 2,
+     "forest": 43,
+     "km_per_record_day": 14.8
+    }
+   ],
+   "km_per_year_median": 5046.0,
+   "km_per_year_max": {
+    "monarch": "John",
+    "year": 1204,
+    "nights": 295,
+    "km": 7541,
+    "distinct_places": 61,
+    "england": 295,
+    "wales": 0,
+    "scotland": 0,
+    "france": 0,
+    "low_countries": 0,
+    "ireland": 0,
+    "london": 21,
+    "forest": 170,
+    "km_per_record_day": 25.6
+   },
+   "places_per_year_median": 70.5,
+   "by_month": {
+    "1": 333,
+    "2": 277,
+    "3": 343,
+    "4": 344,
+    "5": 326,
+    "6": 321,
+    "7": 335,
+    "8": 333,
+    "9": 312,
+    "10": 299,
+    "11": 301,
+    "12": 297
+   },
+   "forest_by_month": {
+    "1": 0.2724014336917563,
+    "2": 0.35135135135135137,
+    "3": 0.34843205574912894,
+    "4": 0.3205574912891986,
+    "5": 0.22007722007722008,
+    "6": 0.3192488262910798,
+    "7": 0.45739910313901344,
+    "8": 0.37373737373737376,
+    "9": 0.3611111111111111,
+    "10": 0.3605769230769231,
+    "11": 0.5091743119266054,
+    "12": 0.43775100401606426
+   },
+   "london_by_month": {
+    "1": 0.10810810810810811,
+    "2": 0.05415162454873646,
+    "3": 0.09912536443148688,
+    "4": 0.15406976744186046,
+    "5": 0.13190184049079753,
+    "6": 0.028037383177570093,
+    "7": 0.026865671641791045,
+    "8": 0.03003003003003003,
+    "9": 0.02564102564102564,
+    "10": 0.11705685618729098,
+    "11": 0.06976744186046512,
+    "12": 0.05723905723905724
+   },
+   "christmas": [
+    {
+     "year": 1201,
+     "place": "Argentan"
+    },
+    {
+     "year": 1203,
+     "place": "Canterbury"
+    },
+    {
+     "year": 1204,
+     "place": "New Temple, London"
+    },
+    {
+     "year": 1205,
+     "place": "Oxford"
+    },
+    {
+     "year": 1206,
+     "place": "Winchester"
+    },
+    {
+     "year": 1207,
+     "place": "Windsor"
+    },
+    {
+     "year": 1208,
+     "place": "Bristol"
+    },
+    {
+     "year": 1209,
+     "place": "Windsor"
+    },
+    {
+     "year": 1210,
+     "place": "York"
+    },
+    {
+     "year": 1211,
+     "place": "Windsor"
+    },
+    {
+     "year": 1212,
+     "place": "Westminster"
+    },
+    {
+     "year": 1213,
+     "place": "Windsor"
+    },
+    {
+     "year": 1214,
+     "place": "Worcester"
+    },
+    {
+     "year": 1215,
+     "place": "Nottingham"
+    }
+   ],
+   "christmas_n": 14,
+   "christmas_top": [
+    [
+     "Windsor",
+     4
+    ],
+    [
+     "Argentan",
+     1
+    ],
+    [
+     "Canterbury",
+     1
+    ],
+    [
+     "New Temple, London",
+     1
+    ],
+    [
+     "Oxford",
+     1
+    ]
+   ],
+   "christmas_distinct": 11
+  },
+  "Edward I": {
+   "top_places": [
+    {
+     "place": "Westminster",
+     "nights": 841,
+     "share": 0.14837685250529287
+    },
+    {
+     "place": "Rhuddlan",
+     "nights": 191,
+     "share": 0.03369795342272407
+    },
+    {
+     "place": "Windsor",
+     "nights": 156,
+     "share": 0.027522935779816515
+    },
+    {
+     "place": "Lanercost Priory",
+     "nights": 130,
+     "share": 0.022935779816513763
+    },
+    {
+     "place": "Conwy",
+     "nights": 122,
+     "share": 0.021524347212420608
+    },
+    {
+     "place": "Canterbury",
+     "nights": 112,
+     "share": 0.019760056457304165
+    },
+    {
+     "place": "Winchester",
+     "nights": 106,
+     "share": 0.0187014820042343
+    },
+    {
+     "place": "Caernarfon",
+     "nights": 102,
+     "share": 0.01799576570218772
+    },
+    {
+     "place": "Stirling",
+     "nights": 91,
+     "share": 0.016055045871559634
+    },
+    {
+     "place": "Berwick-Upon-Tweed",
+     "nights": 90,
+     "share": 0.01587861679604799
+    },
+    {
+     "place": "Carlisle",
+     "nights": 68,
+     "share": 0.011997177134791814
+    },
+    {
+     "place": "Ghent",
+     "nights": 63,
+     "share": 0.011115031757233593
+    },
+    {
+     "place": "Woodstock",
+     "nights": 61,
+     "share": 0.010762173606210304
+    },
+    {
+     "place": "Dunfermline",
+     "nights": 59,
+     "share": 0.010409315455187015
+    },
+    {
+     "place": "Chester",
+     "nights": 58,
+     "share": 0.010232886379675371
+    },
+    {
+     "place": "Worcester",
+     "nights": 52,
+     "share": 0.009174311926605505
+    },
+    {
+     "place": "Lyndhurst",
+     "nights": 51,
+     "share": 0.00899788285109386
+    },
+    {
+     "place": "Down Ampney",
+     "nights": 48,
+     "share": 0.008468595624558928
+    },
+    {
+     "place": "Linlithgow",
+     "nights": 39,
+     "share": 0.006880733944954129
+    },
+    {
+     "place": "St Albans",
+     "nights": 38,
+     "share": 0.0067043048694424845
+    },
+    {
+     "place": "Northampton",
+     "nights": 37,
+     "share": 0.00652787579393084
+    },
+    {
+     "place": "Clarendon Palace",
+     "nights": 37,
+     "share": 0.00652787579393084
+    },
+    {
+     "place": "Quenington",
+     "nights": 36,
+     "share": 0.006351446718419196
+    },
+    {
+     "place": "Roxburgh Castle",
+     "nights": 35,
+     "share": 0.0061750176429075515
+    },
+    {
+     "place": "Acton Burnell Castle",
+     "nights": 34,
+     "share": 0.005998588567395907
+    }
+   ],
+   "nights": 5668,
+   "country_share": {
+    "France": 0.027170077628793227,
+    "England": 0.7685250529287226,
+    "Wales": 0.1086803105151729,
+    "Scotland": 0.08256880733944955,
+    "Low Countries": 0.01305575158786168
+   },
+   "london_share": 0.16231474947071278,
+   "forest_share": 0.20454545454545456,
+   "consecutive_pairs": 4211,
+   "moved_share": 0.22821182616955593,
+   "km_per_moving_day_median": 19.709384103085906,
+   "km_per_moving_day_p90": 71.63437815831956,
+   "moving_days_n": 961,
+   "stay_median_nights": 1.0,
+   "stay_mean_nights": 2.2984590429845904,
+   "distinct_night_places": 749,
+   "years": [
+    {
+     "monarch": "Edward I",
+     "year": 1273,
+     "nights": 8,
+     "km": 0,
+     "distinct_places": 1,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 8,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 0.0
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1274,
+     "nights": 85,
+     "km": 527,
+     "distinct_places": 19,
+     "england": 85,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 5,
+     "forest": 55,
+     "km_per_record_day": 6.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1275,
+     "nights": 203,
+     "km": 1829,
+     "distinct_places": 59,
+     "england": 201,
+     "wales": 2,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 54,
+     "forest": 86,
+     "km_per_record_day": 9.0
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1276,
+     "nights": 253,
+     "km": 2581,
+     "distinct_places": 70,
+     "england": 253,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 87,
+     "forest": 59,
+     "km_per_record_day": 10.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1277,
+     "nights": 248,
+     "km": 2968,
+     "distinct_places": 67,
+     "england": 211,
+     "wales": 37,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 32,
+     "forest": 60,
+     "km_per_record_day": 12.0
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1278,
+     "nights": 215,
+     "km": 1807,
+     "distinct_places": 68,
+     "england": 207,
+     "wales": 8,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 62,
+     "forest": 49,
+     "km_per_record_day": 8.4
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1279,
+     "nights": 157,
+     "km": 1439,
+     "distinct_places": 31,
+     "england": 145,
+     "wales": 0,
+     "scotland": 0,
+     "france": 12,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 52,
+     "forest": 49,
+     "km_per_record_day": 9.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1280,
+     "nights": 161,
+     "km": 1512,
+     "distinct_places": 39,
+     "england": 161,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 58,
+     "forest": 27,
+     "km_per_record_day": 9.4
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1281,
+     "nights": 114,
+     "km": 1138,
+     "distinct_places": 28,
+     "england": 114,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 47,
+     "forest": 37,
+     "km_per_record_day": 10.0
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1282,
+     "nights": 235,
+     "km": 1032,
+     "distinct_places": 27,
+     "england": 119,
+     "wales": 116,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 45,
+     "km_per_record_day": 4.4
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1283,
+     "nights": 223,
+     "km": 1425,
+     "distinct_places": 25,
+     "england": 65,
+     "wales": 158,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 20,
+     "km_per_record_day": 6.4
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1284,
+     "nights": 219,
+     "km": 2156,
+     "distinct_places": 36,
+     "england": 40,
+     "wales": 179,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 18,
+     "km_per_record_day": 9.8
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1285,
+     "nights": 189,
+     "km": 1799,
+     "distinct_places": 48,
+     "england": 189,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 32,
+     "forest": 38,
+     "km_per_record_day": 9.5
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1286,
+     "nights": 96,
+     "km": 1527,
+     "distinct_places": 35,
+     "england": 66,
+     "wales": 0,
+     "scotland": 0,
+     "france": 30,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 7,
+     "forest": 15,
+     "km_per_record_day": 15.9
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1287,
+     "nights": 13,
+     "km": 146,
+     "distinct_places": 8,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 13,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 11.3
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1288,
+     "nights": 19,
+     "km": 631,
+     "distinct_places": 8,
+     "england": 0,
+     "wales": 0,
+     "scotland": 0,
+     "france": 19,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 0,
+     "km_per_record_day": 33.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1289,
+     "nights": 171,
+     "km": 3119,
+     "distinct_places": 60,
+     "england": 99,
+     "wales": 0,
+     "scotland": 0,
+     "france": 72,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 12,
+     "forest": 23,
+     "km_per_record_day": 18.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1290,
+     "nights": 160,
+     "km": 2047,
+     "distinct_places": 42,
+     "england": 160,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 59,
+     "forest": 39,
+     "km_per_record_day": 12.8
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1291,
+     "nights": 122,
+     "km": 1896,
+     "distinct_places": 44,
+     "england": 114,
+     "wales": 0,
+     "scotland": 8,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 15,
+     "forest": 16,
+     "km_per_record_day": 15.5
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1292,
+     "nights": 67,
+     "km": 615,
+     "distinct_places": 18,
+     "england": 65,
+     "wales": 0,
+     "scotland": 2,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 8,
+     "forest": 1,
+     "km_per_record_day": 9.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1293,
+     "nights": 236,
+     "km": 2090,
+     "distinct_places": 73,
+     "england": 236,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 83,
+     "forest": 49,
+     "km_per_record_day": 8.9
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1294,
+     "nights": 176,
+     "km": 1458,
+     "distinct_places": 49,
+     "england": 161,
+     "wales": 15,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 37,
+     "forest": 13,
+     "km_per_record_day": 8.3
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1295,
+     "nights": 201,
+     "km": 1285,
+     "distinct_places": 31,
+     "england": 100,
+     "wales": 101,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 43,
+     "forest": 4,
+     "km_per_record_day": 6.4
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1296,
+     "nights": 165,
+     "km": 2189,
+     "distinct_places": 61,
+     "england": 116,
+     "wales": 0,
+     "scotland": 49,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 3,
+     "km_per_record_day": 13.3
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1297,
+     "nights": 158,
+     "km": 1404,
+     "distinct_places": 48,
+     "england": 110,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 48,
+     "ireland": 0,
+     "london": 26,
+     "forest": 7,
+     "km_per_record_day": 8.9
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1298,
+     "nights": 135,
+     "km": 2233,
+     "distinct_places": 57,
+     "england": 84,
+     "wales": 0,
+     "scotland": 25,
+     "france": 0,
+     "low_countries": 26,
+     "ireland": 0,
+     "london": 2,
+     "forest": 24,
+     "km_per_record_day": 16.5
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1299,
+     "nights": 192,
+     "km": 1767,
+     "distinct_places": 53,
+     "england": 192,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 49,
+     "forest": 7,
+     "km_per_record_day": 9.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1300,
+     "nights": 241,
+     "km": 2221,
+     "distinct_places": 73,
+     "england": 207,
+     "wales": 0,
+     "scotland": 34,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 31,
+     "forest": 39,
+     "km_per_record_day": 9.2
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1301,
+     "nights": 178,
+     "km": 1913,
+     "distinct_places": 57,
+     "england": 138,
+     "wales": 0,
+     "scotland": 40,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 32,
+     "km_per_record_day": 10.7
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1302,
+     "nights": 150,
+     "km": 1756,
+     "distinct_places": 56,
+     "england": 121,
+     "wales": 0,
+     "scotland": 29,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 39,
+     "forest": 19,
+     "km_per_record_day": 11.7
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1303,
+     "nights": 204,
+     "km": 2145,
+     "distinct_places": 67,
+     "england": 65,
+     "wales": 0,
+     "scotland": 139,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 4,
+     "forest": 6,
+     "km_per_record_day": 10.5
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1304,
+     "nights": 171,
+     "km": 601,
+     "distinct_places": 26,
+     "england": 31,
+     "wales": 0,
+     "scotland": 140,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 2,
+     "km_per_record_day": 3.5
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1305,
+     "nights": 169,
+     "km": 1573,
+     "distinct_places": 58,
+     "england": 168,
+     "wales": 0,
+     "scotland": 1,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 55,
+     "forest": 9,
+     "km_per_record_day": 9.3
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1306,
+     "nights": 251,
+     "km": 1953,
+     "distinct_places": 43,
+     "england": 250,
+     "wales": 0,
+     "scotland": 1,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 21,
+     "forest": 11,
+     "km_per_record_day": 7.8
+    },
+    {
+     "monarch": "Edward I",
+     "year": 1307,
+     "nights": 83,
+     "km": 69,
+     "distinct_places": 3,
+     "england": 83,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 0,
+     "forest": 29,
+     "km_per_record_day": 0.8
+    }
+   ],
+   "km_per_year_median": 1807,
+   "km_per_year_max": {
+    "monarch": "Edward I",
+    "year": 1289,
+    "nights": 171,
+    "km": 3119,
+    "distinct_places": 60,
+    "england": 99,
+    "wales": 0,
+    "scotland": 0,
+    "france": 72,
+    "low_countries": 0,
+    "ireland": 0,
+    "london": 12,
+    "forest": 23,
+    "km_per_record_day": 18.2
+   },
+   "places_per_year_median": 53,
+   "by_month": {
+    "1": 514,
+    "2": 333,
+    "3": 568,
+    "4": 503,
+    "5": 512,
+    "6": 456,
+    "7": 490,
+    "8": 429,
+    "9": 443,
+    "10": 503,
+    "11": 479,
+    "12": 438
+   },
+   "forest_by_month": {
+    "1": 0.17782909930715934,
+    "2": 0.20146520146520147,
+    "3": 0.1673728813559322,
+    "4": 0.26932668329177056,
+    "5": 0.09863013698630137,
+    "6": 0.1388888888888889,
+    "7": 0.2150170648464164,
+    "8": 0.24014336917562723,
+    "9": 0.37393767705382436,
+    "10": 0.14102564102564102,
+    "11": 0.1964735516372796,
+    "12": 0.2553191489361702
+   },
+   "london_by_month": {
+    "1": 0.10505836575875487,
+    "2": 0.08708708708708708,
+    "3": 0.14964788732394366,
+    "4": 0.14314115308151093,
+    "5": 0.25390625,
+    "6": 0.2236842105263158,
+    "7": 0.1489795918367347,
+    "8": 0.12121212121212122,
+    "9": 0.029345372460496615,
+    "10": 0.24055666003976142,
+    "11": 0.302713987473904,
+    "12": 0.1004566210045662
+   },
+   "christmas": [
+    {
+     "year": 1274,
+     "place": "Woodstock"
+    },
+    {
+     "year": 1276,
+     "place": "Cirencester"
+    },
+    {
+     "year": 1280,
+     "place": "Burgh"
+    },
+    {
+     "year": 1281,
+     "place": "Worcester"
+    },
+    {
+     "year": 1282,
+     "place": "Rhuddlan"
+    },
+    {
+     "year": 1284,
+     "place": "Bristol"
+    },
+    {
+     "year": 1285,
+     "place": "Exeter"
+    },
+    {
+     "year": 1289,
+     "place": "Westminster"
+    },
+    {
+     "year": 1290,
+     "place": "Ashridge"
+    },
+    {
+     "year": 1291,
+     "place": "Westminster"
+    },
+    {
+     "year": 1296,
+     "place": "Ipswich"
+    },
+    {
+     "year": 1298,
+     "place": "Cottingham"
+    },
+    {
+     "year": 1299,
+     "place": "Berwick-Upon-Tweed"
+    },
+    {
+     "year": 1300,
+     "place": "Northampton"
+    },
+    {
+     "year": 1304,
+     "place": "Lincoln"
+    }
+   ],
+   "christmas_n": 15,
+   "christmas_top": [
+    [
+     "Westminster",
+     2
+    ],
+    [
+     "Woodstock",
+     1
+    ],
+    [
+     "Cirencester",
+     1
+    ],
+    [
+     "Burgh",
+     1
+    ],
+    [
+     "Worcester",
+     1
+    ]
+   ],
+   "christmas_distinct": 14
+  },
+  "Elizabeth I": {
+   "top_places": [
+    {
+     "place": "Ipswich",
+     "nights": 6,
+     "share": 0.16216216216216217
+    },
+    {
+     "place": "New Hall, Boreham",
+     "nights": 5,
+     "share": 0.13513513513513514
+    },
+    {
+     "place": "Castle Hedingham",
+     "nights": 5,
+     "share": 0.13513513513513514
+    },
+    {
+     "place": "Colchester",
+     "nights": 4,
+     "share": 0.10810810810810811
+    },
+    {
+     "place": "Charterhouse (London)",
+     "nights": 3,
+     "share": 0.08108108108108109
+    },
+    {
+     "place": "Havering Palace",
+     "nights": 3,
+     "share": 0.08108108108108109
+    },
+    {
+     "place": "Harwich",
+     "nights": 3,
+     "share": 0.08108108108108109
+    },
+    {
+     "place": "Smallbridge (Bures)",
+     "nights": 3,
+     "share": 0.08108108108108109
+    },
+    {
+     "place": "Ingatestone",
+     "nights": 2,
+     "share": 0.05405405405405406
+    },
+    {
+     "place": "Strand (Somerset House, London)",
+     "nights": 1,
+     "share": 0.02702702702702703
+    },
+    {
+     "place": "Pyrgo Park",
+     "nights": 1,
+     "share": 0.02702702702702703
+    },
+    {
+     "place": "Loughton Hall",
+     "nights": 1,
+     "share": 0.02702702702702703
+    }
+   ],
+   "nights": 37,
+   "country_share": {
+    "England": 1.0
+   },
+   "london_share": 0.10810810810810811,
+   "consecutive_pairs": 34,
+   "moved_share": 0.29411764705882354,
+   "km_per_moving_day_median": 15.564446971563626,
+   "km_per_moving_day_p90": 27.562325226137776,
+   "moving_days_n": 10,
+   "stay_median_nights": 2,
+   "stay_mean_nights": 2.466666666666667,
+   "distinct_night_places": 12,
+   "years": [
+    {
+     "monarch": "Elizabeth I",
+     "year": 1561,
+     "nights": 37,
+     "km": 187,
+     "distinct_places": 12,
+     "england": 37,
+     "wales": 0,
+     "scotland": 0,
+     "france": 0,
+     "low_countries": 0,
+     "ireland": 0,
+     "london": 4,
+     "forest": 12,
+     "km_per_record_day": 5.1
+    }
+   ],
+   "km_per_year_median": null,
+   "km_per_year_max": null,
+   "places_per_year_median": null,
+   "by_month": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 19,
+    "8": 18,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0
+   },
+   "christmas": []
+  }
+ },
+ "coverage": {
+  "Henry II": {
+   "entries": 153,
+   "entries_point": 133,
+   "entries_region": 14,
+   "share_point": 0.869281045751634,
+   "days_with_entry": 153,
+   "days_with_point": 133,
+   "distinct_places": 44,
+   "first": "1156-02-02",
+   "last": "1188-12-01",
+   "reign_days": 12619,
+   "share_days_with_entry": 0.012124574054996434,
+   "share_days_with_point": 0.01053966241382043
+  },
+  "John": {
+   "entries": 5387,
+   "entries_point": 4854,
+   "entries_region": 17,
+   "share_point": 0.9010581028401707,
+   "days_with_entry": 4244,
+   "days_with_point": 3887,
+   "distinct_places": 462,
+   "first": "1199-05-27",
+   "last": "1216-10-18",
+   "reign_days": 6356,
+   "share_days_with_entry": 0.6677155443675268,
+   "share_days_with_point": 0.6115481434864695
+  },
+  "Edward I": {
+   "entries": 7126,
+   "entries_point": 6624,
+   "entries_region": 40,
+   "share_point": 0.9295537468425484,
+   "days_with_entry": 5991,
+   "days_with_point": 5690,
+   "distinct_places": 925,
+   "first": "1273-06-06",
+   "last": "1307-06-30",
+   "reign_days": 12648,
+   "share_days_with_entry": 0.47367172675521824,
+   "share_days_with_point": 0.4498734977862113
+  },
+  "Elizabeth I": {
+   "entries": 37,
+   "entries_point": 37,
+   "entries_region": 0,
+   "share_point": 1.0,
+   "days_with_entry": 37,
+   "days_with_point": 37,
+   "distinct_places": 12,
+   "first": "1561-07-10",
+   "last": "1561-08-18"
+  },
+  "Elizabeth I preface": {
+   "stops": 53,
+   "years": 16,
+   "placed": 53
+  }
+ },
+ "parse": {
+  "john_index_rows": 5392,
+  "john_valid": 5387,
+  "john_assigned_year": 2273,
+  "edward_rows": 7128,
+  "edward_index_names": 1930,
+  "henry_rows": 153,
+  "henry_by_evidence": {
+   "narrative": 88,
+   "margin": 51,
+   "charter": 14
+  },
+  "henry_uncertain": 30,
+  "john": {
+   "index_entries": 643,
+   "dp_failures": 13,
+   "rows": 5392,
+   "valid": 5387,
+   "assigned_year": 2273,
+   "distinct_days": 4244
+  },
+  "edward": {
+   "days_in_span": 12652,
+   "day_lines_found": 11898,
+   "days_with_place": 5992,
+   "rows": 7128,
+   "index_entries": 1881,
+   "index_entries_with_dates": 1326,
+   "supplementary_names": 49
+  }
+ },
+ "placed_by": {
+  "Henry II": {
+   "manual": 58,
+   "region": 14,
+   "gazetteer": 58,
+   "gazetteer (ambiguous)": 17,
+   "unplaced": 6
+  },
+  "John": {
+   "gazetteer": 3079,
+   "unplaced": 469,
+   "manual": 1426,
+   "close spelling": 332,
+   "unidentified": 47,
+   "itinerary context": 17,
+   "region": 17
+  },
+  "Edward I": {
+   "unplaced": 434,
+   "gazetteer": 4692,
+   "manual": 1586,
+   "itinerary context": 174,
+   "close spelling": 168,
+   "unidentified": 28,
+   "region": 40,
+   "gazetteer (ambiguous)": 4
+  },
+  "Elizabeth I": {
+   "manual": 42,
+   "gazetteer": 48
+  }
+ },
+ "checks": [
+  {
+   "check": "John meets the barons at Runnymede",
+   "monarch": "John",
+   "date": "1215-06-15",
+   "window_days": 0,
+   "target": "Runnymede",
+   "found": "Runnymede (1215-06-15)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, John, King of England: met the rebel leaders at Runnymede on 15 June 1215"
+  },
+  {
+   "check": "John dies at Newark",
+   "monarch": "John",
+   "date": "1216-10-18",
+   "window_days": 1,
+   "target": "Newark",
+   "found": "Newark-on-Trent (1216-10-17)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, John, King of England: died 19 October 1216, Newark Castle"
+  },
+  {
+   "check": "Edward I's first Welsh war (August 1277)",
+   "monarch": "Edward I",
+   "date": "1277-08-25",
+   "window_days": 3,
+   "target": "Rhuddlan",
+   "found": "Rhuddlan (1277-08-25)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, Edward I: invaded Wales in July 1277"
+  },
+  {
+   "check": "Edward I's second Welsh war (1283)",
+   "monarch": "Edward I",
+   "date": "1283-05-01",
+   "window_days": 5,
+   "target": "Conwy",
+   "found": "Conwy (1283-04-26)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, Edward I: conquest of Wales 1282 to 1283"
+  },
+  {
+   "check": "Edward I takes Berwick (1296)",
+   "monarch": "Edward I",
+   "date": "1296-04-05",
+   "window_days": 5,
+   "target": "Berwick-upon-Tweed",
+   "found": "Berwick-Upon-Tweed (1296-03-31)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, Edward I: invaded Scotland in 1296 and took Berwick"
+  },
+  {
+   "check": "Edward I in Flanders (autumn 1297)",
+   "monarch": "Edward I",
+   "date": "1297-10-15",
+   "window_days": 10,
+   "target": "Ghent",
+   "found": "Ghent (1297-10-05)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, Edward I: in Flanders until the truce of October 1297"
+  },
+  {
+   "check": "Siege of Caerlaverock (1300)",
+   "monarch": "Edward I",
+   "date": "1300-07-12",
+   "window_days": 6,
+   "target": "Caerlaverock Castle",
+   "found": "Caerlaverock Castle (1300-07-10)",
+   "km": 0.0,
+   "passed": true,
+   "source": "Wikipedia, Edward I: besieged Caerlaverock Castle in 1300"
+  },
+  {
+   "check": "Edward I's last days (July 1307)",
+   "monarch": "Edward I",
+   "date": "1307-07-05",
+   "window_days": 6,
+   "target": "Burgh by Sands",
+   "found": "Carlisle (1307-06-30)",
+   "km": 8.6,
+   "passed": true,
+   "source": "Wikipedia, Edward I: encamped at Burgh by Sands on 6 July 1307 and died there on 7 July"
+  }
+ ],
+ "checks_passed": 8,
+ "checks_n": 8,
+ "plausibility": {
+  "John": {
+   "consecutive_pairs": 2976,
+   "over_60km": 331,
+   "over_100km": 154,
+   "share_over_100km": 0.05174731182795699,
+   "share_under_40km": 0.821236559139785
+  },
+  "Edward I": {
+   "consecutive_pairs": 4211,
+   "over_60km": 121,
+   "over_100km": 44,
+   "share_over_100km": 0.010448824507242936,
+   "share_under_40km": 0.9510805034433626
+  }
+ },
+ "isolated": {
+  "John": 70,
+  "Edward I": 54,
+  "Henry II": 2
+ },
+ "conflicts": {
+  "John": 151,
+  "Edward I": 45
+ },
+ "forests": {
+  "listed": 137,
+  "located": 78
+ },
+ "john": {
+  "continent_1199_1203": 0.7752475247524753,
+  "continent_1204_1216": 0.1348351289585374,
+  "continent_days_1199_1203": 1010,
+  "ireland_1210": 0.775,
+  "poitou_1206": 0.8085106382978723,
+  "poitou_1214": 0.9444444444444444
+ },
+ "edward": {
+  "wales_1277_aug_nov": 0.5138888888888888,
+  "wales_1282_1283": 0.6748768472906403,
+  "wales_1284": 0.817351598173516,
+  "france_1286_1289": 0.9852941176470589,
+  "lowc_1297_1298": 0.9866666666666667,
+  "scotland_1296": 0.7205882352941176,
+  "scotland_1298": 0.36764705882352944,
+  "scotland_1303_1304": 0.9789473684210527,
+  "war_share_by_decade": {
+   "1272 to 1281": {
+    "England": 0.953601108033241,
+    "Wales": 0.03254847645429363,
+    "Scotland": 0.0,
+    "France": 0.013850415512465374,
+    "Low Countries": 0.0
+   },
+   "1282 to 1291": {
+    "England": 0.5888044229440221,
+    "Wales": 0.3130615065653075,
+    "Scotland": 0.0055286800276434,
+    "France": 0.09260539046302695,
+    "Low Countries": 0.0
+   },
+   "1292 to 1301": {
+    "England": 0.805603201829617,
+    "Wales": 0.06632361349342482,
+    "Scotland": 0.08576329331046312,
+    "France": 0.0,
+    "Low Countries": 0.04230989136649514
+   },
+   "1302 to 1307": {
+    "England": 0.6984435797665369,
+    "Wales": 0.0,
+    "Scotland": 0.301556420233463,
+    "France": 0.0,
+    "Low Countries": 0.0
+   }
+  },
+  "lanercost_nights": 130,
+  "lanercost_first": "1306-10-02",
+  "lanercost_last": "1307-02-28"
+ },
+ "elizabeth": {
+  "days_1561": 37,
+  "first": "1561-07-10",
+  "last": "1561-08-18",
+  "places_1561": 12,
+  "km_1561": 187.441764680383,
+  "moves_1561": 10,
+  "km_per_moving_day_1561": 15.564446971563626,
+  "stops_1561": [
+   {
+    "place": "Charterhouse (London)",
+    "nights": 3
+   },
+   {
+    "place": "Strand (Somerset House, London)",
+    "nights": 1
+   },
+   {
+    "place": "Havering Palace",
+    "nights": 3
+   },
+   {
+    "place": "Pyrgo Park",
+    "nights": 1
+   },
+   {
+    "place": "Loughton Hall",
+    "nights": 1
+   },
+   {
+    "place": "Ingatestone",
+    "nights": 2
+   },
+   {
+    "place": "New Hall, Boreham",
+    "nights": 5
+   },
+   {
+    "place": "Colchester",
+    "nights": 4
+   },
+   {
+    "place": "Harwich",
+    "nights": 3
+   },
+   {
+    "place": "Ipswich",
+    "nights": 6
+   },
+   {
+    "place": "Smallbridge (Bures)",
+    "nights": 3
+   },
+   {
+    "place": "Castle Hedingham",
+    "nights": 5
+   }
+  ],
+  "preface_years": [
+   1559,
+   1564,
+   1565,
+   1566,
+   1572,
+   1573,
+   1574,
+   1575,
+   1577,
+   1578,
+   1582,
+   1588,
+   1591,
+   1592,
+   1600,
+   1602
+  ],
+  "preface_stops": 53,
+  "preface_top": [
+   [
+    "Kenilworth",
+    3
+   ],
+   [
+    "Hampton Court",
+    2
+   ],
+   [
+    "Oxford",
+    2
+   ],
+   [
+    "Berkeley Castle",
+    2
+   ],
+   [
+    "Woodstock",
+    2
+   ],
+   [
+    "Sudeley Castle",
+    2
+   ]
+  ]
+ },
+ "compare": {
+  "Henry II": {
+   "nights": 131,
+   "distinct": 44,
+   "moved_share": null,
+   "km_med": null,
+   "london": 0.07633587786259542,
+   "stay_mean": 1.0234375,
+   "km_year": null
+  },
+  "John": {
+   "nights": 3821,
+   "distinct": 421,
+   "moved_share": 0.4176747311827957,
+   "km_med": 34.52332677277707,
+   "london": 0.07589636220884585,
+   "stay_mean": 1.798964218455744,
+   "km_year": 5046.0
+  },
+  "Edward I": {
+   "nights": 5668,
+   "distinct": 749,
+   "moved_share": 0.22821182616955593,
+   "km_med": 19.709384103085906,
+   "london": 0.16231474947071278,
+   "stay_mean": 2.2984590429845904,
+   "km_year": 1807
+  },
+  "Elizabeth I": {
+   "nights": 37,
+   "distinct": 12,
+   "moved_share": 0.29411764705882354,
+   "km_med": 15.564446971563626,
+   "london": 0.10810810810810811,
+   "stay_mean": 2.466666666666667,
+   "km_year": null
+  }
+ },
+ "headline": {
+  "edward_westminster_nights": 841,
+  "edward_westminster_share": 0.14837685250529287,
+  "john_westminster_nights": 67,
+  "john_westminster_share": 0.01753467678618163,
+  "john_rouen_nights": 142,
+  "john_winchester_nights": 138,
+  "moved_ratio": 1.8302063402817406,
+  "km_ratio": 2.7924737133370225,
+  "henry_france_share": 0.46564885496183206,
+  "henry_england_share": 0.46564885496183206,
+  "henry_christmas_n": 17,
+  "henry_christmas_france": 10,
+  "john_christmas_n": 14,
+  "edward_christmas_n": 15,
+  "john_christmas_distinct": 11,
+  "edward_christmas_distinct": 14,
+  "john_flagged": 221,
+  "edward_flagged": 99,
+  "forest_month_john_max": [
+   0.5091743119266054,
+   11
+  ],
+  "forest_month_john_min": [
+   0.22007722007722008,
+   5
+  ],
+  "edward_lanercost_nights": 130
+ },
+ "placed_manual_rows": 223
+}

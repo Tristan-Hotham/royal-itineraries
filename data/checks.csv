@@ -1,0 +1,9 @@
+check,monarch,date,window_days,target,found,km,passed,source
+John meets the barons at Runnymede,John,1215-06-15,0,Runnymede,Runnymede (1215-06-15),0.0,True,"Wikipedia, John, King of England: met the rebel leaders at Runnymede on 15 June 1215"
+John dies at Newark,John,1216-10-18,1,Newark,Newark-on-Trent (1216-10-17),0.0,True,"Wikipedia, John, King of England: died 19 October 1216, Newark Castle"
+Edward I's first Welsh war (August 1277),Edward I,1277-08-25,3,Rhuddlan,Rhuddlan (1277-08-25),0.0,True,"Wikipedia, Edward I: invaded Wales in July 1277"
+Edward I's second Welsh war (1283),Edward I,1283-05-01,5,Conwy,Conwy (1283-04-26),0.0,True,"Wikipedia, Edward I: conquest of Wales 1282 to 1283"
+Edward I takes Berwick (1296),Edward I,1296-04-05,5,Berwick-upon-Tweed,Berwick-Upon-Tweed (1296-03-31),0.0,True,"Wikipedia, Edward I: invaded Scotland in 1296 and took Berwick"
+Edward I in Flanders (autumn 1297),Edward I,1297-10-15,10,Ghent,Ghent (1297-10-05),0.0,True,"Wikipedia, Edward I: in Flanders until the truce of October 1297"
+Siege of Caerlaverock (1300),Edward I,1300-07-12,6,Caerlaverock Castle,Caerlaverock Castle (1300-07-10),0.0,True,"Wikipedia, Edward I: besieged Caerlaverock Castle in 1300"
+Edward I's last days (July 1307),Edward I,1307-07-05,6,Burgh by Sands,Carlisle (1307-06-30),8.6,True,"Wikipedia, Edward I: encamped at Burgh by Sands on 6 July 1307 and died there on 7 July"

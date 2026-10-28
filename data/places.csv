@@ -1,0 +1,1494 @@
+monarch,place,lat,lon,nights,entries,source
+Edward I,Westminster,51.4975,-0.1357,841,886,GeoNames: City of Westminster (GB)
+Edward I,Rhuddlan,53.2911,-3.4665,191,196,"OS Open Names: Rhuddlan (Town, Sir Ddinbych - Denbighshire)"
+Edward I,Windsor,51.4798,-0.6105,156,162,"OS Open Names: Windsor (Town, Windsor and Maidenhead)"
+Edward I,Lanercost Priory,54.9661,-2.6953,130,133,"Wikidata Q3403001 (Lanercost Priory, priory)"
+Edward I,Conwy,53.2811,-3.8297,122,134,"OS Open Names: Conwy (Town, Conwy - Conwy)"
+Edward I,Canterbury,51.2797,1.0789,112,121,"OS Open Names: Canterbury (City, Kent)"
+Edward I,Winchester,51.0618,-1.311,106,119,"OS Open Names: Winchester (City, Hampshire)"
+Edward I,Caernarfon,53.1408,-4.2759,102,107,"OS Open Names: Caernarfon (Town, Gwynedd - Gwynedd)"
+Edward I,Stirling,56.1155,-3.9342,91,94,"OS Open Names: Stirling (City, Stirling)"
+Edward I,Berwick-Upon-Tweed,55.7687,-2.0054,90,95,GeoNames: Berwick-Upon-Tweed (GB)
+Edward I,Carlisle,54.8926,-2.933,68,71,"OS Open Names: Carlisle (City, Cumberland)"
+Edward I,Ghent,51.05,3.7167,63,63,GeoNames: Gent (BE)
+Edward I,Woodstock,51.8485,-1.3513,61,63,GeoNames: Woodstock (GB)
+Edward I,Dunfermline,56.0712,-3.4638,59,59,"OS Open Names: Dunfermline (City, Fife)"
+Edward I,Chester,53.1902,-2.8916,58,62,"OS Open Names: Chester (City, Cheshire West and Chester)"
+Edward I,Worcester,52.1929,-2.2211,52,59,"OS Open Names: Worcester (City, Worcestershire)"
+Edward I,Lyndhurst,50.8726,-1.5766,51,55,GeoNames: Lyndhurst (GB)
+Edward I,Down Ampney,51.6737,-1.8547,48,53,"OS Open Names: Down Ampney (Village, Gloucestershire)"
+Edward I,Linlithgow,55.977,-3.6007,39,40,OS Open Names (close spelling): Linlithgow
+Edward I,St Albans,51.7523,-0.3391,38,48,"OS Open Names: St Albans (City, Hertfordshire)"
+Edward I,Northampton,52.2379,-0.8951,37,41,"OS Open Names: Northampton (Town, West Northamptonshire) [county as printed does not match]"
+Edward I,Clarendon Palace,51.0708,-1.7417,37,43,Wikidata Q404530 (Clarendon Palace)
+Edward I,Quenington,51.7366,-1.7913,36,38,"OS Open Names: Quenington (Village, Gloucestershire)"
+Edward I,Roxburgh Castle,55.5963,-2.4569,35,40,"Wikidata Q17846423 (Roxburgh Castle, castle)"
+Edward I,Acton Burnell Castle,52.6129,-2.6897,34,35,"Wikidata Q4677663 (Acton Burnell Castle, castle)"
+Edward I,York,53.962,-1.0837,33,41,"OS Open Names: York (City, York)"
+Edward I,Odiham,51.2541,-0.9393,31,36,GeoNames: Odiham (GB)
+Edward I,Bristol,51.4531,-2.601,31,35,"OS Open Names: Bristol (City, City of Bristol)"
+Edward I,Tower of London,51.5082,-0.0762,30,37,Wikidata Q62378 (Tower of London)
+Edward I,Condom,43.9582,0.372,30,31,GeoNames: Condom (FR)
+Edward I,Kennington,51.488,-0.1057,29,36,GeoNames: Kennington (GB)
+Edward I,Leeds Castle,51.2489,0.63,29,35,"Wikidata Q746876 (Leeds Castle, castle)"
+Edward I,Perth,56.3955,-3.4389,29,33,"OS Open Names: Perth (City, Perth and Kinross) [county as printed does not match]"
+Edward I,Newcastle upon Tyne,54.978,-1.6102,28,33,"OS Open Names: Newcastle upon Tyne (City, )"
+Edward I,Ashridge,51.799,-0.56,28,28,Wikidata Q15192660 (Ashridge Priory)
+Edward I,Paris,48.8534,2.3488,27,27,GeoNames: Paris (FR)
+Edward I,Dover,51.1281,1.3084,27,33,"OS Open Names: Dover (Town, Kent)"
+Edward I,Abbeytown (Holm Cultram Abbey),54.8447,-3.2897,27,28,"OS Open Names: Abbeytown (Village, Cumberland)"
+Edward I,Marlborough,51.4203,-1.7295,26,29,GeoNames: Marlborough (GB)
+Edward I,Cirencester,51.7193,-1.9714,25,25,GeoNames: Cirencester (GB)
+Edward I,Devizes,51.3508,-1.9942,25,26,GeoNames: Devizes (GB)
+Edward I,Lincoln,53.2348,-0.5384,24,27,"OS Open Names: Lincoln (City, Lincolnshire)"
+Edward I,Portsmouth,50.7968,-1.0912,24,25,"OS Open Names: Portsmouth (City, City of Portsmouth)"
+Edward I,Stepney,51.5175,-0.0429,23,25,GeoNames: Stepney (GB)
+Edward I,Kings Langley,51.7116,-0.4602,23,30,Wikidata Q6412947 (Kings Langley Palace)
+Edward I,Shrewsbury,52.7082,-2.7543,23,27,"OS Open Names: Shrewsbury (Town, Shropshire)"
+Edward I,Llanfaes,53.2816,-4.096,23,24,"OS Open Names: Llanfaes (Village, Sir Ynys Mon - Isle of Anglesey)"
+Edward I,Guildford,51.2394,-0.5759,22,25,"OS Open Names: Guildford (Town, Surrey)"
+Edward I,Brill,51.8167,-1.05,21,23,GeoNames: Brill (GB)
+Edward I,Macclesfield,53.2602,-2.1256,21,22,GeoNames: Macclesfield (GB)
+Edward I,Burgh,52.1163,1.2584,21,25,"OS Open Names: Burgh (Village, Suffolk)"
+Edward I,Feckenham,52.2522,-1.9874,20,20,"OS Open Names: Feckenham (Village, Worcestershire)"
+Edward I,Plympton,50.3907,-4.0602,20,20,GeoNames: Plympton (GB)
+Edward I,Exeter,50.7226,-3.5326,19,19,"OS Open Names: Exeter (City, Devon)"
+Edward I,Geddington,52.4376,-0.6896,18,20,GeoNames: Geddington (GB)
+Edward I,Beaulieu Abbey,50.8218,-1.4502,18,19,"Wikidata Q751667 (Beaulieu Abbey, abbey)"
+Edward I,Kempsey,52.1394,-2.2175,18,18,GeoNames: Kempsey (GB)
+Edward I,Udimore,50.9383,0.6663,18,18,"OS Open Names: Udimore (Village, East Sussex)"
+Edward I,Chichester,50.8365,-0.779,17,20,"OS Open Names: Chichester (City, West Sussex)"
+Edward I,Gloucester,51.8646,-2.2469,17,22,"OS Open Names: Gloucester (City, Gloucestershire)"
+Edward I,Durham,54.7779,-1.5826,17,22,"OS Open Names: Durham (City, County Durham)"
+Edward I,Bala,52.9111,-3.5972,17,18,GeoNames: Bala (GB)
+Edward I,Peebles,55.652,-3.1874,17,17,"OS Open Names: Peebles (Town, Scottish Borders)"
+Edward I,Eastry,51.2464,1.3078,16,16,GeoNames: Eastry (GB)
+Edward I,Clipstone,53.1605,-1.1234,16,18,"OS Open Names: Clipstone (Village, Nottinghamshire)"
+Edward I,Denbigh,53.1833,-3.4206,16,20,"OS Open Names: Denbigh (Town, Sir Ddinbych - Denbighshire)"
+Edward I,Amesbury,51.1751,-1.7806,15,20,GeoNames: Amesbury (GB)
+Edward I,Bindon Abbey,50.6806,-2.2081,15,16,"Wikidata Q743634 (Bindon Abbey, abbey)"
+Edward I,Walsingham Priory,52.8937,0.8756,15,22,"Wikidata Q7963862 (Walsingham Priory, priory)"
+Edward I,Dumfries,55.0696,-3.6114,15,17,GeoNames: Dumfries (GB)
+Edward I,London,51.5074,-0.1277,14,15,"OS Open Names: London (City, Greater London)"
+Edward I,Bury St Edmunds,52.2463,0.7138,14,21,"OS Open Names: Bury St Edmunds (Town, Suffolk)"
+Edward I,Kenilworth,52.3426,-1.5791,14,16,"OS Open Names: Kenilworth (Town, Warwickshire)"
+Edward I,Evesham,52.0924,-1.9489,14,14,GeoNames: Evesham (GB)
+Edward I,Dolwyddelan Castle,53.0531,-3.9083,14,14,"Wikidata Q2369922 (Dolwyddelan Castle, castle)"
+Edward I,Wark,55.0877,-2.221,14,16,"OS Open Names: Wark (Village, Northumberland)"
+Edward I,Kinloss,57.6349,-3.5701,14,15,GeoNames: Kinloss (GB)
+Edward I,Newbrough,55.0053,-2.1973,14,15,"OS Open Names: Newbrough (Village, Northumberland)"
+Edward I,King's Cliffe,52.5627,-0.5154,13,13,"OS Open Names: King's Cliffe (Village, North Northamptonshire)"
+Edward I,Royston,52.0483,-0.0244,13,14,GeoNames: Royston (GB)
+Edward I,Lewes,50.874,0.0088,13,15,GeoNames: Lewes (GB)
+Edward I,Banstead,51.3223,-0.2069,13,16,GeoNames: Banstead (GB)
+Edward I,Overton,52.9667,-2.9333,13,15,GeoNames: Overton (GB)
+Edward I,Sheen (Richmond),51.4604,-0.3102,13,17,Wikidata Q1059945 (Richmond Palace)
+Edward I,Beverley,53.8434,-0.4335,13,22,"OS Open Names: Beverley (Town, East Riding of Yorkshire)"
+Edward I,Jedburgh,55.48,-2.552,13,17,GeoNames: Jedburgh (GB)
+Edward I,Basingwerk Abbey,53.288,-3.2073,12,12,"Wikidata Q265315 (Basingwerk Abbey, abbey)"
+Edward I,Wingham,51.2717,1.2146,12,13,GeoNames: Wingham (GB)
+Edward I,Nottingham,52.9562,-1.1512,12,13,"OS Open Names: Nottingham (City, City of Nottingham) [county as printed does not match]"
+Edward I,Bordeaux,44.8412,-0.5805,12,15,GeoNames: Bordeaux (FR)
+Edward I,Oloron-Sainte-Marie,43.1944,-0.6107,12,12,GeoNames: Oloron-Sainte-Marie (FR)
+Edward I,Saint Andrews,56.3387,-2.799,12,13,GeoNames: Saint Andrews (GB)
+Edward I,Banbury,52.0621,-1.3336,11,12,"OS Open Names: Banbury (Town, Oxfordshire)"
+Edward I,Rayleigh,51.5857,0.6046,11,12,GeoNames: Rayleigh (GB)
+Edward I,Abbeville,50.1052,1.8355,11,11,GeoNames: Abbeville (FR)
+Edward I,Arundel,50.8543,-0.5539,11,11,"OS Open Names: Arundel (Town, West Sussex)"
+Edward I,Grantham,52.9121,-0.6422,10,12,"OS Open Names: Grantham (Town, Lincolnshire)"
+Edward I,Pontefract,53.6924,-1.3096,10,12,"OS Open Names: Pontefract (Town, )"
+Edward I,Hereford,52.056,-2.7176,10,12,"OS Open Names: Hereford (City, County of Herefordshire) [county as printed does not match]"
+Edward I,Swainston Manor,50.6883,-1.377,10,10,"Wikidata Q7653046 (Swainston Manor, manor house)"
+Edward I,Harby,53.2277,-0.6837,10,10,"OS Open Names: Harby (Village, Nottinghamshire)"
+Edward I,Kirkcudbright,54.8379,-4.0479,10,11,"OS Open Names: Kirkcudbright (Town, Dumfries and Galloway)"
+Edward I,Eastwood,51.5682,0.6634,9,11,"OS Open Names: Eastwood (Suburban Area, Southend-on-Sea)"
+Edward I,Norwich,52.6289,1.2933,9,10,"OS Open Names: Norwich (City, Norfolk)"
+Edward I,Ipswich,52.0592,1.1555,9,9,GeoNames: Ipswich (GB)
+Edward I,Nayland,51.9729,0.8735,9,10,"OS Open Names: Nayland (Village, Suffolk)"
+Edward I,Ospringe,51.3097,0.8714,9,15,"OS Open Names: Ospringe (Suburban Area, Kent)"
+Edward I,Thetford,52.4135,0.7505,9,13,"OS Open Names: Thetford (Town, Norfolk)"
+Edward I,Darlington,54.5243,-1.5504,9,13,GeoNames: Darlington (GB)
+Edward I,Alnwick,55.4116,-1.7056,9,13,"OS Open Names: Alnwick (Town, Northumberland)"
+Edward I,Bishop's Waltham,50.9551,-1.213,8,9,"OS Open Names: Bishop's Waltham (Town, Hampshire)"
+Edward I,Pershore,52.1116,-2.0759,8,9,GeoNames: Pershore (GB)
+Edward I,Ely,52.3996,0.2625,8,13,"OS Open Names: Ely (City, Cambridgeshire)"
+Edward I,Bromborough,53.3485,-2.9794,8,8,GeoNames: Bromborough (GB)
+Edward I,Windsor Great Park,51.4378,-0.6194,8,8,"OS Open Names: Windsor Great Park (Other Landcover, Windsor and Maidenhead)"
+Edward I,Salisbury,51.0704,-1.7964,8,9,"OS Open Names: Salisbury (City, Wiltshire)"
+Edward I,Rockingham Castle,52.5129,-0.724,8,10,"Wikidata Q3939808 (Rockingham Castle, castle)"
+Edward I,Llanbedr,52.8167,-4.1,8,8,GeoNames: Llanbedr (GB)
+Edward I,Saintes,45.7474,-0.6349,8,8,GeoNames: Saintes (FR)
+Edward I,Castle Acre Castle,52.7031,0.6933,8,8,"Wikidata Q5049976 (Castle Acre Castle, castle)"
+Edward I,Faringdon,51.6581,-1.5836,8,9,"OS Open Names: Faringdon (Town, Oxfordshire)"
+Edward I,Greenwich,51.4778,-0.0118,8,12,GeoNames: Greenwich (GB)
+Edward I,Tynemouth,55.0179,-1.4256,8,12,GeoNames: Tynemouth (GB)
+Edward I,Bamburgh,55.6077,-1.7143,8,9,"OS Open Names: Bamburgh (Village, Northumberland)"
+Edward I,Brechin,56.7299,-2.6573,8,9,GeoNames: Brechin (GB)
+Edward I,Aardenburg,51.2733,3.4472,8,8,GeoNames: Aardenburg (NL)
+Edward I,Ringwood,50.8454,-1.7887,7,8,GeoNames: Ringwood (GB)
+Edward I,Weston,51.9551,-0.1699,7,8,"OS Open Names: Weston (Village, Hertfordshire)"
+Edward I,Barnes,51.4735,-0.2484,7,11,GeoNames: Barnes (GB)
+Edward I,Birkenhead,53.3939,-3.0145,7,8,"OS Open Names: Birkenhead (Town, )"
+Edward I,Temple Bruer,53.0796,-0.4935,7,9,"OS Open Names: Temple Bruer (Hamlet, Lincolnshire)"
+Edward I,Newington,51.3522,0.6677,7,8,GeoNames: Newington (GB)
+Edward I,Merton,51.4139,-0.1837,7,11,OS Open Names (close spelling): Merton
+Edward I,Chertsey,51.3922,-0.5037,7,10,"OS Open Names: Chertsey (Town, Surrey)"
+Edward I,Newark Castle,53.0775,-0.8124,7,11,"Wikidata Q2970132 (Newark Castle, castle)"
+Edward I,Aber,53.2333,-4.0167,7,7,GeoNames: Aber (GB)
+Edward I,Woolmer Forest,51.0878,-0.8355,7,9,"OS Open Names: Woolmer Forest (Woodland Or Forest, Hampshire)"
+Edward I,Wootton,50.7285,-1.2354,7,7,GeoNames: Wootton (GB)
+Edward I,Brotherton,53.7272,-1.271,7,9,"OS Open Names: Brotherton (Village, North Yorkshire)"
+Edward I,Newburgh Priory,54.1812,-1.1698,7,8,"Wikidata Q7017185 (Newburgh Priory, priory)"
+Edward I,Northallerton,54.339,-1.4324,7,12,GeoNames: Northallerton (GB)
+Edward I,Haddington,55.9554,-2.7838,7,7,"OS Open Names: Haddington (Town, East Lothian)"
+Edward I,Thirsk,54.2325,-1.3429,7,10,"OS Open Names: Thirsk (Town, North Yorkshire)"
+Edward I,Chatham,51.3789,0.5279,7,14,GeoNames: Chatham (GB)
+Edward I,Morpeth,55.1675,-1.6907,7,10,"OS Open Names: Morpeth (Town, Northumberland)"
+Edward I,Cottingham,53.7806,-0.4154,7,8,GeoNames: Cottingham (GB)
+Edward I,Glasgow,55.8636,-4.2369,7,8,"OS Open Names: Glasgow (City, Glasgow City)"
+Edward I,High Laver,51.7557,0.2109,7,7,"OS Open Names: High Laver (Hamlet, Essex)"
+Edward I,Kempsford,51.6708,-1.7727,6,7,"OS Open Names: Kempsford (Village, Gloucestershire)"
+Edward I,Upavon Priory,51.295,-1.806,6,9,"Wikidata Q7898190 (Upavon Priory, priory)"
+Edward I,Wycombe Abbey,51.6258,-0.7506,6,8,"Wikidata Q99670924 (Wycombe Abbey, manor house)"
+Edward I,Lyddington,52.5649,-0.7108,6,8,"OS Open Names: Lyddington (Village, Rutland)"
+Edward I,Gillingham,51.0376,-2.2753,6,9,"OS Open Names: Gillingham (Town, Dorset)"
+Edward I,Wareham,50.6879,-2.1106,6,6,GeoNames: Wareham (GB)
+Edward I,Canford Magna,50.7844,-1.9554,6,8,"OS Open Names: Canford Magna (Village, Bournemouth, Christchurch and Poole)"
+Edward I,Ludgershall,51.257,-1.6224,6,7,"OS Open Names: Ludgershall (Town, Wiltshire)"
+Edward I,Henley,51.8469,-2.143,6,7,"OS Open Names: Henley (Suburban Area, Gloucestershire)"
+Edward I,Dunstable,51.8876,-0.5231,6,7,OS Open Names (close spelling): Dunstable
+Edward I,Gravesend,51.4421,0.3711,6,8,GeoNames: Gravesend (GB)
+Edward I,Glastonbury,51.1474,-2.7178,6,7,"OS Open Names: Glastonbury (Town, Somerset)"
+Edward I,Shotwick,53.2394,-2.9906,6,9,GeoNames: Shotwick (GB)
+Edward I,Amiens,49.9,2.3,6,6,GeoNames: Amiens (FR)
+Edward I,Tilbury,51.4625,0.3586,6,7,GeoNames: Tilbury (GB)
+Edward I,Ruthin,53.1144,-3.3105,6,7,"OS Open Names: Ruthin (Town, Sir Ddinbych - Denbighshire)"
+Edward I,Llanrwst,53.1389,-3.7971,6,7,"OS Open Names: Llanrwst (Town, Conwy - Conwy)"
+Edward I,Carmarthen,51.8555,-4.3053,6,9,GeoNames: Carmarthen (GB)
+Edward I,Woodmancote,50.8622,-0.9038,6,9,"OS Open Names: Woodmancote (Village, West Sussex)"
+Edward I,Corfe Castle,50.6384,-2.0574,6,7,"OS Open Names: Corfe Castle (Village, Dorset)"
+Edward I,Fareham,50.8516,-1.1793,6,7,GeoNames: Fareham (GB)
+Edward I,Elgin,57.6502,-3.315,6,7,"OS Open Names: Elgin (Town, Moray)"
+Edward I,Caerlaverock Castle,54.9756,-3.524,6,7,Wikidata Q1025398 (Caerlaverock Castle)
+Edward I,Hyde,51.0683,-1.3151,6,8,"OS Open Names: Hyde (Suburban Area, Hampshire)"
+Edward I,Reading,51.4538,-0.9738,5,8,"OS Open Names: Reading (Town, Reading)"
+Edward I,Wimborne Minster,50.7994,-1.9877,5,6,"OS Open Names: Wimborne Minster (Town, Dorset)"
+Edward I,Barton-upon-Humber,53.6847,-0.4388,5,7,"OS Open Names: Barton-upon-Humber (Town, North Lincolnshire)"
+Edward I,Peterborough,52.5725,-0.2425,5,7,"OS Open Names: Peterborough (City, City of Peterborough)"
+Edward I,Harston,52.1369,0.08,5,5,GeoNames: Harston (GB)
+Edward I,Wallingford,51.5998,-1.1248,5,8,GeoNames: Wallingford (GB)
+Edward I,Bampton,51.7263,-1.5455,5,5,GeoNames: Bampton (GB)
+Edward I,Cambridge,52.2049,0.1197,5,10,"OS Open Names: Cambridge (City, Cambridgeshire) [county as printed does not match]"
+Edward I,Rochester,51.3876,0.5055,5,5,GeoNames: Rochester (GB)
+Edward I,Lechlade,51.694,-1.6913,5,7,GeoNames: Lechlade (GB)
+Edward I,Flint,53.2449,-3.1323,5,9,GeoNames: Flint (GB)
+Edward I,Kingston upon Thames,51.409,-0.3036,5,6,"OS Open Names: Kingston upon Thames (Other Settlement, Greater London)"
+Edward I,Sherborne,51.8325,-1.7615,5,5,"OS Open Names: Sherborne (Village, Gloucestershire)"
+Edward I,Stanley,51.4552,-2.0635,5,5,"OS Open Names: Stanley (Hamlet, Wiltshire)"
+Edward I,Llangernyw,53.1921,-3.6868,5,5,"OS Open Names: Llangernyw (Village, Conwy - Conwy)"
+Edward I,Harlech,52.8593,-4.1078,5,5,"OS Open Names: Harlech (Town, Gwynedd - Gwynedd)"
+Edward I,Cardigan,52.0836,-4.6608,5,6,OS Open Names (close spelling): Cardigan
+Edward I,Saint-Macaire,44.5665,-0.2237,5,5,GeoNames: Saint-Macaire (FR)
+Edward I,Frampton Priory,50.7531,-2.5302,5,5,"Wikidata Q8565316 (Frampton Priory, priory)"
+Edward I,Coldstream,55.6511,-2.2529,5,7,GeoNames: Coldstream (GB)
+Edward I,Cobham,51.33,-0.4113,5,5,GeoNames: Cobham (GB)
+Edward I,Kirkham Priory,54.0829,-0.8767,5,10,"Wikidata Q6415670 (Kirkham Priory, priory)"
+Edward I,Witley,51.1499,-0.6477,5,6,GeoNames: Witley (GB)
+Edward I,Aberdeen,57.1499,-2.0938,5,6,"OS Open Names: Aberdeen (City, Aberdeen City)"
+Edward I,Dundee,56.4584,-2.9737,5,5,"OS Open Names: Dundee (City, Dundee City)"
+Edward I,Bures Saint Mary,51.9724,0.7749,5,5,GeoNames: Bures Saint Mary (GB)
+Edward I,Kirkliston,55.9536,-3.4029,5,5,GeoNames: Kirkliston (GB)
+Edward I,Kingston upon Hull,53.7446,-0.3326,5,5,"OS Open Names: Kingston upon Hull (City, City of Kingston upon Hull)"
+Edward I,Cambuskenneth Abbey,56.1232,-3.9177,5,6,"Wikidata Q1028378 (Cambuskenneth Abbey, abbey)"
+Edward I,Lochindorb,57.3979,-3.7159,5,5,OS Open Names (close spelling): Lochindorb
+Edward I,Woburn,51.9886,-0.6191,5,6,"OS Open Names: Woburn (Town, Central Bedfordshire)"
+Edward I,West Denton,54.9947,-1.7089,5,6,"OS Open Names: West Denton (Suburban Area, )"
+Edward I,Fotheringhay Priory,52.5254,-0.4397,4,5,"Wikidata Q17646071 (Fotheringhay Priory, priory)"
+Edward I,Brackley,52.0326,-1.1437,4,4,"OS Open Names: Brackley (Town, West Northamptonshire)"
+Edward I,Ramsbury,51.4437,-1.6026,4,7,GeoNames: Ramsbury (GB)
+Edward I,Caversham,51.4677,-0.9745,4,10,"OS Open Names: Caversham (Other Settlement, Reading)"
+Edward I,Aylesbury,51.8171,-0.8107,4,4,"OS Open Names: Aylesbury (Town, Buckinghamshire)"
+Edward I,Thame,51.7482,-0.9795,4,7,"OS Open Names: Thame (Town, Oxfordshire)"
+Edward I,Oxford,51.752,-1.2576,4,5,"OS Open Names: Oxford (City, Oxfordshire)"
+Edward I,Leicester,52.6336,-1.1335,4,6,"OS Open Names: Leicester (City, City of Leicester)"
+Edward I,Selborne Priory,51.1054,-0.9214,4,5,"Wikidata Q17650203 (Selborne Priory, priory)"
+Edward I,Halse,52.0599,-1.1772,4,4,"OS Open Names: Halse (Village, West Northamptonshire)"
+Edward I,Buckingham,52.0011,-0.9864,4,4,"OS Open Names: Buckingham (Town, Buckinghamshire) [county as printed does not match]"
+Edward I,Queen Camel,51.0237,-2.5765,4,4,"OS Open Names: Queen Camel (Village, Somerset)"
+Edward I,Somerton,51.0538,-2.7329,4,5,"OS Open Names: Somerton (Town, Somerset)"
+Edward I,Hartlebury,52.3333,-2.2333,4,5,GeoNames: Hartlebury (GB)
+Edward I,Berkeley,51.6911,-2.4592,4,5,GeoNames: Berkeley (GB)
+Edward I,Newstead Priory,52.6583,-0.4542,4,5,"Wikidata Q7019865 (Newstead Priory, priory)"
+Edward I,Hampole,53.5865,-1.2367,4,5,"OS Open Names: Hampole (Hamlet, )"
+Edward I,Binham Priory,52.9207,0.947,4,4,"Wikidata Q4914352 (Binham Priory, priory)"
+Edward I,Hailes Abbey,51.9683,-1.9281,4,4,Wikidata Q1478728 (Hailes Abbey)
+Edward I,Hanley,53.0286,-2.1747,4,4,"OS Open Names: Hanley (Suburban Area, City of Stoke-on-Trent)"
+Edward I,Bangor,53.228,-4.1282,4,10,"OS Open Names: Bangor (City, Gwynedd - Gwynedd)"
+Edward I,Criccieth,52.9205,-4.2346,4,6,GeoNames: Criccieth (GB)
+Edward I,Blyth,53.3786,-1.0625,4,7,GeoNames: Blyth (GB)
+Edward I,Bramber,50.8848,-0.3181,4,5,"OS Open Names: Bramber (Village, West Sussex)"
+Edward I,Sherborne,50.946,-2.5178,4,5,GeoNames: Sherborne (GB)
+Edward I,Saint-Sever,43.7573,-0.5718,4,4,GeoNames: Saint-Sever (FR)
+Edward I,Pytchley,52.3638,-0.7392,4,5,OS Open Names (close spelling): Pytchley
+Edward I,Withington,51.8387,-1.9566,4,7,OS Open Names (close spelling): Withington
+Edward I,Bishop's Itchington,52.2158,-1.4304,4,5,"OS Open Names: Bishop's Itchington (Village, Warwickshire)"
+Edward I,Edinburgh,55.9533,-3.1891,4,6,"OS Open Names: Edinburgh (City, City of Edinburgh) [county as printed does not match]"
+Edward I,Newminster Abbey,55.1664,-1.7044,4,6,"Wikidata Q17643670 (Newminster Abbey, abbey)"
+Edward I,Chester-le-Street,54.8586,-1.5741,4,8,GeoNames: Chester-le-Street (GB)
+Edward I,Tickhill,53.4331,-1.1092,4,4,"OS Open Names: Tickhill (Town, ) [county as printed does not match]"
+Edward I,Garendon Abbey,52.7743,-1.2585,4,4,"Wikidata Q1494181 (Garendon Abbey, abbey)"
+Edward I,Harleston,52.403,1.2966,4,5,GeoNames: Harleston (GB)
+Edward I,Wrexham,53.0479,-2.9948,4,4,"OS Open Names: Wrexham (City, Wrecsam - Wrexham)"
+Edward I,Doncaster,53.5227,-1.1323,4,4,"OS Open Names: Doncaster (City, )"
+Edward I,Lanark,55.6738,-3.7759,4,4,"OS Open Names: Lanark (Town, South Lanarkshire) [county as printed does not match]"
+Edward I,Arbroath,56.5623,-2.5841,4,4,"OS Open Names: Arbroath (Town, Angus)"
+Edward I,Wolvesey (Winchester),51.0618,-1.311,4,4,"OS Open Names: Winchester (City, Hampshire)"
+Edward I,Thirlwall Castle,54.989,-2.532,4,4,"Wikidata Q7785119 (Thirlwall Castle, castle)"
+Edward I,Tonbridge,51.1953,0.2736,3,3,GeoNames: Tonbridge (GB)
+Edward I,Farnham,51.215,-0.799,3,5,"OS Open Names: Farnham (Town, Surrey)"
+Edward I,Luton,51.8797,-0.4175,3,3,GeoNames: Luton (GB)
+Edward I,Silverstone,52.0922,-1.026,3,4,GeoNames: Silverstone (GB)
+Edward I,Overton,51.2439,-1.2615,3,3,GeoNames: Overton (GB)
+Edward I,Balsham,52.1324,0.3159,3,4,GeoNames: Balsham (GB)
+Edward I,Witham,51.7998,0.6401,3,4,"OS Open Names: Witham (Town, Essex)"
+Edward I,Beckley,51.7934,-1.1748,3,3,"OS Open Names: Beckley (Village, Oxfordshire)"
+Edward I,Merevale Abbey,52.5771,-1.5701,3,3,"Wikidata Q17550672 (Merevale Abbey, abbey)"
+Edward I,Tideswell,53.2781,-1.7729,3,5,GeoNames: Tideswell (GB)
+Edward I,Poulton Priory,51.699,-1.8639,3,4,"Wikidata Q7235591 (Poulton Priory, priory)"
+Edward I,Caythorpe,53.0167,-0.6,3,4,GeoNames: Caythorpe (GB)
+Edward I,Nettleham,53.266,-0.4887,3,5,GeoNames: Nettleham (GB)
+Edward I,Winchelsea,50.9248,0.7083,3,6,"OS Open Names: Winchelsea (Village, East Sussex)"
+Edward I,Bath,51.3828,-2.3593,3,3,"OS Open Names: Bath (City, Bath and North East Somerset)"
+Edward I,Ware,51.8138,-0.0344,3,4,"OS Open Names: Ware (Town, Hertfordshire)"
+Edward I,Bassingbourn,52.0782,-0.0539,3,3,GeoNames: Bassingbourn (GB)
+Edward I,Abingdon,51.6711,-1.2828,3,5,GeoNames: Abingdon (GB)
+Edward I,Toddington,51.9942,-1.9687,3,3,OS Open Names (close spelling): Toddington
+Edward I,Barnwell Priory,52.2096,0.139,3,4,"Wikidata Q4862023 (Barnwell Priory, priory)"
+Edward I,Thornage,52.8848,1.0454,3,3,"OS Open Names: Thornage (Village, Norfolk)"
+Edward I,Withington,52.1,-2.6333,3,4,GeoNames: Withington (GB)
+Edward I,Eccleshall,52.8579,-2.2497,3,3,GeoNames: Eccleshall (GB)
+Edward I,Northbourne,51.2208,1.341,3,4,"OS Open Names: Northbourne (Village, Kent)"
+Edward I,Leominster,52.2258,-2.7449,3,5,GeoNames: Leominster (GB)
+Edward I,Weston,51.3959,-2.3913,3,3,"OS Open Names: Weston (Suburban Area, Bath and North East Somerset)"
+Edward I,Oakham,52.6698,-0.7301,3,3,"OS Open Names: Oakham (Town, Rutland)"
+Edward I,Knaresborough,54.0074,-1.4646,3,6,"OS Open Names: Knaresborough (Town, North Yorkshire)"
+Edward I,Ripon,54.136,-1.5234,3,3,"OS Open Names: Ripon (City, North Yorkshire)"
+Edward I,Skelton,54.713,-2.8758,3,3,"OS Open Names: Skelton (Village, Westmorland and Furness)"
+Edward I,Langley,51.5006,-0.5487,3,5,"OS Open Names: Langley (Suburban Area, Slough)"
+Edward I,Copford,51.8802,0.7965,3,3,"OS Open Names: Copford (Village, Essex)"
+Edward I,Trevor,52.9754,-3.0893,3,3,"OS Open Names: Trevor (Village, Wrecsam - Wrexham)"
+Edward I,Nefyn,52.9355,-4.5201,3,3,"OS Open Names: Nefyn (Town, Gwynedd - Gwynedd)"
+Edward I,Kidwelly,51.7364,-4.3033,3,3,GeoNames: Kidwelly (GB)
+Edward I,Dax,43.7103,-1.0537,3,3,GeoNames: Dax (FR)
+Edward I,Boulogne-sur-Mer,50.7249,1.6137,3,3,GeoNames: Boulogne-sur-Mer (FR)
+Edward I,Woodham Ferrers,51.6694,0.5972,3,3,"OS Open Names: Woodham Ferrers (Village, Essex)"
+Edward I,Stockbridge,50.8235,-0.7873,3,3,"OS Open Names: Stockbridge (Suburban Area, West Sussex)"
+Edward I,Harrow,51.5784,-0.3321,3,4,GeoNames: Harrow (GB)
+Edward I,Watford,51.6553,-0.396,3,8,GeoNames: Watford (GB)
+Edward I,Laxton,53.7201,-0.8033,3,5,GeoNames: Laxton (GB)
+Edward I,Repton,52.8398,-1.5506,3,3,GeoNames: Repton (GB)
+Edward I,Brunton,51.3076,-1.6489,3,7,"OS Open Names: Brunton (Village, Wiltshire)"
+Edward I,Market Weighton,53.865,-0.6683,3,5,"OS Open Names: Market Weighton (Town, East Riding of Yorkshire)"
+Edward I,Catton,54.1979,-1.4345,3,4,"OS Open Names: Catton (Hamlet, North Yorkshire)"
+Edward I,Brougham Castle,54.6533,-2.718,3,3,"Wikidata Q2968700 (Brougham Castle, castle)"
+Edward I,Bentley,53.5462,-1.1465,3,4,"OS Open Names: Bentley (Town, )"
+Edward I,Soham,52.3354,0.3365,3,3,GeoNames: Soham (GB)
+Edward I,Chartham,51.2562,1.0184,3,5,GeoNames: Chartham (GB)
+Edward I,Wrotham,51.3086,0.309,3,3,GeoNames: Wrotham (GB)
+Edward I,Bridgnorth,52.5358,-2.4198,3,3,OS Open Names (close spelling): Bridgnorth
+Edward I,Henllan,53.2,-3.4667,3,3,GeoNames: Henllan (GB)
+Edward I,Kildrummy Castle,57.2348,-2.9046,3,4,Wikidata Q1741270 (Kildrummy Castle)
+Edward I,Kincardine O'Neil,57.0865,-2.6732,3,3,"OS Open Names: Kincardine O'Neil (Village, Aberdeenshire)"
+Edward I,Croft,53.9199,-2.1913,3,3,"OS Open Names: Croft (Suburban Area, Lancashire)"
+Edward I,Bellasize,53.741,-0.7496,3,3,"OS Open Names: Bellasize (Other Settlement, East Riding of Yorkshire)"
+Edward I,Mayfield,51.0202,0.259,3,3,"OS Open Names: Mayfield (Village, East Sussex)"
+Edward I,Sluis,51.3083,3.3861,3,3,GeoNames: Sluis (NL)
+Edward I,Wilberfoss,53.9485,-0.8894,3,3,GeoNames: Wilberfoss (GB)
+Edward I,Stanwix,54.904,-2.9372,3,5,"OS Open Names: Stanwix (Suburban Area, Cumberland)"
+Edward I,Easton,52.3309,-0.3285,3,6,"OS Open Names: Easton (Village, Cambridgeshire)"
+Edward I,Chillenden,51.2359,1.2512,3,3,"OS Open Names: Chillenden (Village, Kent)"
+Edward I,Markyate,51.8385,-0.4634,3,3,GeoNames: Markyate (GB)
+Edward I,Cradley,52.4588,-2.0859,3,3,"OS Open Names: Cradley (Suburban Area, )"
+Edward I,Bishop's Sutton,51.0845,-1.1355,3,4,"OS Open Names: Bishop's Sutton (Village, Hampshire)"
+Edward I,Clackmannan,56.1074,-3.751,3,3,GeoNames: Clackmannan (GB)
+Edward I,Coupar Angus,56.5461,-3.2678,3,3,OS Open Names (close spelling): Coupar Angus
+Edward I,Barking,51.5333,0.0833,3,3,GeoNames: Barking (GB)
+Edward I,Croydon,51.3833,-0.1,2,2,GeoNames: Croydon (GB)
+Edward I,Radcot Castle,51.6944,-1.5898,2,2,"Wikidata Q24660965 (Radcot Castle, castle)"
+Edward I,Romsey,50.9891,-1.4998,2,2,"OS Open Names: Romsey (Town, Hampshire)"
+Edward I,Cippenham,51.5146,-0.6344,2,5,"OS Open Names: Cippenham (Suburban Area, Slough)"
+Edward I,Burton upon Trent,52.8074,-1.6448,2,2,"OS Open Names: Burton upon Trent (Town, Staffordshire)"
+Edward I,Tarvin,53.1977,-2.7633,2,3,"OS Open Names: Tarvin (Village, Cheshire West and Chester)"
+Edward I,Acton,53.0596,-2.9835,2,2,"OS Open Names: Acton (Suburban Area, Wrecsam - Wrexham)"
+Edward I,Launde Priory,52.631,-0.8237,2,3,"Wikidata Q6498471 (Launde Priory, priory)"
+Edward I,Ayston,52.5992,-0.7299,2,2,"OS Open Names: Ayston (Hamlet, Rutland)"
+Edward I,Downton,50.9937,-1.7513,2,3,GeoNames: Downton (GB)
+Edward I,Charminster,50.7333,-2.45,2,3,GeoNames: Charminster (GB)
+Edward I,Burford,51.8077,-1.6367,2,3,"OS Open Names: Burford (Town, Oxfordshire)"
+Edward I,Croxton,53.5964,-0.3483,2,2,GeoNames: Croxton (GB)
+Edward I,Kirton,52.9283,-0.058,2,2,OS Open Names (close spelling): Kirton
+Edward I,Therfield,52.0176,-0.0548,2,2,"OS Open Names: Therfield (Village, Hertfordshire)"
+Edward I,Coleham,52.704,-2.7488,2,2,"OS Open Names: Coleham (Suburban Area, Shropshire)"
+Edward I,Dureford Abbey,51.008,-0.851,2,2,"Wikidata Q5316344 (Dureford Abbey, abbey)"
+Edward I,Aldingbourne,50.8407,-0.6872,2,4,"OS Open Names: Aldingbourne (Village, West Sussex)"
+Edward I,Battle,50.9185,0.4823,2,2,"OS Open Names: Battle (Town, East Sussex)"
+Edward I,New Romney,50.9858,0.9402,2,2,"OS Open Names: New Romney (Town, Kent)"
+Edward I,Keynsham,51.4139,-2.4978,2,2,GeoNames: Keynsham (GB)
+Edward I,Swell,51.0063,-2.901,2,2,"OS Open Names: Swell (Hamlet, Somerset)"
+Edward I,Osney,51.7502,-1.2734,2,2,OS Open Names (close spelling): Osney
+Edward I,Gaywood,52.7559,0.4339,2,3,"OS Open Names: Gaywood (Suburban Area, Norfolk)"
+Edward I,Coxford Priory,52.8267,0.7412,2,2,"Wikidata Q5179949 (Coxford Priory, priory)"
+Edward I,Gimingham,52.8763,1.3905,2,2,"OS Open Names: Gimingham (Village, Norfolk)"
+Edward I,Bromholm Priory,52.8458,1.4846,2,2,"Wikidata Q4973637 (Bromholm Priory, priory)"
+Edward I,Yarmouth,50.7062,-1.4972,2,2,"OS Open Names: Yarmouth (Town, Isle of Wight) [county as printed does not match]"
+Edward I,Dunwich,52.2746,1.6257,2,2,"OS Open Names: Dunwich (Village, Suffolk)"
+Edward I,Stourton Castle,52.4621,-2.2086,2,3,"Wikidata Q26525560 (Stourton Castle, castle)"
+Edward I,Stanlow Abbey,53.2902,-2.8598,2,2,"Wikidata Q16248123 (Stanlow Abbey, abbey)"
+Edward I,Ince,53.2833,-2.8333,2,2,GeoNames: Ince (GB)
+Edward I,St Asaph,53.2579,-3.4457,2,2,"OS Open Names: St Asaph (City, Sir Ddinbych - Denbighshire)"
+Edward I,Elcombe,51.6738,-2.3164,2,2,"OS Open Names: Elcombe (Hamlet, Gloucestershire)"
+Edward I,Isleworth,51.4752,-0.3425,2,2,GeoNames: Isleworth (GB)
+Edward I,Cricklade,51.6406,-1.8574,2,3,GeoNames: Cricklade (GB)
+Edward I,Brewood,52.6771,-2.1741,2,2,GeoNames: Brewood (GB)
+Edward I,Buckden,52.2942,-0.2491,2,2,GeoNames: Buckden (GB)
+Edward I,Newport Pagnell,52.0868,-0.7222,2,4,"OS Open Names: Newport Pagnell (Town, Milton Keynes)"
+Edward I,Hodsock,53.3615,-1.0817,2,2,"OS Open Names: Hodsock (Hamlet, Nottinghamshire)"
+Edward I,Bowes,54.5164,-2.016,2,2,GeoNames: Bowes (GB)
+Edward I,Appleby Castle,54.5742,-2.4888,2,2,"Wikidata Q1639481 (Appleby Castle, castle)"
+Edward I,Stockton-on-Tees,54.564,-1.3127,2,2,"OS Open Names: Stockton-on-Tees (Town, Stockton-on-Tees)"
+Edward I,Hatfield Peverel,51.7752,0.592,2,2,OS Open Names (close spelling): Hatfield Peverel
+Edward I,Malmesbury,51.5817,-2.0971,2,2,GeoNames: Malmesbury (GB)
+Edward I,Aberffraw,53.1914,-4.4648,2,2,"OS Open Names: Aberffraw (Village, Sir Ynys Mon - Isle of Anglesey)"
+Edward I,Hope,53.1167,-3.0333,2,3,GeoNames: Hope (GB)
+Edward I,Mold,53.1677,-3.1423,2,2,"OS Open Names: Mold (Town, Sir y Fflint - Flintshire)"
+Edward I,Newbury,51.4003,-1.3231,2,2,"OS Open Names: Newbury (Town, West Berkshire)"
+Edward I,Crondall,51.2328,-0.8633,2,2,GeoNames: Crondall (GB)
+Edward I,Uckfield,50.9695,0.0959,2,2,GeoNames: Uckfield (GB)
+Edward I,Micheldever,51.1486,-1.2645,2,2,"OS Open Names: Micheldever (Village, Hampshire)"
+Edward I,New Place Manor,50.9637,-0.5013,2,2,"Wikidata Q17532452 (New Place Manor, manor house)"
+Edward I,Orléans,47.9025,1.9041,2,2,GeoNames: Orléans (FR)
+Edward I,Bergerac,44.8516,0.4817,2,2,GeoNames: Bergerac (FR)
+Edward I,Lamarque,45.0962,-0.7177,2,2,GeoNames: Lamarque (FR)
+Edward I,Bourg-la-Reine,48.7789,2.3178,2,5,GeoNames: Bourg-la-Reine (FR)
+Edward I,Agen,44.202,0.6206,2,2,GeoNames: Agen (FR)
+Edward I,Tours,47.3948,0.704,2,2,GeoNames: Tours (FR)
+Edward I,Chartres,48.4468,1.4892,2,2,GeoNames: Chartres (FR)
+Edward I,Senlis,49.2072,2.5866,2,3,GeoNames: Senlis (FR)
+Edward I,Messing,51.8362,0.7497,2,2,"OS Open Names: Messing (Village, Essex)"
+Edward I,Esher,51.3694,-0.3657,2,4,"OS Open Names: Esher (Town, Surrey)"
+Edward I,Eynsham,51.7808,-1.3745,2,2,GeoNames: Eynsham (GB)
+Edward I,High Marnham,53.2223,-0.7931,2,3,"OS Open Names: High Marnham (Hamlet, Nottinghamshire)"
+Edward I,Welbeck Abbey,53.2621,-1.156,2,2,"Wikidata Q2390615 (Welbeck Abbey, abbey)"
+Edward I,Marton Priory,54.1179,-1.1077,2,3,"Wikidata Q6777305 (Marton Priory, priory)"
+Edward I,Felton,55.2977,-1.7114,2,4,GeoNames: Felton (GB)
+Edward I,Coldingham Priory,55.8865,-2.1552,2,3,"Wikidata Q5142535 (Coldingham Priory, priory)"
+Edward I,Shadwell,51.5114,-0.0566,2,2,GeoNames: Shadwell (GB)
+Edward I,Waverley Abbey,51.2004,-0.7583,2,4,"Wikidata Q1295286 (Waverley Abbey, abbey)"
+Edward I,Godalming,51.1855,-0.6142,2,4,"OS Open Names: Godalming (Town, Surrey)"
+Edward I,Mortlake,51.4695,-0.2675,2,2,GeoNames: Mortlake (GB)
+Edward I,Pocklington,53.9333,-0.7811,2,3,GeoNames: Pocklington (GB)
+Edward I,Duffield,52.9863,-1.4887,2,2,GeoNames: Duffield (GB)
+Edward I,Loughborough,52.7667,-1.2,2,3,GeoNames: Loughborough (GB)
+Edward I,Seagrave,52.754,-1.0864,2,2,OS Open Names (close spelling): Seagrave
+Edward I,Ketton,52.628,-0.5546,2,3,GeoNames: Ketton (GB)
+Edward I,Wansford,52.5785,-0.42,2,2,GeoNames: Wansford (GB)
+Edward I,Ellington,52.3319,-0.3006,2,3,"OS Open Names: Ellington (Village, Cambridgeshire)"
+Edward I,Yaxley,52.5177,-0.2585,2,2,GeoNames: Yaxley (GB)
+Edward I,Sawtry,52.4398,-0.2842,2,2,GeoNames: Sawtry (GB)
+Edward I,Broughton,52.3733,-0.7749,2,2,GeoNames: Broughton (GB)
+Edward I,Saint Ives,52.3325,-0.0766,2,3,GeoNames: Saint Ives (GB)
+Edward I,Chelsea,51.4875,-0.1694,2,3,GeoNames: Chelsea (GB)
+Edward I,Hadleigh,51.5527,0.6098,2,2,GeoNames: Hadleigh (GB)
+Edward I,Wargrave,51.5007,-0.8658,2,2,GeoNames: Wargrave (GB)
+Edward I,Stowmarket,52.1889,0.9977,2,2,GeoNames: Stowmarket (GB)
+Edward I,Otford,51.3128,0.1905,2,2,GeoNames: Otford (GB)
+Edward I,Bramshott Manor,51.0888,-0.7988,2,3,"Wikidata Q17533040 (Bramshott Manor, manor house)"
+Edward I,Rowner,50.8122,-1.1702,2,3,"OS Open Names: Rowner (Suburban Area, Hampshire)"
+Edward I,Funtley,50.8712,-1.2027,2,4,"OS Open Names: Funtley (Village, Hampshire)"
+Edward I,Abergele,53.2844,-3.5829,2,2,"OS Open Names: Abergele (Town, Conwy - Conwy)"
+Edward I,Towyn,53.3022,-3.5401,2,2,"OS Open Names: Towyn (Village, Conwy - Conwy)"
+Edward I,Beaumaris,53.2636,-4.093,2,2,"OS Open Names: Beaumaris (Town, Sir Ynys Mon - Isle of Anglesey)"
+Edward I,Rainham,51.3632,0.6089,2,2,GeoNames: Rainham (GB)
+Edward I,Robertsbridge,50.9857,0.4725,2,2,GeoNames: Robertsbridge (GB)
+Edward I,Great Massingham,52.7733,0.6643,2,3,"OS Open Names: Great Massingham (Village, Norfolk)"
+Edward I,Stow Bardolph,52.6261,0.4045,2,2,OS Open Names (close spelling): Stow Bardolph
+Edward I,Dunbar,56.0017,-2.5156,2,2,"OS Open Names: Dunbar (Town, East Lothian)"
+Edward I,Lauder,55.7191,-2.7475,2,4,GeoNames: Lauder (GB)
+Edward I,Forfar,56.6441,-2.889,2,3,"OS Open Names: Forfar (Town, Angus) [county as printed does not match]"
+Edward I,Tuxford,53.23,-0.8932,2,2,GeoNames: Tuxford (GB)
+Edward I,Great Waldingfield,52.0581,0.7755,2,2,"OS Open Names: Great Waldingfield (Village, Suffolk)"
+Edward I,Bygrave,52.0104,-0.1603,2,3,"OS Open Names: Bygrave (Village, Hertfordshire)"
+Edward I,Buckfastleigh,50.4813,-3.7791,2,2,GeoNames: Buckfastleigh (GB)
+Edward I,Newton Ferrers,50.3147,-4.0392,2,2,GeoNames: Newton Ferrers (GB)
+Edward I,Dorchester,50.7167,-2.4333,2,3,GeoNames: Dorchester (GB)
+Edward I,Chillingham,55.5281,-1.9118,2,3,"OS Open Names: Chillingham (Hamlet, Northumberland)"
+Edward I,Redpath,55.6139,-2.661,2,3,"OS Open Names: Redpath (Hamlet, Scottish Borders)"
+Edward I,Ayr,55.4582,-4.629,2,2,"OS Open Names: Ayr (Town, South Ayrshire)"
+Edward I,Lochmaben,55.1301,-3.4429,2,2,GeoNames: Lochmaben (GB)
+Edward I,Womenswold,51.2107,1.1876,2,4,"OS Open Names: Womenswold (Hamlet, Kent)"
+Edward I,Cranbrook,51.0966,0.5357,2,2,GeoNames: Cranbrook (GB)
+Edward I,Sherburn,54.1777,-0.5329,2,2,"OS Open Names: Sherburn (Village, North Yorkshire)"
+Edward I,Middleton,53.7513,-1.541,2,3,"OS Open Names: Middleton (Suburban Area, )"
+Edward I,Woodham,54.6341,-1.5594,2,2,"OS Open Names: Woodham (Suburban Area, County Durham)"
+Edward I,Charlton,55.1575,-2.3002,2,2,"OS Open Names: Charlton (Hamlet, Northumberland)"
+Edward I,Gateshead,54.9599,-1.605,2,2,"OS Open Names: Gateshead (Town, )"
+Edward I,Wetherby,53.9285,-1.3869,2,2,"OS Open Names: Wetherby (Town, )"
+Edward I,Horton,52.1835,-0.802,2,2,"OS Open Names: Horton (Village, West Northamptonshire)"
+Edward I,Stamford,52.6521,-0.4811,2,5,"OS Open Names: Stamford (Town, Lincolnshire)"
+Edward I,Wigton,54.8248,-3.1611,2,2,"OS Open Names: Wigton (Town, Cumberland) [county as printed does not match]"
+Edward I,Mowsley,52.4954,-1.0489,2,2,"OS Open Names: Mowsley (Village, Leicestershire)"
+Edward I,Sulby,52.4328,-1.0382,2,2,"OS Open Names: Sulby (Other Settlement, Leicestershire)"
+Edward I,Burton,53.2667,-0.5667,2,2,GeoNames: Burton (GB)
+Edward I,Selkirk,55.5478,-2.8407,2,3,"OS Open Names: Selkirk (Town, Scottish Borders) [county as printed does not match]"
+Edward I,Dalton,53.6534,-1.7425,2,2,"OS Open Names: Dalton (Suburban Area, )"
+Edward I,Gainsborough,53.3833,-0.7667,2,2,GeoNames: Gainsborough (GB)
+Edward I,Horley,51.1717,-0.1636,2,2,OS Open Names (close spelling): Horley
+Edward I,Cheshunt,51.7026,-0.0428,2,2,"OS Open Names: Cheshunt (Town, Hertfordshire)"
+Edward I,Puckeridge,51.8901,0.0131,2,2,GeoNames: Puckeridge (GB)
+Edward I,Scone,56.4194,-3.4051,2,2,GeoNames: Scone (GB)
+Edward I,Tullibardine Castle,56.3051,-3.7635,2,2,"Wikidata Q105418721 (Tullibardine Castle, castle)"
+Edward I,Bolton,55.4166,-1.8336,2,2,"OS Open Names: Bolton (Hamlet, Northumberland)"
+Edward I,Bainton,53.95,-0.5333,2,2,GeoNames: Bainton (GB)
+Edward I,Wickford,51.6132,0.5208,2,2,"OS Open Names: Wickford (Town, Essex)"
+Edward I,West Parley,50.7828,-1.8909,2,2,"OS Open Names: West Parley (Village, Dorset)"
+Edward I,Itchen Stoke,51.0885,-1.2035,2,2,"OS Open Names: Itchen Stoke (Village, Hampshire)"
+Edward I,Bradley,54.7081,-2.592,2,2,"OS Open Names: Bradley (Suburban Area, Westmorland and Furness)"
+Edward I,Henshaw,53.86,-1.6902,2,3,"OS Open Names: Henshaw (Suburban Area, )"
+Edward I,Haltwhistle,54.971,-2.4568,2,2,GeoNames: Haltwhistle (GB)
+Edward I,Overstone,52.29,-0.8183,1,5,"OS Open Names: Overstone (Village, West Northamptonshire)"
+Edward I,Aldbourne,51.481,-1.6183,1,1,GeoNames: Aldbourne (GB)
+Edward I,Lavenham,52.1086,0.7962,1,1,GeoNames: Lavenham (GB)
+Edward I,Sutton,53.436,-2.7092,1,4,"OS Open Names: Sutton (Suburban Area, )"
+Edward I,Lichfield,52.6831,-1.8273,1,1,"OS Open Names: Lichfield (City, Staffordshire)"
+Edward I,Irthlingborough,52.3266,-0.6117,1,1,OS Open Names (close spelling): Irthlingborough
+Edward I,Berkhamsted,51.7637,-0.5746,1,2,OS Open Names (close spelling): Berkhamsted
+Edward I,Leighton Buzzard,51.9172,-0.658,1,1,GeoNames: Leighton Buzzard (GB)
+Edward I,Woodford,51.1167,-1.8333,1,1,GeoNames: Woodford (GB)
+Edward I,Compton,51.2678,-1.8109,1,2,"OS Open Names: Compton (Hamlet, Wiltshire)"
+Edward I,Byfield,52.1755,-1.2457,1,1,GeoNames: Byfield (GB)
+Edward I,Sixhills,53.3687,-0.2491,1,1,OS Open Names (close spelling): Sixhills
+Edward I,Laughton,50.8983,0.1342,1,1,"OS Open Names: Laughton (Village, East Sussex)"
+Edward I,Horton,51.4731,-0.5424,1,1,GeoNames: Horton (GB)
+Edward I,Boyton,51.155,-2.0711,1,1,GeoNames: Boyton (GB)
+Edward I,Thornbury,51.6089,-2.5203,1,1,GeoNames: Thornbury (GB)
+Edward I,Baldock,51.9878,-0.1883,1,6,GeoNames: Baldock (GB)
+Edward I,Kelmscott,51.692,-1.6403,1,1,"OS Open Names: Kelmscott (Village, Oxfordshire)"
+Edward I,Highworth,51.6306,-1.712,1,1,"OS Open Names: Highworth (Town, Swindon)"
+Edward I,Blockley,52.0122,-1.7627,1,2,GeoNames: Blockley (GB)
+Edward I,Broadway,52.0382,-1.8608,1,1,GeoNames: Broadway (GB)
+Edward I,Hitchin,51.9495,-0.2801,1,2,"OS Open Names: Hitchin (Town, Hertfordshire)"
+Edward I,Waterbeach,52.2655,0.1912,1,1,GeoNames: Waterbeach (GB)
+Edward I,Dereham,52.682,0.9405,1,1,"OS Open Names: Dereham (Town, Norfolk)"
+Edward I,Hevingham,52.743,1.2551,1,1,"OS Open Names: Hevingham (Village, Norfolk)"
+Edward I,Wrentham,52.3847,1.6702,1,1,"OS Open Names: Wrentham (Village, Suffolk)"
+Edward I,Framlingham,52.2211,1.3419,1,2,"OS Open Names: Framlingham (Town, Suffolk)"
+Edward I,Orford Castle,52.0942,1.5307,1,1,"Wikidata Q1964047 (Orford Castle, castle)"
+Edward I,Stratford,51.5333,0.0,1,1,GeoNames: Stratford (GB)
+Edward I,Prestbury,51.9136,-2.0445,1,1,"OS Open Names: Prestbury (Village, Gloucestershire)"
+Edward I,Wolverhampton,52.5862,-2.1299,1,1,"OS Open Names: Wolverhampton (City, )"
+Edward I,Stafford,52.8058,-2.1167,1,2,"OS Open Names: Stafford (Town, Staffordshire) [county as printed does not match]"
+Edward I,Darnhall,53.1642,-2.5476,1,1,OS Open Names (close spelling): Darnhall
+Edward I,Montgomery,52.5604,-3.1476,1,1,"OS Open Names: Montgomery (Town, Powys - Powys)"
+Edward I,Uxbridge,51.5489,-0.4821,1,1,GeoNames: Uxbridge (GB)
+Edward I,Teynham,51.3304,0.8053,1,2,GeoNames: Teynham (GB)
+Edward I,Lesnes Abbey,51.4885,0.1292,1,2,"Wikidata Q6531292 (Lesnes Abbey, abbey)"
+Edward I,Brightwell Manor,51.6126,-1.1666,1,1,"Wikidata Q26650278 (Brightwell Manor, manor house)"
+Edward I,Avebury,51.4167,-1.8667,1,2,GeoNames: Avebury (GB)
+Edward I,Edington,51.2758,-2.1064,1,1,GeoNames: Edington (GB)
+Edward I,Bruton,51.1125,-2.4536,1,2,"OS Open Names: Bruton (Town, Somerset)"
+Edward I,Wells,51.2086,-2.6472,1,2,"OS Open Names: Wells (City, Somerset)"
+Edward I,Donhead St Andrew,51.0244,-2.1187,1,1,"OS Open Names: Donhead St Andrew (Village, Wiltshire)"
+Edward I,Fordingbridge,50.9275,-1.7898,1,1,"OS Open Names: Fordingbridge (Town, Hampshire)"
+Edward I,Stanstead,52.1112,0.6923,1,1,"OS Open Names: Stanstead (Village, Suffolk)"
+Edward I,Petworth,50.9856,-0.6085,1,2,"OS Open Names: Petworth (Town, West Sussex)"
+Edward I,Warfield,51.4421,-0.728,1,1,GeoNames: Warfield (GB)
+Edward I,Eversley,51.3539,-0.8889,1,1,GeoNames: Eversley (GB)
+Edward I,Andover,51.2075,-1.4792,1,2,"OS Open Names: Andover (Town, Hampshire)"
+Edward I,Brockworth,51.8479,-2.1584,1,1,"OS Open Names: Brockworth (Village, Gloucestershire)"
+Edward I,Moreton,50.7044,-2.2984,1,2,"OS Open Names: Moreton (Village, Dorset)"
+Edward I,Wigmore,52.3147,-2.858,1,3,GeoNames: Wigmore (GB)
+Edward I,Ellesmere,52.9073,-2.8938,1,1,"OS Open Names: Ellesmere (Town, Shropshire)"
+Edward I,Vale Royal Abbey,53.2247,-2.5426,1,2,"Wikidata Q1623747 (Vale Royal Abbey, abbey)"
+Edward I,Congleton,53.1631,-2.2125,1,1,GeoNames: Congleton (GB)
+Edward I,Tewkesbury,51.9924,-2.1601,1,1,GeoNames: Tewkesbury (GB)
+Edward I,Newmarket,52.2447,0.4042,1,3,GeoNames: Newmarket (GB)
+Edward I,Henbury,51.5074,-2.6311,1,1,"OS Open Names: Henbury (Suburban Area, City of Bristol)"
+Edward I,Airaines,49.9683,1.9427,1,1,GeoNames: Airaines (FR)
+Edward I,Biggleswade,52.0865,-0.2649,1,1,GeoNames: Biggleswade (GB)
+Edward I,Stapleford,51.1167,-1.9,1,1,GeoNames: Stapleford (GB)
+Edward I,Dorchester Abbey,51.6437,-1.1644,1,1,"Wikidata Q5297593 (Dorchester Abbey, abbey)"
+Edward I,Old Basing,51.273,-1.047,1,3,"OS Open Names: Old Basing (Village, Hampshire)"
+Edward I,Cawood,53.833,-1.1296,1,2,GeoNames: Cawood (GB)
+Edward I,Richmond,54.4036,-1.7343,1,1,GeoNames: Richmond (GB)
+Edward I,Pickering,54.2462,-0.7788,1,2,"OS Open Names: Pickering (Town, North Yorkshire)"
+Edward I,Scarborough,54.2797,-0.4044,1,1,GeoNames: Scarborough (GB)
+Edward I,Shouldham Priory,52.6575,0.4832,1,2,"Wikidata Q7502736 (Shouldham Priory, priory)"
+Edward I,Docking,52.901,0.6237,1,2,"OS Open Names: Docking (Village, Norfolk)"
+Edward I,Shirburn,51.6569,-0.9915,1,1,"OS Open Names: Shirburn (Village, Oxfordshire)"
+Edward I,Fobbing,51.5347,0.4723,1,1,"OS Open Names: Fobbing (Village, Thurrock)"
+Edward I,Binstead,50.7271,-1.1907,1,1,"OS Open Names: Binstead (Suburban Area, Isle of Wight)"
+Edward I,Offenham,52.1123,-1.922,1,3,"OS Open Names: Offenham (Village, Worcestershire)"
+Edward I,Adderley,52.9543,-2.5037,1,1,"OS Open Names: Adderley (Village, Shropshire)"
+Edward I,Nantwich,53.0688,-2.5205,1,2,"OS Open Names: Nantwich (Town, Cheshire East)"
+Edward I,Newton,53.2065,-2.8735,1,1,"OS Open Names: Newton (Suburban Area, Cheshire West and Chester)"
+Edward I,Betws-y-coed,53.0924,-3.8011,1,1,OS Open Names (close spelling): Betws-y-coed
+Edward I,Penrhos,53.2942,-4.5966,1,1,"OS Open Names: Penrhos (Suburban Area, Sir Ynys Mon - Isle of Anglesey)"
+Edward I,Bromyard,52.1902,-2.5088,1,2,GeoNames: Bromyard (GB)
+Edward I,Shrawardine Castle,52.7327,-2.8891,1,1,"Wikidata Q17671905 (Shrawardine Castle, castle)"
+Edward I,Tadcaster,53.8847,-1.264,1,1,"OS Open Names: Tadcaster (Town, North Yorkshire)"
+Edward I,Stone,52.9014,-2.1452,1,1,"OS Open Names: Stone (Town, Staffordshire)"
+Edward I,Tarporley,53.1592,-2.6687,1,1,GeoNames: Tarporley (GB)
+Edward I,Rylstone,54.024,-2.0482,1,1,OS Open Names (close spelling): Rylstone
+Edward I,Malpas,53.0167,-2.7667,1,1,GeoNames: Malpas (GB)
+Edward I,Haverfordwest,51.8036,-4.9697,1,2,"OS Open Names: Haverfordwest (Town, Sir Benfro - Pembrokeshire)"
+Edward I,Pembroke,51.675,-4.9137,1,2,"OS Open Names: Pembroke (Town, Sir Benfro - Pembrokeshire)"
+Edward I,Neath,51.6642,-3.8034,1,1,"OS Open Names: Neath (Town, Castell-nedd Port Talbot - Neath Port Talbot)"
+Edward I,Ogmore Castle,51.4806,-3.6115,1,1,"Wikidata Q1789059 (Ogmore Castle, castle)"
+Edward I,Wotton,51.2153,-0.3849,1,1,"OS Open Names: Wotton (Village, Surrey)"
+Edward I,Reigate,51.2377,-0.2058,1,1,"OS Open Names: Reigate (Town, Surrey)"
+Edward I,Higham,52.2639,0.5566,1,1,OS Open Names (close spelling): Higham
+Edward I,Fakenham,52.83,0.8477,1,1,GeoNames: Fakenham (GB)
+Edward I,West Dereham Abbey,52.5781,0.4503,1,2,"Wikidata Q7984961 (West Dereham Abbey, abbey)"
+Edward I,Blandford Forum,50.857,-2.1652,1,2,"OS Open Names: Blandford Forum (Town, Dorset)"
+Edward I,Corscombe,50.8457,-2.6828,1,1,"OS Open Names: Corscombe (Village, Dorset)"
+Edward I,Enford,51.263,-1.8011,1,2,OS Open Names (close spelling): Enford
+Edward I,Weybridge,51.3724,-0.4592,1,1,"OS Open Names: Weybridge (Town, Surrey)"
+Edward I,Midhurst,50.9855,-0.74,1,2,"OS Open Names: Midhurst (Town, West Sussex)"
+Edward I,Auxerre,47.7996,3.5703,1,1,GeoNames: Auxerre (FR)
+Edward I,Saint-Fargeau,47.6413,3.0707,1,1,GeoNames: Saint-Fargeau (FR)
+Edward I,Blanquefort,44.9106,-0.6376,1,3,GeoNames: Blanquefort (FR)
+Edward I,Bayonne,43.4932,-1.473,1,1,GeoNames: Bayonne (FR)
+Edward I,Jaca,42.569,-0.5499,1,1,GeoNames (close spelling): Jaca
+Edward I,Bellegarde,47.9833,2.4333,1,1,GeoNames: Bellegarde (FR)
+Edward I,Nogaro,43.7582,-0.0338,1,1,GeoNames (close spelling): Nogaro
+Edward I,Eauze,43.8607,0.1006,1,1,GeoNames: Eauze (FR)
+Edward I,Nérac,44.136,0.3384,1,1,GeoNames: Nérac (FR)
+Edward I,Lavardac,44.1795,0.2983,1,1,GeoNames: Lavardac (FR)
+Edward I,Saint-Émilion,44.8926,-0.1561,1,1,GeoNames (close spelling): Saint-Émilion
+Edward I,Poitiers,46.5826,0.3435,1,1,GeoNames: Poitiers (FR)
+Edward I,Châtellerault,46.8171,0.5452,1,1,GeoNames (close spelling): Châtellerault
+Edward I,Vendôme,47.7929,1.0656,1,1,GeoNames: Vendôme (FR)
+Edward I,Nesle,49.7589,2.9113,1,1,GeoNames: Nesle (FR)
+Edward I,Gonesse,48.9869,2.4489,1,1,GeoNames: Gonesse (FR)
+Edward I,Otham,51.2536,0.5754,1,1,OS Open Names (close spelling): Otham
+Edward I,Barnham,52.3786,0.7472,1,1,"OS Open Names: Barnham (Village, Suffolk)"
+Edward I,Hungerford,51.4151,-1.5156,1,1,GeoNames: Hungerford (GB)
+Edward I,Christchurch,50.7384,-1.7818,1,2,"OS Open Names: Christchurch (Town, Bournemouth, Christchurch and Poole)"
+Edward I,Putney,51.4607,-0.2181,1,2,GeoNames: Putney (GB)
+Edward I,Henton,51.7172,-0.8978,1,1,"OS Open Names: Henton (Village, Oxfordshire)"
+Edward I,Winchcombe,51.9536,-1.9639,1,3,"OS Open Names: Winchcombe (Town, Gloucestershire)"
+Edward I,Lambourn,51.508,-1.5311,1,1,GeoNames: Lambourn (GB)
+Edward I,Fingringhoe,51.8425,0.9397,1,1,"OS Open Names: Fingringhoe (Village, Essex)"
+Edward I,Silverstone,52.0891,-1.026,1,3,OS Open Names (close spelling): Silverstone
+Edward I,Ardley Castle,51.9419,-1.2173,1,1,"Wikidata Q4788169 (Ardley Castle, castle)"
+Edward I,Melchbourne,52.2804,-0.4936,1,1,OS Open Names (close spelling): Melchbourne
+Edward I,Rufford Abbey,53.1753,-1.0356,1,3,"Wikidata Q964363 (Rufford Abbey, abbey)"
+Edward I,Enfield,51.6522,-0.0844,1,1,"OS Open Names: Enfield (Other Settlement, Greater London)"
+Edward I,Weston,53.0667,-2.4,1,1,GeoNames: Weston (GB)
+Edward I,Belper,53.0233,-1.4813,1,1,"OS Open Names: Belper (Town, Derbyshire)"
+Edward I,Elmdon,52.4466,-1.7533,1,2,"OS Open Names: Elmdon (Suburban Area, )"
+Edward I,Upsettlington Castle,55.7233,-2.1518,1,1,"Wikidata Q42887888 (Upsettlington Castle, castle)"
+Edward I,Chatton,55.549,-1.9126,1,3,"OS Open Names: Chatton (Village, Northumberland)"
+Edward I,Edmonton,51.6256,-0.058,1,1,GeoNames: Edmonton (GB)
+Edward I,Boxley Abbey,51.3002,0.5248,1,4,"Wikidata Q895699 (Boxley Abbey, abbey)"
+Edward I,Trotton,50.9943,-0.8042,1,1,"OS Open Names: Trotton (Village, West Sussex)"
+Edward I,Auckland Castle,54.6664,-1.6706,1,2,"Wikidata Q4819493 (Auckland Castle, castle)"
+Edward I,Newsham,55.1138,-1.531,1,1,"OS Open Names: Newsham (Suburban Area, Northumberland)"
+Edward I,Morland,54.5956,-2.6233,1,1,"OS Open Names: Morland (Village, Westmorland and Furness)"
+Edward I,Hutton in the Forest,54.714,-2.839,1,1,"Wikidata Q5951100 (Hutton in the Forest, castle)"
+Edward I,Fimber,54.035,-0.6313,1,2,GeoNames: Fimber (GB)
+Edward I,Pleasley,53.173,-1.2475,1,1,OS Open Names (close spelling): Pleasley
+Edward I,Codnor,53.0429,-1.3748,1,1,"OS Open Names: Codnor (Suburban Area, Derbyshire)"
+Edward I,Findern,52.8704,-1.5441,1,1,GeoNames: Findern (GB)
+Edward I,Helmdon,52.0884,-1.1447,1,1,"OS Open Names: Helmdon (Village, West Northamptonshire)"
+Edward I,Wheathampstead,51.8118,-0.2939,1,2,OS Open Names (close spelling): Wheathampstead
+Edward I,Northwood,51.6116,-0.4245,1,1,GeoNames: Northwood (GB)
+Edward I,Bere Regis,50.7534,-2.2185,1,1,OS Open Names (close spelling): Bere Regis
+Edward I,Shepton Mallet,51.1898,-2.5473,1,1,"OS Open Names: Shepton Mallet (Town, Somerset)"
+Edward I,Publow,51.3788,-2.5435,1,1,GeoNames: Publow (GB)
+Edward I,Winterbourne,51.5233,-2.5044,1,1,GeoNames: Winterbourne (GB)
+Edward I,Milton Abbas,50.818,-2.2697,1,2,"OS Open Names: Milton Abbas (Village, Dorset)"
+Edward I,Hounslow,51.4684,-0.3609,1,1,GeoNames: Hounslow (GB)
+Edward I,Denham,51.5667,-0.5,1,1,GeoNames: Denham (GB)
+Edward I,Chelmsford,51.7371,0.4736,1,1,"OS Open Names: Chelmsford (City, Essex)"
+Edward I,Bletchingley,51.2406,-0.1004,1,1,GeoNames: Bletchingley (GB)
+Edward I,Betchworth Castle,51.2372,-0.2965,1,1,"Wikidata Q4897394 (Betchworth Castle, castle)"
+Edward I,Holbrook,51.9834,1.1585,1,1,GeoNames: Holbrook (GB)
+Edward I,Hodnet,52.8537,-2.5757,1,1,"OS Open Names: Hodnet (Village, Shropshire)"
+Edward I,Wyke,52.6159,-2.5219,1,1,"OS Open Names: Wyke (Hamlet, Shropshire)"
+Edward I,Llandegla,53.059,-3.1988,1,1,GeoNames: Llandegla (GB)
+Edward I,Llanrug,53.1479,-4.196,1,2,GeoNames: Llanrug (GB)
+Edward I,Tal-y-bont,52.7747,-4.0922,1,1,GeoNames: Tal-y-bont (GB)
+Edward I,Ffynnon-oer,52.1618,-4.1462,1,2,OS Open Names (close spelling): Ffynnon-oer
+Edward I,Llanmihangel,51.4363,-3.4681,1,1,OS Open Names (close spelling): Llanmihangel
+Edward I,Llanarth,52.1942,-4.3081,1,1,GeoNames: Llanarth (GB)
+Edward I,Brentford,51.4862,-0.3083,1,2,GeoNames: Brentford (GB)
+Edward I,Erith,51.4832,0.1748,1,1,GeoNames: Erith (GB)
+Edward I,Eltham,51.4506,0.0522,1,1,GeoNames: Eltham (GB)
+Edward I,Wyham,53.4369,-0.0746,1,1,OS Open Names (close spelling): Wyham
+Edward I,Benington,52.9925,0.0779,1,1,OS Open Names (close spelling): Benington
+Edward I,Fenwick,55.0506,-1.9127,1,1,"OS Open Names: Fenwick (Hamlet, Northumberland)"
+Edward I,Hutton Castle,55.7875,-2.1784,1,1,"Wikidata Q11839261 (Hutton Castle, castle)"
+Edward I,Clunie,56.5779,-3.4503,1,2,"OS Open Names: Clunie (Other Settlement, Perth and Kinross)"
+Edward I,Glenbervie,56.9169,-2.3858,1,2,"OS Open Names: Glenbervie (Other Settlement, Aberdeenshire)"
+Edward I,Cullen,57.6904,-2.8182,1,2,GeoNames: Cullen (GB)
+Edward I,Arbroath,56.5632,-2.5874,1,2,GeoNames: Arbroath (GB)
+Edward I,Markinch,56.2021,-3.1352,1,1,GeoNames: Markinch (GB)
+Edward I,Fenham,54.9816,-1.6622,1,1,"OS Open Names: Fenham (Suburban Area, )"
+Edward I,Colton,53.7937,-1.4439,1,1,"OS Open Names: Colton (Suburban Area, )"
+Edward I,Kersey Priory,52.0625,0.9146,1,1,"Wikidata Q6394727 (Kersey Priory, priory)"
+Edward I,Dean,50.9707,-1.1972,1,1,"OS Open Names: Dean (Hamlet, Hampshire)"
+Edward I,Langford,51.723,-1.6431,1,2,"OS Open Names: Langford (Village, Oxfordshire)"
+Edward I,Broadmere,51.2235,-1.1143,1,1,OS Open Names (close spelling): Broadmere
+Edward I,Ilsington,50.5724,-3.7193,1,1,"OS Open Names: Ilsington (Village, Devon)"
+Edward I,Ermington,50.3616,-3.917,1,1,"OS Open Names: Ermington (Village, Devon)"
+Edward I,Chudleigh,50.605,-3.6005,1,1,"OS Open Names: Chudleigh (Town, Devon)"
+Edward I,Honiton,50.7996,-3.1891,1,1,"OS Open Names: Honiton (Town, Devon)"
+Edward I,Lyme Regis,50.7265,-2.9348,1,1,GeoNames: Lyme Regis (GB)
+Edward I,Loders Priory,50.7459,-2.7225,1,1,"Wikidata Q16867796 (Loders Priory, priory)"
+Edward I,Charing,51.2107,0.7947,1,2,GeoNames: Charing (GB)
+Edward I,Orpington,51.3746,0.0979,1,1,GeoNames: Orpington (GB)
+Edward I,Sevenoaks,51.2705,0.192,1,1,"OS Open Names: Sevenoaks (Town, Kent)"
+Edward I,Sandwich,51.2722,1.3378,1,2,GeoNames: Sandwich (GB)
+Edward I,Impington,52.2478,0.1092,1,1,"OS Open Names: Impington (Village, Cambridgeshire)"
+Edward I,Warter Priory,53.9429,-0.6762,1,1,"Wikidata Q7971018 (Warter Priory, priory)"
+Edward I,Wilton,54.2344,-0.6804,1,1,"OS Open Names: Wilton (Village, North Yorkshire)"
+Edward I,Newburn,54.9876,-1.7442,1,1,GeoNames: Newburn (GB)
+Edward I,Fala,55.8387,-2.9001,1,1,"OS Open Names: Fala (Hamlet, Midlothian)"
+Edward I,Falkirk,56.0021,-3.7854,1,1,GeoNames: Falkirk (GB)
+Edward I,Troqueer,55.0641,-3.6126,1,1,"OS Open Names: Troqueer (Suburban Area, Dumfries and Galloway)"
+Edward I,Kirkandrews,54.8088,-4.1792,1,2,"OS Open Names: Kirkandrews (Hamlet, Dumfries and Galloway)"
+Edward I,Stannington,55.1086,-1.6685,1,3,GeoNames: Stannington (GB)
+Edward I,Belsay Castle,55.102,-1.869,1,1,"Wikidata Q2968534 (Belsay Castle, castle)"
+Edward I,Stretton,53.0713,-2.824,1,2,"OS Open Names: Stretton (Hamlet, Cheshire West and Chester)"
+Edward I,Wye,51.1825,0.9368,1,2,GeoNames: Wye (GB)
+Edward I,Lamberhurst,51.1005,0.3897,1,1,GeoNames: Lamberhurst (GB)
+Edward I,Lavendon,52.1728,-0.6611,1,1,GeoNames: Lavendon (GB)
+Edward I,Thrapston,52.3967,-0.5392,1,1,GeoNames: Thrapston (GB)
+Edward I,Heaton,54.9852,-1.5822,1,1,"OS Open Names: Heaton (Suburban Area, )"
+Edward I,Embleton,55.4959,-1.6362,1,1,GeoNames: Embleton (GB)
+Edward I,Boroughbridge,54.0942,-1.3955,1,1,"OS Open Names: Boroughbridge (Town, North Yorkshire)"
+Edward I,Swanscombe,51.4471,0.3103,1,1,GeoNames: Swanscombe (GB)
+Edward I,Northfleet,51.4392,0.3462,1,1,"OS Open Names: Northfleet (Town, Kent)"
+Edward I,Southwark,51.5027,-0.0968,1,1,"OS Open Names: Southwark (Other Settlement, Greater London)"
+Edward I,Tottenham,51.6037,-0.0679,1,2,GeoNames: Tottenham (GB)
+Edward I,Selby,53.7839,-1.0698,1,1,"OS Open Names: Selby (Town, North Yorkshire)"
+Edward I,Evenwood,54.6221,-1.7613,1,1,GeoNames: Evenwood (GB)
+Edward I,Ecclefechan,55.0597,-3.2649,1,1,OS Open Names (close spelling): Ecclefechan
+Edward I,Tinwald,55.1184,-3.5642,1,1,"OS Open Names: Tinwald (Hamlet, Dumfries and Galloway)"
+Edward I,Twynholm,54.8651,-4.0822,1,2,OS Open Names (close spelling): Twynholm
+Edward I,Wigton,54.8248,-3.1612,1,1,"OS Open Names: Wigton (Town, Cumberland) [county as printed does not match]"
+Edward I,Drumburgh Castle,54.9265,-3.147,1,3,"Wikidata Q5309125 (Drumburgh Castle, castle)"
+Edward I,Burgh by Sands,54.9212,-3.0588,1,1,"OS Open Names: Burgh-by-Sands (Village, Cumberland)"
+Edward I,Kirkby Fleetham,54.3461,-1.567,1,2,"OS Open Names: Kirkby Fleetham (Village, North Yorkshire)"
+Edward I,Worksop,53.3018,-1.124,1,1,GeoNames: Worksop (GB)
+Edward I,Brampton,52.3204,-0.2201,1,1,GeoNames: Brampton (GB)
+Edward I,Ecton,52.2643,-0.7887,1,1,"OS Open Names: Ecton (Village, North Northamptonshire)"
+Edward I,Brigstock,52.4577,-0.6083,1,1,GeoNames: Brigstock (GB)
+Edward I,Pointon,52.8738,-0.3421,1,1,OS Open Names (close spelling): Pointon
+Edward I,Waddington,53.1667,-0.5333,1,1,GeoNames: Waddington (GB)
+Edward I,Buckminster,52.7968,-0.6952,1,1,"OS Open Names: Buckminster (Village, Leicestershire)"
+Edward I,Medbourne,52.0204,-0.8062,1,1,"OS Open Names: Medbourne (Suburban Area, Milton Keynes)"
+Edward I,Towcester,52.1336,-0.9906,1,1,GeoNames: Towcester (GB)
+Edward I,Lugwardine,52.0658,-2.6578,1,1,GeoNames: Lugwardine (GB)
+Edward I,Warwick,52.2835,-1.5892,1,2,"OS Open Names: Warwick (Town, Warwickshire)"
+Edward I,Eton,51.4896,-0.6094,1,2,"OS Open Names: Eton (Town, Windsor and Maidenhead) [county as printed does not match]"
+Edward I,Plumtree,52.8906,-1.0902,1,1,"OS Open Names: Plumtree (Village, Nottinghamshire)"
+Edward I,Torksey Priory,53.3009,-0.7448,1,1,"Wikidata Q7825891 (Torksey Priory, priory)"
+Edward I,Butterwick,52.9833,0.0667,1,1,GeoNames: Butterwick (GB)
+Edward I,Huggate,53.9862,-0.6567,1,2,"OS Open Names: Huggate (Village, East Riding of Yorkshire)"
+Edward I,Everley,54.2867,-0.5065,1,2,"OS Open Names: Everley (Other Settlement, North Yorkshire)"
+Edward I,Westoe,54.9881,-1.4211,1,1,"OS Open Names: Westoe (Suburban Area, )"
+Edward I,Woodhorn,55.1938,-1.5331,1,1,"OS Open Names: Woodhorn (Hamlet, Northumberland)"
+Edward I,Kelso,55.5986,-2.4346,1,1,"OS Open Names: Kelso (Town, Scottish Borders)"
+Edward I,Traquair,55.6008,-3.064,1,2,"OS Open Names: Traquair (Village, Scottish Borders)"
+Edward I,Cambusnethan,55.7781,-3.8919,1,1,"OS Open Names: Cambusnethan (Suburban Area, North Lanarkshire)"
+Edward I,Dunipace,56.027,-3.9147,1,2,GeoNames: Dunipace (GB)
+Edward I,Broomfleet,53.7346,-0.6643,1,1,OS Open Names (close spelling): Broomfleet
+Edward I,Tilshead,51.2302,-1.9508,1,1,"OS Open Names: Tilshead (Village, Wiltshire)"
+Edward I,Battersea,51.4748,-0.1555,1,2,GeoNames: Battersea (GB)
+Edward I,Aveley,51.4999,0.2517,1,1,GeoNames: Aveley (GB)
+Edward I,Frensham Manor,51.0418,0.6457,1,1,"Wikidata Q26325484 (Frensham Manor, manor house)"
+Edward I,Sele Priory,50.8875,-0.3056,1,1,"Wikidata Q7447621 (Sele Priory, priory)"
+Edward I,Newenden,51.0166,0.6211,1,1,"OS Open Names: Newenden (Village, Kent)"
+Edward I,Brabourne,51.1384,1.0006,1,1,"OS Open Names: Brabourne (Village, Kent)"
+Edward I,Medmenham Abbey,51.5519,-0.8239,1,1,"Wikidata Q15120038 (Medmenham Abbey, abbey)"
+Edward I,Shalford,51.2132,-0.5667,1,1,"OS Open Names: Shalford (Village, Surrey)"
+Edward I,Hamstead Marshall,51.3884,-1.4097,1,1,OS Open Names (close spelling): Hamstead Marshall
+Edward I,Broxbourne,51.7471,-0.0192,1,1,GeoNames: Broxbourne (GB)
+Edward I,Thurgarton,53.0344,-0.965,1,1,"OS Open Names: Thurgarton (Village, Nottinghamshire)"
+Edward I,Averham,53.082,-0.8614,1,1,"OS Open Names: Averham (Village, Nottinghamshire)"
+Edward I,Laneham,53.2783,-0.7881,1,2,"OS Open Names: Laneham (Village, Nottinghamshire)"
+Edward I,Thixendale,54.0392,-0.7162,1,1,"OS Open Names: Thixendale (Village, North Yorkshire)"
+Edward I,Wycliffe,54.523,-1.8171,1,1,OS Open Names (close spelling): Wycliffe
+Edward I,Smailholm,55.6191,-2.5624,1,1,"OS Open Names: Smailholm (Village, Scottish Borders)"
+Edward I,Auchterhouse Castle,56.5229,-3.0888,1,1,"Wikidata Q18159834 (Auchterhouse Castle, castle)"
+Edward I,Rathven,57.6776,-2.9341,1,1,"OS Open Names: Rathven (Village, Moray)"
+Edward I,Fettercairn,56.8516,-2.5747,1,1,"OS Open Names: Fettercairn (Village, Aberdeenshire)"
+Edward I,Dunblane,56.1885,-3.9642,1,2,OS Open Names (close spelling): Dunblane
+Edward I,Ratho,55.9216,-3.3803,1,1,GeoNames: Ratho (GB)
+Edward I,Eddleston,55.7119,-3.2085,1,1,OS Open Names (close spelling): Eddleston
+Edward I,Town Yetholm,55.545,-2.2877,1,3,"OS Open Names: Town Yetholm (Village, Scottish Borders)"
+Edward I,Boldron,54.5243,-1.9482,1,1,OS Open Names (close spelling): Boldron
+Edward I,Dalby,54.1324,-1.0205,1,1,"OS Open Names: Dalby (Hamlet, North Yorkshire)"
+Edward I,Bulmer,54.1002,-0.9305,1,2,"OS Open Names: Bulmer (Village, North Yorkshire)"
+Edward I,Birdsall,54.0758,-0.7498,1,2,"OS Open Names: Birdsall (Village, North Yorkshire)"
+Edward I,South Dalton,53.8952,-0.5299,1,2,"OS Open Names: South Dalton (Village, East Riding of Yorkshire)"
+Edward I,Swine Priory,53.8063,-0.2791,1,1,"Wikidata Q7658467 (Swine Priory, priory)"
+Edward I,Welton,53.7321,-0.5523,1,2,GeoNames: Welton (GB)
+Edward I,Standon Priory,51.8806,-0.011,1,1,"Wikidata Q7598665 (Standon Priory, priory)"
+Edward I,Shenley,51.6905,-0.2807,1,1,GeoNames: Shenley (GB)
+Edward I,Greenford,51.5287,-0.3551,1,2,GeoNames: Greenford (GB)
+Edward I,Cranford,51.477,-0.4134,1,1,GeoNames: Cranford (GB)
+Edward I,Stoke D'Abernon,51.3189,-0.3889,1,1,"OS Open Names: Stoke D'Abernon (Village, Surrey)"
+Edward I,Findon,50.8682,-0.4073,1,2,GeoNames: Findon (GB)
+Edward I,Clayton Priory,50.9458,-0.1459,1,2,"Wikidata Q17533486 (Clayton Priory, priory)"
+Edward I,Buxted,50.99,0.1344,1,1,GeoNames: Buxted (GB)
+Edward I,Millhouse,55.8845,-5.2694,1,1,OS Open Names (close spelling): Millhouse
+Edward I,Shorne,51.4164,0.4321,1,1,"OS Open Names: Shorne (Village, Kent)"
+Edward I,Bures,51.9723,0.775,1,2,"OS Open Names: Bures (Village, Suffolk)"
+Edward I,Widford,51.7192,0.4525,1,1,"OS Open Names: Widford (Suburban Area, Essex)"
+Edward I,Theale,51.4369,-1.077,1,2,GeoNames: Theale (GB)
+Edward I,Lytchett Matravers,50.7578,-2.0765,1,1,OS Open Names (close spelling): Lytchett Matravers
+Edward I,Hamptworth,50.9754,-1.6535,1,1,"OS Open Names: Hamptworth (Village, Wiltshire)"
+Edward I,Garston,51.689,-0.3951,1,1,GeoNames: Garston (GB)
+Edward I,Stoke Goldington,52.1313,-0.7781,1,1,GeoNames: Stoke Goldington (GB)
+Edward I,Preston,52.6126,-0.7144,1,2,GeoNames: Preston (GB)
+Edward I,Corbridge,54.9742,-2.0175,1,2,"OS Open Names: Corbridge (Town, Northumberland)"
+Edward I,Hexham,54.9718,-2.1009,1,1,"OS Open Names: Hexham (Town, Northumberland)"
+Edward I,Cambo,55.1658,-1.962,1,1,"OS Open Names: Cambo (Village, Northumberland)"
+Edward I,Wherwell,51.1662,-1.4446,0,1,"OS Open Names: Wherwell (Village, Hampshire)"
+Edward I,Aylestone,52.6042,-1.1463,0,1,GeoNames: Aylestone (GB)
+Edward I,Nursling,50.945,-1.4638,0,1,"OS Open Names: Nursling (Village, Hampshire)"
+Edward I,Barnwell Castle,52.4549,-0.4574,0,1,"Wikidata Q1188983 (Barnwell Castle, castle)"
+Edward I,Tiddington,51.7431,-1.0615,0,1,OS Open Names (close spelling): Tiddington
+Edward I,Newton Longville,51.9746,-0.7661,0,1,OS Open Names (close spelling): Newton Longville
+Edward I,Fowlmere,52.0926,0.0722,0,4,"OS Open Names: Fowlmere (Village, Cambridgeshire)"
+Edward I,Landbeach,52.2633,0.1628,0,1,"OS Open Names: Landbeach (Village, Cambridgeshire)"
+Edward I,Meonstoke,50.9773,-1.1254,0,1,"OS Open Names: Meonstoke (Village, Hampshire)"
+Edward I,Horsham,51.0621,-0.3281,0,1,"OS Open Names: Horsham (Town, West Sussex)"
+Edward I,Dorking,51.2328,-0.3299,0,1,"OS Open Names: Dorking (Town, Surrey)"
+Edward I,Ledbury,52.0364,-2.4263,0,1,GeoNames: Ledbury (GB)
+Edward I,Much Cowarne,52.122,-2.5545,0,1,"OS Open Names: Much Cowarne (Village, County of Herefordshire)"
+Edward I,Radnor,53.1758,-2.253,0,1,"OS Open Names: Radnor (Hamlet, Cheshire East)"
+Edward I,Sibdon Castle,52.4437,-2.8658,0,1,"Wikidata Q17550490 (Sibdon Castle, castle)"
+Edward I,Church Stretton,52.5378,-2.8015,0,1,GeoNames: Church Stretton (GB)
+Edward I,Rushbury Manor,52.5232,-2.7183,0,1,"Wikidata Q26663288 (Rushbury Manor, manor house)"
+Edward I,Longnor,52.6,-2.75,0,1,GeoNames: Longnor (GB)
+Edward I,Severn Stoke,52.0981,-2.2086,0,1,"OS Open Names: Severn Stoke (Village, Worcestershire)"
+Edward I,Anstey,51.978,0.0455,0,1,"OS Open Names: Anstey (Village, Hertfordshire)"
+Edward I,West Acre,52.7057,0.633,0,1,"OS Open Names: West Acre (Village, Norfolk)"
+Edward I,Culford,52.2968,0.6929,0,3,"OS Open Names: Culford (Village, Suffolk)"
+Edward I,Hurst,51.4579,-0.852,0,1,GeoNames: Hurst (GB)
+Edward I,Lowdham,53.0121,-1.0048,0,1,GeoNames: Lowdham (GB)
+Edward I,Shelton,52.9938,-0.8367,0,1,"OS Open Names: Shelton (Village, Nottinghamshire)"
+Edward I,Donington,52.9046,-0.2051,0,1,GeoNames: Donington (GB)
+Edward I,Colston Bassett,52.8943,-0.9597,0,1,"OS Open Names: Colston Bassett (Village, Nottinghamshire)"
+Edward I,Bolney,50.9953,-0.2029,0,1,OS Open Names (close spelling): Bolney
+Edward I,Bardsey Abbey,52.7643,-4.7877,0,1,"Wikidata Q13125318 (Bardsey Abbey, abbey)"
+Edward I,Dolbenmaen,52.9644,-4.2248,0,1,"OS Open Names: Dolbenmaen (Hamlet, Gwynedd - Gwynedd)"
+Edward I,Enstone,51.9183,-1.4556,0,1,OS Open Names (close spelling): Enstone
+Edward I,Bury,53.5927,-2.2988,0,1,"OS Open Names: Bury (Town, )"
+Edward I,Cawston,52.7667,1.1667,0,1,GeoNames: Cawston (GB)
+Edward I,Southampton,50.9049,-1.4043,0,1,"OS Open Names: Southampton (City, City of Southampton)"
+Edward I,Fulham,51.4803,-0.1993,0,1,GeoNames: Fulham (GB)
+Edward I,Scotland,53.8578,-1.642,0,1,"OS Open Names: Scotland (Hamlet, )"
+Edward I,Montagne,44.9304,-0.1295,0,1,GeoNames (close spelling): Montagne
+Edward I,Saint-Denis,48.9356,2.3539,0,1,GeoNames: Saint-Denis (FR)
+Edward I,Bryanston,50.8616,-2.1853,0,2,"OS Open Names: Bryanston (Village, Dorset)"
+Edward I,Staines,51.4309,-0.5061,0,3,GeoNames: Staines (GB)
+Edward I,Havering-atte-Bower,51.6149,0.1769,0,2,Wikidata Q5683831 (Havering Palace)
+Edward I,Brentwood,51.6214,0.3057,0,1,"OS Open Names: Brentwood (Town, Essex)"
+Edward I,Passenham,52.0485,-0.8637,0,1,"OS Open Names: Passenham (Hamlet, West Northamptonshire)"
+Edward I,Hinwick,52.245,-0.6299,0,1,"OS Open Names: Hinwick (Village, Bedford)"
+Edward I,Pipewell Abbey,52.4625,-0.7611,0,1,"Wikidata Q1362788 (Pipewell Abbey, abbey)"
+Edward I,Torpel Manor,52.6338,-0.3657,0,1,"Wikidata Q17641318 (Torpel Manor, manor house)"
+Edward I,Greetham,52.7206,-0.6307,0,1,GeoNames: Greetham (GB)
+Edward I,Dronfield,53.3022,-1.4751,0,1,GeoNames: Dronfield (GB)
+Edward I,Bolsover,53.228,-1.2924,0,1,"OS Open Names: Bolsover (Town, Derbyshire)"
+Edward I,Chapel-en-le-Frith,53.3242,-1.912,0,1,"OS Open Names: Chapel-en-le-Frith (Town, Derbyshire)"
+Edward I,Rainow,53.281,-2.0751,0,1,"OS Open Names: Rainow (Village, Cheshire East)"
+Edward I,Chesterfield,53.2363,-1.4292,0,1,"OS Open Names: Chesterfield (Town, Derbyshire)"
+Edward I,Langwith,53.218,-1.2251,0,1,OS Open Names (close spelling): Langwith
+Edward I,Wappenbury,52.3219,-1.4457,0,1,OS Open Names (close spelling): Wappenbury
+Edward I,Hackthorn,53.3295,-0.505,0,2,"OS Open Names: Hackthorn (Village, Lincolnshire)"
+Edward I,Burton Lazars,52.7438,-0.8631,0,1,"OS Open Names: Burton Lazars (Village, Leicestershire)"
+Edward I,Daventry,52.2584,-1.1604,0,1,"OS Open Names: Daventry (Town, West Northamptonshire)"
+Edward I,Avington,51.4108,-1.469,0,1,OS Open Names (close spelling): Avington
+Edward I,Abergavenny,51.821,-3.0174,0,1,GeoNames: Abergavenny (GB)
+Edward I,Alton,51.1486,-0.9758,0,1,"OS Open Names: Alton (Town, Hampshire)"
+Edward I,Wisbech,52.6644,0.1618,0,3,OS Open Names (close spelling): Wisbech
+Edward I,Boston,52.9763,-0.0272,0,1,"OS Open Names: Boston (Town, Lincolnshire)"
+Edward I,Old Bolingbroke,53.1645,0.0196,0,1,OS Open Names (close spelling): Old Bolingbroke
+Edward I,Matfen,55.0414,-1.9548,0,1,"OS Open Names: Matfen (Village, Northumberland)"
+Edward I,Wolsingham,54.7298,-1.8829,0,1,"OS Open Names: Wolsingham (Town, County Durham)"
+Edward I,Kilham,54.0641,-0.3806,0,1,GeoNames: Kilham (GB)
+Edward I,Crayke,54.128,-1.1412,0,1,"OS Open Names: Crayke (Village, North Yorkshire)"
+Edward I,Wintringham,54.1464,-0.6466,0,1,"OS Open Names: Wintringham (Village, North Yorkshire)"
+Edward I,Rise,53.8626,-0.2453,0,1,"OS Open Names: Rise (Hamlet, East Riding of Yorkshire)"
+Edward I,Casterton,54.2112,-2.5777,0,1,"OS Open Names: Casterton (Village, Westmorland and Furness)"
+Edward I,Pirbright,51.2914,-0.6472,0,1,GeoNames: Pirbright (GB)
+Edward I,Yateley,51.343,-0.8298,0,1,GeoNames: Yateley (GB)
+Edward I,Barton Castle,51.1386,-1.1152,0,1,"Wikidata Q24661834 (Barton Castle, castle)"
+Edward I,Middleton,53.5505,-2.1973,0,1,"OS Open Names: Middleton (Town, )"
+Edward I,Tetbury,51.6394,-2.1622,0,1,GeoNames: Tetbury (GB)
+Edward I,Sherston,51.5724,-2.2123,0,2,OS Open Names (close spelling): Sherston
+Edward I,Chilham Castle,51.2429,0.9591,0,1,"Wikidata Q17529345 (Chilham Castle, castle)"
+Edward I,Southwick,51.2969,-2.2325,0,2,GeoNames: Southwick (GB)
+Edward I,Botley,50.9143,-1.2698,0,1,GeoNames: Botley (GB)
+Edward I,Wilton,51.08,-1.8638,0,1,"OS Open Names: Wilton (Town, Wiltshire)"
+Edward I,Mottisfont Abbey,51.0414,-1.535,0,1,"Wikidata Q2731378 (Mottisfont Abbey, priory)"
+Edward I,Ripley,51.2991,-0.4916,0,1,GeoNames: Ripley (GB)
+Edward I,Fladbury,52.118,-2.0092,0,1,"OS Open Names: Fladbury (Village, Worcestershire)"
+Edward I,Newcastle Emlyn,52.0371,-4.4694,0,1,OS Open Names (close spelling): Newcastle Emlyn
+Edward I,Chirk,52.9359,-3.0574,0,1,GeoNames: Chirk (GB)
+Edward I,Auchterarder,56.2964,-3.7064,0,1,"OS Open Names: Auchterarder (Town, Perth and Kinross)"
+Edward I,Kinclaven Castle,56.524,-3.37,0,1,"Wikidata Q17844440 (Kinclaven Castle, castle)"
+Edward I,Inverqueich Castle,56.6328,-3.1786,0,1,"Wikidata Q65051747 (Inverqueich Castle, castle)"
+Edward I,Farnell Castle,56.6896,-2.615,0,1,"Wikidata Q15217396 (Farnell Castle, castle)"
+Edward I,Montrose,56.7092,-2.4672,0,1,"OS Open Names: Montrose (Town, Angus)"
+Edward I,Kintore,57.2372,-2.3454,0,1,GeoNames: Kintore (GB)
+Edward I,Lumphanan,57.1246,-2.7065,0,1,"OS Open Names: Lumphanan (Village, Aberdeenshire)"
+Edward I,Felling,54.953,-1.5715,0,1,GeoNames: Felling (GB)
+Edward I,Laverstoke,51.2318,-1.3001,0,1,"OS Open Names: Laverstoke (Village, Hampshire)"
+Edward I,Sopley,50.7727,-1.7782,0,1,"OS Open Names: Sopley (Village, Hampshire)"
+Edward I,Shaftesbury,51.0053,-2.1933,0,1,GeoNames: Shaftesbury (GB)
+Edward I,Martock,50.9736,-2.7668,0,1,GeoNames: Martock (GB)
+Edward I,Bedhampton,50.8596,-1.0035,0,1,"OS Open Names: Bedhampton (Suburban Area, Hampshire)"
+Edward I,Teynham,51.3273,0.8019,0,2,OS Open Names (close spelling): Teynham
+Edward I,Haddenham,52.3579,0.1483,0,1,GeoNames: Haddenham (GB)
+Edward I,Swaffham,52.6487,0.6885,0,1,"OS Open Names: Swaffham (Town, Norfolk)"
+Edward I,Dalhousie Castle,55.8608,-3.0825,0,1,"Wikidata Q2969112 (Dalhousie Castle, castle)"
+Edward I,Stanton,55.2038,-1.7942,0,1,"OS Open Names: Stanton (Hamlet, Northumberland)"
+Edward I,Birtley,55.0833,-2.1833,0,1,GeoNames: Birtley (GB)
+Edward I,Finchale Priory,54.8179,-1.5407,0,1,"Wikidata Q5449825 (Finchale Priory, priory)"
+Edward I,Navenby,53.1068,-0.5249,0,1,GeoNames: Navenby (GB)
+Edward I,Hilborough,52.5703,0.6857,0,2,OS Open Names (close spelling): Hilborough
+Edward I,Cottenham,52.2874,0.1254,0,1,GeoNames: Cottenham (GB)
+Edward I,Stockwell,51.4642,-0.1294,0,1,"OS Open Names: Stockwell (Suburban Area, Greater London)"
+Edward I,Smarden,51.1456,0.6834,0,1,"OS Open Names: Smarden (Village, Kent)"
+Edward I,Woking,51.3184,-0.5581,0,1,"OS Open Names: Woking (Town, Surrey)"
+Edward I,Wakerley Manor,52.5849,-0.5959,0,1,"Wikidata Q26565818 (Wakerley Manor, manor house)"
+Edward I,Chippenham,52.3017,0.4366,0,1,"OS Open Names: Chippenham (Village, Cambridgeshire)"
+Edward I,Lynn,52.6369,-1.8797,0,1,"OS Open Names: Lynn (Hamlet, Staffordshire)"
+Edward I,Barlings Priory,53.2471,-0.369,0,1,"Wikidata Q17644149 (Barlings Priory, priory)"
+Edward I,Kirkstead Abbey,53.1388,-0.2246,0,1,"Wikidata Q1293952 (Kirkstead Abbey, abbey)"
+Edward I,Bardney,53.2101,-0.3237,0,1,GeoNames: Bardney (GB)
+Edward I,Norton,53.2419,-1.1447,0,1,"OS Open Names: Norton (Village, Nottinghamshire)"
+Edward I,Hessle,53.7245,-0.4384,0,1,GeoNames: Hessle (GB)
+Edward I,Bubwith,53.819,-0.9197,0,1,GeoNames: Bubwith (GB)
+Edward I,Riccall,53.8333,-1.0573,0,1,GeoNames: Riccall (GB)
+Edward I,Exebridge,51.0103,-3.5273,0,1,OS Open Names (close spelling): Exebridge
+Edward I,Girthon,54.8573,-4.1733,0,1,"OS Open Names: Girthon (Hamlet, Dumfries and Galloway)"
+Edward I,Crossmichael,54.9821,-3.9857,0,1,"OS Open Names: Crossmichael (Village, Dumfries and Galloway)"
+Edward I,Dornoch,57.8807,-4.0279,0,1,"OS Open Names: Dornoch (Town, Highland) [county as printed does not match]"
+Edward I,Wigston,52.5857,-1.1065,0,1,"OS Open Names: Wigston (Other Settlement, Leicestershire)"
+Edward I,Guilsborough,52.3531,-1.013,0,1,"OS Open Names: Guilsborough (Village, West Northamptonshire)"
+Edward I,Deene,52.523,-0.6069,0,1,"OS Open Names: Deene (Village, North Northamptonshire)"
+Edward I,Harrington,52.4149,-0.8601,0,1,"OS Open Names: Harrington (Village, North Northamptonshire)"
+Edward I,Middleham,54.2852,-1.8058,0,1,"OS Open Names: Middleham (Town, North Yorkshire) [county as printed does not match]"
+Edward I,Bothwell,55.8027,-4.0683,0,1,GeoNames: Bothwell (GB)
+Edward I,Wendover,51.7623,-0.7431,0,1,"OS Open Names: Wendover (Town, Buckinghamshire)"
+Edward I,Aston Rowant,51.6819,-0.9474,0,1,"OS Open Names: Aston Rowant (Village, Oxfordshire)"
+Edward I,Hornchurch,51.5568,0.2166,0,1,GeoNames: Hornchurch (GB)
+Edward I,Herstmonceux,50.8895,0.3231,0,1,OS Open Names (close spelling): Herstmonceux
+Edward I,Fulmer,51.56,-0.563,0,1,OS Open Names (close spelling): Fulmer
+Edward I,Hatfield,51.7651,-0.2201,0,1,"OS Open Names: Hatfield (Town, Hertfordshire)"
+Edward I,Waltham Cross,51.686,-0.0357,0,1,GeoNames: Waltham Cross (GB)
+Edward I,Walthamstow,51.5907,-0.0208,0,1,GeoNames: Walthamstow (GB)
+Edward I,Buntingford,51.9454,-0.0176,0,1,"OS Open Names: Buntingford (Town, Hertfordshire)"
+Edward I,Huntingdon,52.3306,-0.1843,0,1,"OS Open Names: Huntingdon (Town, Cambridgeshire)"
+Edward I,Kinghorn,56.0693,-3.1759,0,1,"OS Open Names: Kinghorn (Town, Fife)"
+Edward I,Wemyss Castle,56.1443,-3.081,0,1,"Wikidata Q7982215 (Wemyss Castle, castle)"
+Edward I,Inverkeithing,56.033,-3.3956,0,1,GeoNames: Inverkeithing (GB)
+Edward I,Culross,56.0565,-3.6298,0,1,"OS Open Names: Culross (Town, Fife)"
+Edward I,Tullibody,56.1336,-3.8384,0,1,GeoNames: Tullibody (GB)
+Edward I,Wetwang,54.0175,-0.5774,0,1,GeoNames: Wetwang (GB)
+Edward I,Braughing,51.9065,0.0267,0,1,"OS Open Names: Braughing (Village, Hertfordshire)"
+Edward I,Wadesmill,51.8405,-0.0279,0,1,"OS Open Names: Wadesmill (Village, Hertfordshire)"
+Edward I,Hornsey,51.5875,-0.122,0,1,GeoNames: Hornsey (GB)
+Edward I,Totteridge,51.6333,-0.2,0,1,GeoNames: Totteridge (GB)
+Edward I,Epsom,51.3332,-0.267,0,1,"OS Open Names: Epsom (Town, Surrey)"
+Edward I,Cocking,50.9515,-0.7506,0,1,"OS Open Names: Cocking (Village, West Sussex)"
+Edward I,West Dean,50.9056,-0.778,0,2,"OS Open Names: West Dean (Village, West Sussex)"
+Edward I,Goudhurst,51.1131,0.4561,0,1,GeoNames: Goudhurst (GB)
+Edward I,Pluckley,51.1747,0.7544,0,1,"OS Open Names: Pluckley (Village, Kent)"
+Edward I,Doddington,51.2814,0.7722,0,1,"OS Open Names: Doddington (Village, Kent)"
+Edward I,Horstead,52.7266,1.3517,0,2,OS Open Names (close spelling): Horstead
+Edward I,Maidenhead,51.5228,-0.7202,0,1,"OS Open Names: Maidenhead (Town, Windsor and Maidenhead)"
+Edward I,Bentley,53.5333,-1.15,0,1,GeoNames: Bentley (GB)
+Edward I,Battlesden,51.9481,-0.5956,0,1,GeoNames: Battlesden (GB)
+Edward I,Kingsthorpe,52.2593,-0.904,0,1,"OS Open Names: Kingsthorpe (Suburban Area, West Northamptonshire)"
+Edward I,Sywell,52.2986,-0.7973,0,1,GeoNames: Sywell (GB)
+Edward I,Thorpe Waterville Castle,52.4213,-0.4978,0,1,"Wikidata Q7796716 (Thorpe Waterville Castle, castle)"
+Edward I,Tickencote,52.675,-0.537,0,1,GeoNames: Tickencote (GB)
+Edward I,Claypole,53.0314,-0.7341,0,1,GeoNames: Claypole (GB)
+Edward I,Sledmere,54.0713,-0.5764,0,1,"OS Open Names: Sledmere (Village, East Riding of Yorkshire)"
+Edward I,Lanchester,54.8211,-1.7426,0,1,GeoNames: Lanchester (GB)
+Edward I,Ebchester,54.894,-1.8402,0,1,"OS Open Names: Ebchester (Village, County Durham)"
+Edward I,Melkridge,54.9691,-2.4119,0,1,"OS Open Names: Melkridge (Village, Northumberland)"
+Edward I,Rickerby,54.9049,-2.914,0,1,"OS Open Names: Rickerby (Village, Cumberland)"
+Elizabeth I,Ipswich,52.0571,1.1528,6,6,"OS Open Names: Ipswich (Town, Suffolk)"
+Elizabeth I,"New Hall, Boreham",51.7643,0.5478,5,5,"OS Open Names: Boreham (Village, Essex)"
+Elizabeth I,Castle Hedingham,51.9896,0.5986,5,5,"OS Open Names: Castle Hedingham (Village, Essex)"
+Elizabeth I,Colchester,51.8897,0.8993,4,4,"OS Open Names: Colchester (City, Essex)"
+Elizabeth I,Charterhouse (London),51.5256,-0.1057,3,3,"OS Open Names: Clerkenwell (Suburban Area, Greater London)"
+Elizabeth I,Havering Palace,51.6149,0.1769,3,3,"Wikidata Q5683831 (Havering Palace, manor house)"
+Elizabeth I,Harwich,51.9464,1.2873,3,3,"OS Open Names: Harwich (Town, Essex) [county as printed does not match]"
+Elizabeth I,Smallbridge (Bures),51.9723,0.775,3,3,"OS Open Names: Bures (Village, Suffolk)"
+Elizabeth I,Ingatestone,51.6715,0.3863,2,2,"OS Open Names: Ingatestone (Village, Essex)"
+Elizabeth I,"Strand (Somerset House, London)",51.5129,-0.1248,1,1,"OS Open Names: Strand (Suburban Area, Greater London)"
+Elizabeth I,Pyrgo Park,51.6195,0.199,1,1,Wikidata Q7263490 (Pyrgo Park)
+Elizabeth I,Loughton Hall,51.6561,0.0669,1,1,"OS Open Names: Loughton (Town, Essex)"
+Elizabeth I,Greenwich,51.4778,-0.0118,0,1,GeoNames: Greenwich (GB)
+Elizabeth I,Dartford,51.4561,0.2467,0,1,"OS Open Names: Dartford (Town, Kent)"
+Elizabeth I,Cobham (Kent),51.3902,0.4009,0,1,"OS Open Names: Cobham (Village, Kent)"
+Elizabeth I,Eltham,51.4506,0.0522,0,1,GeoNames: Eltham (GB)
+Elizabeth I,Nonsuch Palace,51.3544,-0.2383,0,1,"Wikidata Q769182 (Nonsuch Palace, royal palace)"
+Elizabeth I,Hampton Court,51.4007,-0.329,0,2,"OS Open Names: Hampton Court (Suburban Area, Greater London)"
+Elizabeth I,Cambridge,52.2049,0.1197,0,1,"OS Open Names: Cambridge (City, Cambridgeshire)"
+Elizabeth I,Long Stanton,52.2777,0.0488,0,1,"OS Open Names: Longstanton (Village, Cambridgeshire)"
+Elizabeth I,Hinchingbrooke,52.3306,-0.1843,0,1,"OS Open Names: Huntingdon (Town, Cambridgeshire)"
+Elizabeth I,Coventry,52.4077,-1.5069,0,1,"OS Open Names: Coventry (City, )"
+Elizabeth I,Kenilworth,52.3426,-1.5791,0,3,"OS Open Names: Kenilworth (Town, Warwickshire)"
+Elizabeth I,Stamford,52.6521,-0.4811,0,1,"OS Open Names: Stamford (Town, Lincolnshire)"
+Elizabeth I,Oxford,51.752,-1.2576,0,2,"OS Open Names: Oxford (City, Oxfordshire)"
+Elizabeth I,Burghley House,52.6521,-0.4811,0,1,"OS Open Names: Stamford (Town, Lincolnshire)"
+Elizabeth I,Warwick,52.2835,-1.5892,0,1,"OS Open Names: Warwick (Town, Warwickshire)"
+Elizabeth I,Charlecote,52.2084,-1.6148,0,1,"OS Open Names: Charlecote (Village, Warwickshire)"
+Elizabeth I,Long Compton,51.9927,-1.5819,0,1,"OS Open Names: Long Compton (Village, Warwickshire)"
+Elizabeth I,Weston Park by Long Compton,52.0262,-1.5762,0,1,"OS Open Names: Cherington (Village, Warwickshire)"
+Elizabeth I,Berkeley Castle,51.6886,-2.4569,0,2,"Wikidata Q4891993 (Berkeley Castle, castle)"
+Elizabeth I,Woodstock,51.8485,-1.3513,0,2,GeoNames: Woodstock (GB)
+Elizabeth I,Reading,51.4538,-0.9738,0,1,"OS Open Names: Reading (Town, Reading)"
+Elizabeth I,Windsor,51.4798,-0.6105,0,1,"OS Open Names: Windsor (Town, Windsor and Maidenhead)"
+Elizabeth I,Croydon,51.3833,-0.1,0,1,GeoNames: Croydon (GB)
+Elizabeth I,Sudeley Castle,51.9472,-1.9561,0,2,"Wikidata Q631473 (Sudeley Castle, castle)"
+Elizabeth I,Bristol,51.4531,-2.601,0,1,"OS Open Names: Bristol (City, City of Bristol)"
+Elizabeth I,Longleat Priory,51.1857,-2.2743,0,1,"Wikidata Q6674062 (Longleat Priory, priory)"
+Elizabeth I,Heytesbury,51.1825,-2.1047,0,1,"OS Open Names: Heytesbury (Village, Wiltshire)"
+Elizabeth I,Wilton,51.08,-1.8638,0,1,"OS Open Names: Wilton (Town, Wiltshire)"
+Elizabeth I,Salisbury,51.0704,-1.7964,0,1,"OS Open Names: Salisbury (City, Wiltshire)"
+Elizabeth I,Theobalds Manor,51.6904,-0.0718,0,2,"Wikidata Q26631780 (Theobalds Manor, manor house)"
+Elizabeth I,Grafton Regis,52.1133,-0.8952,0,1,"OS Open Names: Grafton Regis (Village, West Northamptonshire)"
+Elizabeth I,Lichfield,52.6831,-1.8273,0,1,"OS Open Names: Lichfield (City, Staffordshire)"
+Elizabeth I,Worcester,52.1929,-2.2211,0,1,"OS Open Names: Worcester (City, Worcestershire)"
+Elizabeth I,Gorhambury,51.7523,-0.3391,0,1,"OS Open Names: St Albans (City, Hertfordshire)"
+Elizabeth I,Audley End,52.0203,0.2146,0,1,"OS Open Names: Audley End (Hamlet, Essex)"
+Elizabeth I,Canterbury,51.2797,1.0789,0,1,"OS Open Names: Canterbury (City, Kent)"
+Elizabeth I,Tilbury,51.4625,0.3586,0,1,GeoNames: Tilbury (GB)
+Elizabeth I,Cowdray,50.9855,-0.74,0,1,"OS Open Names: Midhurst (Town, West Sussex)"
+Elizabeth I,Elvetham,51.2968,-0.8712,0,1,"OS Open Names: Elvetham (Other Settlement, Hampshire)"
+Elizabeth I,Titchfield,50.8511,-1.2372,0,1,GeoNames: Titchfield (GB)
+Elizabeth I,Bisham,51.5574,-0.7753,0,1,"OS Open Names: Bisham (Village, Windsor and Maidenhead)"
+Elizabeth I,Rycote,51.7482,-0.9795,0,1,"OS Open Names: Thame (Town, Oxfordshire)"
+Elizabeth I,Blackfriars,51.5128,-0.0918,0,1,GeoNames: City of London (GB)
+Elizabeth I,Fulham,51.4716,-0.2112,0,1,"OS Open Names: Fulham (Other Settlement, Greater London)"
+Elizabeth I,Harefield,51.6044,-0.4819,0,1,"OS Open Names: Harefield (Village, Greater London)"
+Henry II,Winchester,51.0618,-1.311,14,15,"OS Open Names: Winchester (City, Hampshire)"
+Henry II,Caen,49.1859,-0.3591,11,11,GeoNames: Caen (FR)
+Henry II,London,51.5074,-0.1277,10,10,"OS Open Names: London (City, Greater London)"
+Henry II,Windsor,51.4798,-0.6105,10,10,"OS Open Names: Windsor (Town, Windsor and Maidenhead)"
+Henry II,Le Mans,48.0021,0.2025,8,8,GeoNames: Le Mans (FR)
+Henry II,Rouen,49.4431,1.0993,6,6,GeoNames: Rouen (FR)
+Henry II,Gisors,49.2818,1.7801,6,6,GeoNames: Gisors (FR)
+Henry II,Northampton,52.2379,-0.8951,4,4,"OS Open Names: Northampton (Town, West Northamptonshire)"
+Henry II,Limoges,45.8336,1.2476,4,4,GeoNames: Limoges (FR)
+Henry II,Nottingham,52.9562,-1.1512,4,4,"OS Open Names: Nottingham (City, City of Nottingham)"
+Henry II,Bayeux,49.2773,-0.7039,3,3,GeoNames: Bayeux (FR)
+Henry II,Southampton,50.9049,-1.4043,3,3,"OS Open Names: Southampton (City, City of Southampton)"
+Henry II,Argentan,48.7444,-0.0202,3,3,GeoNames: Argentan (FR)
+Henry II,Chinon,47.167,0.2428,3,3,GeoNames: Chinon (FR)
+Henry II,Pembroke,51.675,-4.9137,3,3,"OS Open Names: Pembroke (Town, Sir Benfro - Pembrokeshire)"
+Henry II,Reading,51.4538,-0.9738,3,3,"OS Open Names: Reading (Town, Reading)"
+Henry II,Angers,47.4716,-0.552,3,3,GeoNames: Angers (FR)
+Henry II,Oxford,51.752,-1.2576,2,2,"OS Open Names: Oxford (City, Oxfordshire)"
+Henry II,Mantes-la-Jolie,48.9905,1.7167,2,2,GeoNames: Mantes-la-Jolie (FR)
+Henry II,Avranches,48.6844,-1.3569,2,2,GeoNames: Avranches (FR)
+Henry II,Feckenham,52.2522,-1.9874,2,2,"OS Open Names: Feckenham (Village, Worcestershire)"
+Henry II,Ely,52.3996,0.2625,2,2,"OS Open Names: Ely (City, Cambridgeshire)"
+Henry II,Gloucester,51.8646,-2.2469,2,2,"OS Open Names: Gloucester (City, Gloucestershire)"
+Henry II,Bordeaux,44.8412,-0.5805,1,1,GeoNames: Bordeaux (FR)
+Henry II,Worcester,52.1929,-2.2211,1,2,"OS Open Names: Worcester (City, Worcestershire)"
+Henry II,Poitiers,46.5826,0.3435,1,1,GeoNames: Poitiers (FR)
+Henry II,Uzerche,45.4246,1.5634,1,1,GeoNames: Uzerche (FR)
+Henry II,Fougères,48.3516,-1.1996,1,1,GeoNames: Fougères (FR)
+Henry II,Tours,47.3948,0.704,1,1,GeoNames: Tours (FR)
+Henry II,Rome,41.8919,12.5113,1,1,GeoNames: Rome (IT)
+Henry II,Dinan,48.4555,-2.0505,1,1,GeoNames: Dinan (FR)
+Henry II,Nantes,47.2172,-1.5534,1,1,GeoNames: Nantes (FR)
+Henry II,Anagni,41.7435,13.1554,1,1,GeoNames: Anagni (IT)
+Henry II,Bourges,47.0833,2.4,1,1,GeoNames: Bourges (FR)
+Henry II,Falaise,48.8922,-0.1953,1,1,GeoNames: Falaise (FR)
+Henry II,Frascati,41.8091,12.6794,1,1,GeoNames: Frascati (IT)
+Henry II,Cashel,52.5158,-7.8856,1,1,GeoNames: Cashel (IE)
+Henry II,Dublin,53.3331,-6.2489,1,1,GeoNames: Dublin (IE)
+Henry II,Newport (Pembrokeshire),52.0163,-4.8327,1,1,"OS Open Names: Newport (Town, Sir Benfro - Pembrokeshire)"
+Henry II,Ancenis,47.3667,-1.1667,1,1,GeoNames: Ancenis (FR)
+Henry II,Evesham,52.0926,-1.9474,1,1,"OS Open Names: Evesham (Town, Worcestershire)"
+Henry II,Lincoln,53.2348,-0.5384,1,1,"OS Open Names: Lincoln (City, Lincolnshire)"
+Henry II,Chilham Castle,51.2429,0.9591,1,1,"Wikidata Q17529345 (Chilham Castle, castle)"
+Henry II,Geddington,52.4376,-0.6896,1,1,GeoNames: Geddington (GB)
+John,Rouen,49.4431,1.0993,142,154,GeoNames: Rouen (FR)
+John,Winchester,51.0618,-1.311,138,171,"OS Open Names: Winchester (City, Hampshire)"
+John,Orival,49.7243,1.2051,118,153,GeoNames: Orival (FR)
+John,Woodstock,51.8485,-1.3513,94,112,GeoNames: Woodstock (GB)
+John,Lambeth,51.4963,-0.1115,78,100,GeoNames: Lambeth (GB)
+John,Marlborough,51.4203,-1.7295,78,133,GeoNames: Marlborough (GB)
+John,Windsor,51.4798,-0.6105,78,96,"OS Open Names: Windsor (Town, Windsor and Maidenhead)"
+John,Nottingham,52.9562,-1.1512,73,80,OS Open Names (close spelling): Nottingham
+John,Clarendon Palace,51.0708,-1.7417,71,104,Wikidata Q404530 (Clarendon Palace)
+John,Westminster,51.4975,-0.1357,67,101,GeoNames: City of Westminster (GB)
+John,Tower of London,51.5082,-0.0762,64,83,Wikidata Q62378 (Tower of London)
+John,Les Andelys,49.2456,1.4117,61,66,GeoNames: Les Andelys (FR)
+John,Freemantle (near Kingsclere),51.325,-1.2432,59,75,"OS Open Names: Kingsclere (Village, Hampshire)"
+John,Chinon,47.167,0.2428,55,62,GeoNames: Chinon (FR)
+John,"New Temple, London",51.5085,-0.1257,52,78,GeoNames: London (GB)
+John,Corfe Castle,50.6384,-2.0574,51,60,"OS Open Names: Corfe Castle (Village, Dorset)"
+John,Northampton,52.25,-0.8833,49,64,GeoNames: Northampton (GB)
+John,York,53.962,-1.0837,47,55,"OS Open Names: York (City, York)"
+John,Ludgershall,51.257,-1.6224,46,62,"OS Open Names: Ludgershall (Town, Wiltshire)"
+John,Gillingham,51.0376,-2.2753,44,48,"OS Open Names: Gillingham (Town, Dorset)"
+John,Canterbury,51.2797,1.0789,43,54,"OS Open Names: Canterbury (City, Kent)"
+John,Bristol,51.4531,-2.601,39,43,"OS Open Names: Bristol (City, City of Bristol)"
+John,Guildford,51.2394,-0.5759,39,49,"OS Open Names: Guildford (Town, Surrey)"
+John,Worcester,52.1929,-2.2211,37,41,"OS Open Names: Worcester (City, Worcestershire)"
+John,Oxford,51.752,-1.2576,36,45,"OS Open Names: Oxford (City, Oxfordshire)"
+John,Dover,51.1281,1.3084,35,41,"OS Open Names: Dover (Town, Kent)"
+John,Niort,46.3231,-0.4588,35,36,GeoNames: Niort (FR)
+John,Portchester Castle,50.8375,-1.115,33,53,Wikidata Q732249 (Portchester Castle)
+John,Odiham,51.2539,-0.9411,32,39,"OS Open Names: Odiham (Village, Hampshire)"
+John,Hereford,52.056,-2.7176,29,31,"OS Open Names: Hereford (City, County of Herefordshire)"
+John,Ile de Re (Saint-Martin-de-Re),46.2031,-1.3675,29,68,GeoNames: Saint-Martin-de-Ré (FR)
+John,Argentan,48.7444,-0.0202,27,31,GeoNames: Argentan (FR)
+John,Brill,51.8167,-1.05,27,34,GeoNames: Brill (GB)
+John,Bere Regis,50.7534,-2.2185,26,30,OS Open Names (close spelling): Bere Regis
+John,Cranborne,50.9193,-1.9221,26,31,OS Open Names (close spelling): Cranborne
+John,Gloucester,51.8646,-2.2469,26,29,"OS Open Names: Gloucester (City, Gloucestershire)"
+John,Verneuil-sur-Avre,48.7395,0.9273,26,29,GeoNames: Verneuil-sur-Avre (FR)
+John,Lincoln,53.2348,-0.5384,25,29,"OS Open Names: Lincoln (City, Lincolnshire)"
+John,Le Mans,48.0021,0.2025,25,28,GeoNames: Le Mans (FR)
+John,Dorchester,50.7167,-2.4333,24,30,GeoNames: Dorchester (GB)
+John,Devizes,51.3508,-1.9942,23,27,GeoNames: Devizes (GB)
+John,Falaise,48.8922,-0.1953,23,29,GeoNames: Falaise (FR)
+John,La Rochelle,46.1631,-1.1522,23,25,GeoNames: La Rochelle (FR)
+John,Alençon,48.4348,0.0931,22,25,GeoNames: Alençon (FR)
+John,Rockingham Castle,52.5129,-0.724,22,23,"Wikidata Q3939808 (Rockingham Castle, castle)"
+John,London,51.5074,-0.1277,21,32,"OS Open Names: London (City, Greater London)"
+John,Valognes,49.5088,-1.4705,21,22,GeoNames: Valognes (FR)
+John,Southampton,50.9049,-1.4043,20,25,"OS Open Names: Southampton (City, City of Southampton)"
+John,King's Cliffe,52.5627,-0.5154,19,27,"OS Open Names: King's Cliffe (Village, North Northamptonshire)"
+John,Durham,54.7779,-1.5826,19,24,OS Open Names (close spelling): Durham
+John,Farnham,51.215,-0.799,19,26,"OS Open Names: Farnham (Town, Surrey)"
+John,Temple Ewell,51.1529,1.2698,18,33,"OS Open Names: Temple Ewell (Suburban Area, Kent)"
+John,Havering Palace,51.6149,0.1769,18,22,"Wikidata Q5683831 (Havering Palace, manor house)"
+John,Silverstone,52.0922,-1.026,18,30,GeoNames: Silverstone (GB)
+John,Bourg (Gironde),45.0406,-0.5589,17,17,GeoNames: Bourg (FR)
+John,Colchester,51.8897,0.8993,17,20,"OS Open Names: Colchester (City, Essex)"
+John,Geddington,52.4364,-0.6876,17,26,"OS Open Names: Geddington (Village, North Northamptonshire)"
+John,Angers,47.4716,-0.552,16,16,GeoNames: Angers (FR)
+John,Old Sarum,51.1005,-1.7868,16,21,"OS Open Names: Old Sarum (Village, Wiltshire)"
+John,Canford Magna,50.7844,-1.9554,15,20,"OS Open Names: Canford Magna (Village, Bournemouth, Christchurch and Poole)"
+John,Christchurch,50.7384,-1.7818,15,17,"OS Open Names: Christchurch (Town, Bournemouth, Christchurch and Poole)"
+John,Laxton,53.1961,-0.9209,15,22,"OS Open Names: Laxton (Village, Nottinghamshire)"
+John,Portsmouth,50.7968,-1.0912,15,21,"OS Open Names: Portsmouth (City, City of Portsmouth)"
+John,Sutton at Hone,51.4118,0.2355,15,18,"OS Open Names: Sutton at Hone (Village, Kent)"
+John,Wallingford,51.601,-1.1246,15,18,"OS Open Names: Wallingford (Town, Oxfordshire)"
+John,Bradenstoke Priory,51.5113,-2.0061,14,20,"Wikidata Q4954489 (Bradenstoke Priory, priory)"
+John,Parthenay,46.6483,-0.2467,14,14,GeoNames (close spelling): Parthenay
+John,Sees,48.604,0.1724,14,15,GeoNames: Sées (FR)
+John,Waltham Abbey,51.6891,-0.0025,14,18,"Wikidata Q17646325 (Waltham Abbey, abbey)"
+John,Wareham,50.6879,-2.1106,14,17,GeoNames: Wareham (GB)
+John,Ashley Manor,51.0754,-1.4547,13,19,"Wikidata Q26623340 (Ashley Manor, manor house)"
+John,Angoulême,45.65,0.1535,12,13,GeoNames: Angoulême (FR)
+John,Lichfield,52.6831,-1.8273,12,13,"OS Open Names: Lichfield (City, Staffordshire)"
+John,Lisieux,49.1466,0.2293,12,13,GeoNames: Lisieux (FR)
+John,Bishopstoke,50.9693,-1.3359,12,18,"OS Open Names: Bishopstoke (Suburban Area, Hampshire)"
+John,Carlisle,54.8926,-2.933,11,11,"OS Open Names: Carlisle (City, Cumberland)"
+John,Folkestone,51.0817,1.1673,11,14,GeoNames: Folkestone (GB)
+John,Knaresborough,54.0074,-1.4646,11,13,"OS Open Names: Knaresborough (Town, North Yorkshire)"
+John,Shrewsbury,52.7082,-2.7543,11,12,"OS Open Names: Shrewsbury (Town, Shropshire)"
+John,Bridgnorth,52.5366,-2.4203,10,14,GeoNames: Bridgnorth (GB)
+John,Domfront,48.5921,-0.6459,10,11,GeoNames: Domfront (FR)
+John,Ospringe,51.3097,0.8714,10,13,"OS Open Names: Ospringe (Suburban Area, Kent)"
+John,Pont-Audemer,49.35,0.5167,10,11,GeoNames: Pont-Audemer (FR)
+John,St Albans,51.7523,-0.3391,10,12,"OS Open Names: St Albans (City, Hertfordshire)"
+John,Saint-Jean-d'Angély,45.9441,-0.5213,10,12,GeoNames: Saint-Jean-d'Angély (FR)
+John,Tours,47.3948,0.704,10,10,GeoNames: Tours (FR)
+John,Yarmouth,50.7062,-1.4972,10,10,"OS Open Names: Yarmouth (Town, Isle of Wight)"
+John,Aldingbourne,50.8407,-0.6872,9,12,OS Open Names (close spelling): Aldingbourne
+John,Chambrais (Broglie),49.0091,0.5292,9,9,GeoNames: Broglie (FR)
+John,Clipstone,53.1605,-1.1234,9,9,"OS Open Names: Clipstone (Village, Nottinghamshire)"
+John,Dublin,53.3331,-6.2489,9,9,GeoNames: Dublin (IE)
+John,Easton,51.227,-2.6986,9,11,"OS Open Names: Easton (Village, Somerset)"
+John,La Flèche,47.6981,-0.0755,9,10,GeoNames: La Flèche (FR)
+John,Kingston upon Thames,51.409,-0.3036,9,13,"OS Open Names: Kingston upon Thames (Other Settlement, Greater London)"
+John,Newcastle upon Tyne,54.978,-1.6102,9,13,"OS Open Names: Newcastle upon Tyne (City, )"
+John,Scarborough,54.2797,-0.4044,9,9,GeoNames: Scarborough (GB)
+John,Bishop's Sutton,51.0845,-1.1355,9,11,"OS Open Names: Bishop's Sutton (Village, Hampshire)"
+John,Wells,51.2086,-2.6472,9,11,"OS Open Names: Wells (City, Somerset)"
+John,Abingdon,51.6711,-1.2828,8,11,GeoNames: Abingdon (GB)
+John,Allerton,53.8031,-1.8174,8,9,"OS Open Names: Allerton (Suburban Area, )"
+John,Berwick-Upon-Tweed,55.7687,-2.0054,8,9,GeoNames: Berwick-Upon-Tweed (GB)
+John,Highclere,51.3446,-1.3749,8,8,"OS Open Names: Highclere (Village, Hampshire)"
+John,Carrickfergus,54.7158,-5.8058,8,8,GeoNames: Carrickfergus (GB)
+John,Guisborough,54.5358,-1.051,8,13,OS Open Names (close spelling): Guisborough
+John,Melksham,51.3728,-2.1382,8,16,"OS Open Names: Melksham (Town, Wiltshire)"
+John,Newark-on-Trent,53.0758,-0.8077,8,11,OS Open Names (close spelling): Newark-on-Trent
+John,Pontefract,53.6924,-1.3096,8,13,"OS Open Names: Pontefract (Town, )"
+John,Powerstock,50.7636,-2.6865,8,8,"OS Open Names: Powerstock (Village, Dorset)"
+John,Tickhill,53.4331,-1.1092,8,11,"OS Open Names: Tickhill (Town, ) [county as printed does not match]"
+John,Alton,51.1486,-0.9758,7,8,"OS Open Names: Alton (Town, Hampshire)"
+John,Cherbourg,49.6398,-1.6164,7,7,GeoNames: Cherbourg (FR)
+John,Crayke,54.128,-1.1412,7,7,"OS Open Names: Crayke (Village, North Yorkshire)"
+John,Feckenham,52.2522,-1.9874,7,9,"OS Open Names: Feckenham (Village, Worcestershire)"
+John,Malling Priory,51.0141,-0.0799,7,7,"Wikidata Q17533015 (Malling Priory, priory)"
+John,La Réole,44.5824,-0.0386,7,7,GeoNames: La Réole (FR)
+John,Sandwich,51.2722,1.3378,7,8,GeoNames: Sandwich (GB)
+John,Southwark,51.5027,-0.0968,7,9,OS Open Names (close spelling): Southwark
+John,Southwick,51.2969,-2.2325,7,10,GeoNames: Southwick (GB)
+John,Thouars,46.9815,-0.2117,7,7,GeoNames: Thouars (FR)
+John,Vire,48.8385,-0.8893,7,8,GeoNames: Vire (FR)
+John,Wilton,51.08,-1.8638,7,9,"OS Open Names: Wilton (Town, Wiltshire)"
+John,Wingham,51.2717,1.2146,7,9,GeoNames: Wingham (GB)
+John,Witney,51.7836,-1.4854,7,7,GeoNames: Witney (GB)
+John,Ashwell,52.0387,-0.154,6,7,GeoNames: Ashwell (GB)
+John,Bedford,52.1368,-0.4685,6,8,"OS Open Names: Bedford (Town, Bedford)"
+John,Bedlington,55.1306,-1.5932,6,6,GeoNames: Bedlington (GB)
+John,Le Blanc,46.6337,1.0627,6,6,GeoNames: Le Blanc (FR)
+John,Bridgwater,51.1278,-3.0064,6,6,OS Open Names (close spelling): Bridgwater
+John,Chelworth,51.6473,-2.0433,6,6,OS Open Names (close spelling): Chelworth
+John,Chilham Castle,51.2429,0.9591,6,6,"Wikidata Q17529345 (Chilham Castle, castle)"
+John,Cirencester,51.7193,-1.9714,6,8,GeoNames: Cirencester (GB)
+John,Cognac,45.6958,-0.3287,6,7,GeoNames: Cognac (FR)
+John,Ditton,51.2988,0.4553,6,7,"OS Open Names: Ditton (Village, Kent)"
+John,Dunstable,51.8876,-0.5231,6,9,"OS Open Names: Dunstable (Town, Central Bedfordshire)"
+John,Finmere,51.9911,-1.0751,6,7,"OS Open Names: Finmere (Village, Oxfordshire)"
+John,Castle Hedingham,51.9896,0.5986,6,7,"OS Open Names: Castle Hedingham (Village, Essex)"
+John,Higham Ferrers,52.3055,-0.5936,6,7,"OS Open Names: Higham Ferrers (Town, North Northamptonshire)"
+John,Kenilworth,52.3426,-1.5791,6,9,"OS Open Names: Kenilworth (Town, Warwickshire)"
+John,Kimbolton,52.297,-0.3892,6,7,GeoNames: Kimbolton (GB)
+John,Mauze-sur-le-Mignon,46.1957,-0.6682,6,7,GeoNames: Mauzé-sur-le-Mignon (FR)
+John,Melbourne,52.823,-1.4284,6,12,"OS Open Names: Melbourne (Village, Derbyshire)"
+John,Mortain,48.6478,-0.9405,6,6,GeoNames: Mortain (FR)
+John,Newbury,51.4003,-1.3231,6,8,"OS Open Names: Newbury (Town, West Berkshire)"
+John,St Briavels,51.7377,-2.6394,6,12,OS Open Names (close spelling): St Briavels
+John,Salisbury,51.0704,-1.7964,6,7,"OS Open Names: Salisbury (City, Wiltshire)"
+John,Skelton,54.0,-1.1333,6,6,GeoNames: Skelton (GB)
+John,Sonning,51.4741,-0.9121,6,6,GeoNames: Sonning (GB)
+John,Stamford,52.6521,-0.4811,6,8,"OS Open Names: Stamford (Town, Lincolnshire)"
+John,Troarn,49.1784,-0.1817,6,6,GeoNames: Troarn (FR)
+John,Beckley,51.7934,-1.1748,5,6,"OS Open Names: Beckley (Village, Oxfordshire)"
+John,Bury St Edmunds,52.2463,0.7138,5,7,"OS Open Names: Bury St Edmunds (Town, Suffolk)"
+John,Chateauneuf-sur-Sarthe,47.6809,-0.4885,5,6,GeoNames: Châteauneuf-sur-Sarthe (FR)
+John,Dartmouth,50.3522,-3.5794,5,6,GeoNames: Dartmouth (GB)
+John,Exeter,50.7226,-3.5326,5,5,"OS Open Names: Exeter (City, Devon)"
+John,Faringdon,51.6581,-1.5836,5,9,"OS Open Names: Faringdon (Town, Oxfordshire) [county as printed does not match]"
+John,Runnymede,51.4401,-0.545,5,10,"OS Open Names: Runnymede (Village, Surrey)"
+John,Kinver,52.4542,-2.2354,5,6,"OS Open Names: Kinver (Village, Staffordshire)"
+John,Knepp Castle,50.9757,-0.3442,5,5,Wikidata Q6421967 (Knepp Castle)
+John,St Brides Castle,51.7516,-5.1942,5,10,"Wikidata Q17742646 (St Brides Castle, castle)"
+John,Louth,53.3666,-0.0044,5,5,GeoNames: Louth (GB)
+John,Malmesbury,51.5856,-2.1014,5,8,OS Open Names (close spelling): Malmesbury
+John,Orbec,49.0167,0.4167,5,5,GeoNames: Orbec (FR)
+John,Poitiers,46.5826,0.3435,5,5,GeoNames: Poitiers (FR)
+John,Sherborne,50.946,-2.5178,5,6,GeoNames: Sherborne (GB)
+John,Le Vaudreuil,49.2541,1.2096,5,6,GeoNames (close spelling): Le Vaudreuil
+John,Bishop's Waltham,50.9551,-1.213,5,10,"OS Open Names: Bishop's Waltham (Town, Hampshire)"
+John,Whitchurch,52.9667,-2.6833,5,5,GeoNames: Whitchurch (GB)
+John,Alnwick,55.4116,-1.7056,4,4,"OS Open Names: Alnwick (Town, Northumberland)"
+John,Bampton,51.7263,-1.5455,4,4,GeoNames: Bampton (GB)
+John,Bath,51.3828,-2.3593,4,5,"OS Open Names: Bath (City, Bath and North East Somerset)"
+John,Bauge,47.5445,-0.1065,4,4,GeoNames: Baugé-en-Anjou (FR)
+John,Beaulieu Abbey,50.8218,-1.4502,4,4,"Wikidata Q751667 (Beaulieu Abbey, abbey)"
+John,Brewood,52.6771,-2.1741,4,5,GeoNames: Brewood (GB)
+John,Brockenhurst,50.8194,-1.573,4,4,GeoNames: Brockenhurst (GB)
+John,Burton upon Trent,52.8074,-1.6448,4,5,"OS Open Names: Burton upon Trent (Town, Staffordshire)"
+John,Cambridge,52.2049,0.1197,4,7,"OS Open Names: Cambridge (City, Cambridgeshire)"
+John,Carlingford,54.04,-6.1883,4,4,GeoNames: Carlingford (IE)
+John,Chester,53.1902,-2.8916,4,4,"OS Open Names: Chester (City, Cheshire West and Chester)"
+John,Cricklade,51.6406,-1.8574,4,7,GeoNames: Cricklade (GB)
+John,Driffield,54.0061,-0.445,4,5,GeoNames: Driffield (GB)
+John,Flaxley Abbey,51.8361,-2.4519,4,6,"Wikidata Q574906 (Flaxley Abbey, abbey)"
+John,Hanley Castle,52.0762,-2.2367,4,6,"OS Open Names: Hanley Castle (Village, Worcestershire)"
+John,Kilpeck,51.9692,-2.8076,4,5,OS Open Names (close spelling): Kilpeck
+John,Merton Priory,51.4142,-0.1812,4,5,"Wikidata Q1922141 (Merton Priory, priory)"
+John,Romsey,50.9891,-1.4998,4,4,"OS Open Names: Romsey (Town, Hampshire)"
+John,Saint-Amand,49.0434,-0.9649,4,4,GeoNames: Saint-Amand (FR)
+John,Shoreham Castle,51.35,0.1859,4,4,"Wikidata Q24660366 (Shoreham Castle, manor house)"
+John,Sleaford,52.9995,-0.4104,4,7,"OS Open Names: Sleaford (Town, Lincolnshire)"
+John,La Souterraine,46.2379,1.486,4,4,GeoNames (close spelling): La Souterraine
+John,Southwell,53.078,-0.9554,4,7,GeoNames: Southwell (GB)
+John,Spalding,52.7871,-0.1517,4,4,"OS Open Names: Spalding (Town, Lincolnshire)"
+John,Stockton-on-Tees,54.564,-1.3127,4,5,"OS Open Names: Stockton-on-Tees (Town, Stockton-on-Tees)"
+John,Stow,53.3273,-0.6744,4,5,"OS Open Names: Stow (Village, Lincolnshire)"
+John,La Suze-sur-Sarthe,47.89,0.0253,4,5,GeoNames: La Suze-sur-Sarthe (FR)
+John,Winchelsea,50.9248,0.7083,4,4,"OS Open Names: Winchelsea (Village, East Sussex)"
+John,Writtle,51.7291,0.4294,4,6,GeoNames: Writtle (GB)
+John,Aixe-sur-Vienne,45.7966,1.1358,3,3,GeoNames: Aixe-sur-Vienne (FR)
+John,Ancenis,47.3667,-1.1667,3,3,GeoNames: Ancenis (FR)
+John,Aston,51.725,-1.508,3,3,GeoNames: Aston (GB)
+John,Berkeley,51.6911,-2.4592,3,5,GeoNames: Berkeley (GB)
+John,Beverley,53.8434,-0.4335,3,5,"OS Open Names: Beverley (Town, East Riding of Yorkshire)"
+John,Bramber,50.8848,-0.3181,3,4,"OS Open Names: Bramber (Village, West Sussex)"
+John,Brampton,52.3204,-0.2201,3,4,GeoNames: Brampton (GB)
+John,Breteuil,48.8333,0.9167,3,4,GeoNames: Breteuil (FR)
+John,Brook,50.9256,-1.6126,3,3,"OS Open Names: Brook (Village, Hampshire)"
+John,Brotherton,53.7272,-1.271,3,3,"OS Open Names: Brotherton (Village, North Yorkshire)"
+John,Carentan,49.3031,-1.2481,3,3,GeoNames: Carentan (FR)
+John,Chelmsford,51.7371,0.4736,3,4,"OS Open Names: Chelmsford (City, Essex)"
+John,Darlington,54.5243,-1.5504,3,7,GeoNames: Darlington (GB)
+John,Dol-de-Bretagne,48.5498,-1.751,3,4,GeoNames: Dol-de-Bretagne (FR)
+John,Downpatrick,54.3281,-5.7153,3,3,GeoNames: Downpatrick (GB)
+John,Downton,50.9937,-1.7513,3,6,GeoNames: Downton (GB)
+John,Fulham,51.4803,-0.1993,3,4,GeoNames: Fulham (GB)
+John,Gournay-en-Bray,49.4828,1.7247,3,3,GeoNames: Gournay-en-Bray (FR)
+John,East Harptree,51.3011,-2.6223,3,4,"OS Open Names: East Harptree (Village, Bath and North East Somerset)"
+John,Jarnac,45.6816,-0.1733,3,3,GeoNames: Jarnac (FR)
+John,Lamport,52.3653,-0.8841,3,3,"OS Open Names: Lamport (Village, West Northamptonshire)"
+John,Limoges,45.8336,1.2476,3,3,GeoNames: Limoges (FR)
+John,Lound,53.3707,-0.9631,3,3,"OS Open Names: Lound (Village, Nottinghamshire)"
+John,Lowdham,53.0121,-1.0048,3,3,GeoNames: Lowdham (GB)
+John,King's Lynn,52.7519,0.3954,3,4,"OS Open Names: King's Lynn (Town, Norfolk)"
+John,Melton Mowbray,52.7664,-0.8881,3,4,"OS Open Names: Melton Mowbray (Town, Leicestershire)"
+John,Montignac,45.066,1.1608,3,4,GeoNames: Montignac (FR)
+John,Newington,51.3522,0.6677,3,4,GeoNames: Newington (GB)
+John,Otford,51.3128,0.1905,3,3,GeoNames: Otford (GB)
+John,Peterborough,52.5725,-0.2425,3,4,"OS Open Names: Peterborough (City, City of Peterborough)"
+John,Pickering,54.2462,-0.7788,3,3,"OS Open Names: Pickering (Town, North Yorkshire)"
+John,Preston,52.6126,-0.7144,3,5,GeoNames: Preston (GB)
+John,New Romney,50.9858,0.9402,3,3,"OS Open Names: New Romney (Town, Kent)"
+John,Saint-Émilion,44.8926,-0.1561,3,3,GeoNames (close spelling): Saint-Émilion
+John,Saintes,45.7474,-0.6349,3,4,GeoNames: Saintes (FR)
+John,Stansted,51.3346,0.2979,3,4,OS Open Names (close spelling): Stansted
+John,Taunton,51.0149,-3.1029,3,3,GeoNames: Taunton (GB)
+John,Tidmarsh,51.4678,-1.0912,3,5,"OS Open Names: Tidmarsh (Village, West Berkshire)"
+John,Trowbridge,51.32,-2.2081,3,5,"OS Open Names: Trowbridge (Town, Wiltshire)"
+John,Waverley Abbey,51.2004,-0.7583,3,4,"Wikidata Q1295286 (Waverley Abbey, abbey)"
+John,Agen,44.202,0.6206,2,2,GeoNames: Agen (FR)
+John,Arques,50.7338,2.3024,2,3,GeoNames (close spelling): Arques
+John,Arundel,50.8543,-0.5539,2,3,"OS Open Names: Arundel (Town, West Sussex)"
+John,Ashton,51.2445,-2.8426,2,2,"OS Open Names: Ashton (Hamlet, Somerset)"
+John,Auckland Castle,54.6664,-1.6706,2,2,"Wikidata Q4819493 (Auckland Castle, castle)"
+John,Badby,52.2286,-1.1821,2,2,"OS Open Names: Badby (Village, West Northamptonshire)"
+John,Great Bardfield,51.9475,0.4353,2,3,"OS Open Names: Great Bardfield (Village, Essex)"
+John,Battle,50.9185,0.4823,2,4,"OS Open Names: Battle (Town, East Sussex)"
+John,Bedhampton,50.8596,-1.0035,2,3,"OS Open Names: Bedhampton (Suburban Area, Hampshire)"
+John,Bercy,48.8383,2.3817,2,2,GeoNames: Bercy (FR)
+John,Berkhamsted,51.7637,-0.5746,2,3,OS Open Names (close spelling): Berkhamsted
+John,Bexley,51.4416,0.1487,2,3,GeoNames: Bexley (GB)
+John,Blisworth,52.175,-0.9413,2,3,GeoNames: Blisworth (GB)
+John,Bordeaux,44.8412,-0.5805,2,2,GeoNames (close spelling): Bordeaux
+John,Bowes,54.5164,-2.016,2,2,GeoNames: Bowes (GB)
+John,Brigstock,52.4577,-0.6083,2,2,GeoNames: Brigstock (GB)
+John,Bruton,51.1125,-2.4536,2,3,"OS Open Names: Bruton (Town, Somerset)"
+John,Burbage,51.3518,-1.6709,2,6,GeoNames: Burbage (GB)
+John,Chippenham,51.4582,-2.1139,2,3,"OS Open Names: Chippenham (Town, Wiltshire)"
+John,Clisson,47.0871,-1.283,2,2,GeoNames: Clisson (FR)
+John,Conches-en-Ouche,48.9577,0.9405,2,3,GeoNames: Conches-en-Ouche (FR)
+John,Condom,43.9582,0.372,2,3,GeoNames: Condom (FR)
+John,Crook,54.7147,-1.7464,2,2,"OS Open Names: Crook (Town, County Durham)"
+John,Curry Mallet,50.9876,-2.9611,2,2,"OS Open Names: Curry Mallet (Village, Somerset)"
+John,Dagworth Manor,51.9793,0.6875,2,2,"Wikidata Q26622445 (Dagworth Manor, manor house)"
+John,Duleek,53.6567,-6.4192,2,2,GeoNames: Duleek (IE)
+John,Easingwold,54.1201,-1.1944,2,4,OS Open Names (close spelling): Easingwold
+John,Enfield,51.6522,-0.0844,2,2,"OS Open Names: Enfield (Other Settlement, Greater London)"
+John,Fenwick,55.6537,-1.8961,2,2,"OS Open Names: Fenwick (Village, Northumberland)"
+John,Framlingham,52.2211,1.3419,2,2,"OS Open Names: Framlingham (Town, Suffolk)"
+John,Grantham,52.9121,-0.6422,2,4,"OS Open Names: Grantham (Town, Lincolnshire)"
+John,Hainton,53.3455,-0.2267,2,2,"OS Open Names: Hainton (Village, Lincolnshire)"
+John,Great Hallingbury,51.8554,0.1946,2,3,"OS Open Names: Great Hallingbury (Village, Essex)"
+John,Hampstead,51.5567,-0.1786,2,2,"OS Open Names: Hampstead (Other Settlement, Greater London)"
+John,Hanslope,52.1142,-0.8267,2,4,GeoNames: Hanslope (GB)
+John,Hay Castle,52.074,-3.126,2,2,"Wikidata Q15114193 (Hay Castle, castle)"
+John,Hodsock,53.3615,-1.0817,2,3,"OS Open Names: Hodsock (Hamlet, Nottinghamshire)"
+John,Ilchester,51.0059,-2.6798,2,3,GeoNames: Ilchester (GB)
+John,Charborough,50.7849,-2.1059,2,4,"OS Open Names: Charborough Park (Other Landcover, Dorset)"
+John,Kirkoswald Castle,54.7621,-2.6861,2,3,"Wikidata Q6415799 (Kirkoswald Castle, castle)"
+John,Lancaster,54.0501,-2.8032,2,2,"OS Open Names: Lancaster (City, Lancashire)"
+John,Langar,52.9039,-0.9216,2,3,"OS Open Names: Langar (Village, Nottinghamshire)"
+John,Malton,54.1369,-0.7996,2,3,GeoNames: Malton (GB)
+John,Micheldever,51.1486,-1.2645,2,4,OS Open Names (close spelling): Micheldever
+John,Mitford,55.1669,-1.7344,2,3,"OS Open Names: Mitford (Village, Northumberland)"
+John,Montmorillon,46.4265,0.8696,2,3,GeoNames (close spelling): Montmorillon
+John,Naas,53.2158,-6.6669,2,2,GeoNames: Naas (IE)
+John,Oakham,52.6698,-0.7301,2,2,"OS Open Names: Oakham (Town, Rutland)"
+John,Perlethorpe,53.2323,-1.028,2,2,"OS Open Names: Perlethorpe (Village, Nottinghamshire)"
+John,Pleshey,51.8044,0.4129,2,2,"OS Open Names: Pleshey (Village, Essex)"
+John,Ravensworth Castle,54.4598,-1.7841,2,2,"Wikidata Q7296587 (Ravensworth Castle, castle)"
+John,Scrooby,53.4098,-1.02,2,2,"OS Open Names: Scrooby (Village, Nottinghamshire)"
+John,Stourton Castle,52.4621,-2.2086,2,3,"Wikidata Q26525560 (Stourton Castle, castle)"
+John,Swallowfield,51.3787,-0.958,2,2,GeoNames: Swallowfield (GB)
+John,Swansea,51.6201,-3.9414,2,2,"OS Open Names: Swansea (City, Abertawe - Swansea)"
+John,Swineshead,52.9454,-0.1595,2,2,GeoNames: Swineshead (GB)
+John,Tillières,47.144,-1.1633,2,2,GeoNames: Tillières (FR)
+John,Trim,53.555,-6.7917,2,2,GeoNames: Trim (IE)
+John,Upavon,51.2949,-1.8077,2,3,"OS Open Names: Upavon (Village, Wiltshire)"
+John,Walden Manor,51.3829,0.1354,2,3,"Wikidata Q26482039 (Walden Manor, manor house)"
+John,Walthamstow,51.5907,-0.0208,2,2,GeoNames: Walthamstow (GB)
+John,Warwick,52.2835,-1.5892,2,2,"OS Open Names: Warwick (Town, Warwickshire)"
+John,Westbury,51.2608,-2.1836,2,2,"OS Open Names: Westbury (Town, Wiltshire)"
+John,Wigton,54.8248,-3.1611,2,2,GeoNames: Wigton (GB)
+John,Winchcombe,51.9536,-1.9639,2,2,"OS Open Names: Winchcombe (Town, Gloucestershire)"
+John,Winterbourne,51.5233,-2.5044,2,3,GeoNames: Winterbourne (GB)
+John,Woodham,51.3457,-0.5091,2,3,"OS Open Names: Woodham (Village, Surrey)"
+John,Wycombe Abbey,51.6258,-0.7506,2,3,"Wikidata Q99670924 (Wycombe Abbey, manor house)"
+John,Abergavenny,51.821,-3.0174,1,1,GeoNames: Abergavenny (GB)
+John,Appleby Castle,54.5742,-2.4888,1,2,"Wikidata Q1639481 (Appleby Castle, castle)"
+John,Auffay,49.7188,1.0991,1,1,GeoNames (close spelling): Auffay
+John,Barnard Castle,54.5485,-1.9171,1,1,OS Open Names (close spelling): Barnard Castle
+John,Barrington,50.9601,-2.8718,1,1,"OS Open Names: Barrington (Village, Somerset)"
+John,Barton Stacey,51.1673,-1.3793,1,1,OS Open Names (close spelling): Barton Stacey
+John,Belford,55.6,-1.8333,1,1,GeoNames: Belford (GB)
+John,Belvoir Priory,52.8985,-0.7817,1,2,"Wikidata Q4884928 (Belvoir Priory, priory)"
+John,Bindon Abbey,50.6806,-2.2081,1,3,"Wikidata Q743634 (Bindon Abbey, abbey)"
+John,Blandford Forum,50.857,-2.1652,1,1,"OS Open Names: Blandford Forum (Town, Dorset)"
+John,Blatherwycke,52.552,-0.5709,1,1,"OS Open Names: Blatherwycke (Hamlet, North Northamptonshire)"
+John,Boston,52.9763,-0.0272,1,1,"OS Open Names: Boston (Town, Lincolnshire)"
+John,Bourg-Achard,49.3532,0.8162,1,1,GeoNames: Bourg-Achard (FR)
+John,Bourgueil,47.2833,0.1661,1,1,GeoNames: Bourgueil (FR)
+John,Bourne,52.7682,-0.3772,1,1,"OS Open Names: Bourne (Town, Lincolnshire)"
+John,Bridport,50.7338,-2.7583,1,1,GeoNames: Bridport (GB)
+John,Brionne,49.1955,0.7151,1,2,GeoNames (close spelling): Brionne
+John,Burford,51.8077,-1.6367,1,1,"OS Open Names: Burford (Town, Oxfordshire)"
+John,Cardiff,51.48,-3.1769,1,1,"OS Open Names: Cardiff (City, Caerdydd - Cardiff)"
+John,Castle Cary,51.09,-2.5142,1,1,GeoNames: Castle Cary (GB)
+John,Charroux,46.1444,0.4033,1,1,GeoNames (close spelling): Charroux
+John,Cherhill,51.4308,-1.9484,1,1,"OS Open Names: Cherhill (Village, Wiltshire)"
+John,Chertsey,51.3922,-0.5037,1,3,"OS Open Names: Chertsey (Town, Surrey)"
+John,Chiché,46.7971,-0.3597,1,1,GeoNames: Chiché (FR)
+John,Chieveley Manor,51.4643,-1.3189,1,1,"Wikidata Q26514602 (Chieveley Manor, manor house)"
+John,Clun,52.4215,-3.0267,1,1,"OS Open Names: Clun (Village, Shropshire)"
+John,Conisbrough,53.4819,-1.2293,1,1,"OS Open Names: Conisbrough (Town, )"
+John,Cottingham,53.7806,-0.4154,1,1,GeoNames: Cottingham (GB)
+John,Croydon,51.3833,-0.1,1,1,GeoNames: Croydon (GB)
+John,Denton,52.214,-0.7753,1,1,"OS Open Names: Denton (Village, West Northamptonshire)"
+John,Derby,52.9247,-1.4781,1,2,"OS Open Names: Derby (City, City of Derby)"
+John,Dogmersfield,51.2696,-0.8751,1,1,"OS Open Names: Dogmersfield (Village, Hampshire)"
+John,Donington,52.9046,-0.2051,1,1,GeoNames: Donington (GB)
+John,Dunbar,56.0006,-2.5142,1,1,GeoNames: Dunbar (GB)
+John,Eaton,53.1833,-2.2,1,1,GeoNames: Eaton (GB)
+John,Egbury,51.2704,-1.3735,1,1,"OS Open Names: Egbury (Hamlet, Hampshire)"
+John,Egton Manor,54.4357,-0.7605,1,1,"Wikidata Q26468202 (Egton Manor, manor house)"
+John,Elvetham,51.2968,-0.8712,1,1,"OS Open Names: Elvetham (Other Settlement, Hampshire)"
+John,Evesham,52.0924,-1.9489,1,1,GeoNames: Evesham (GB)
+John,Eye,52.3205,1.1462,1,1,GeoNames: Eye (GB)
+John,Fareham,50.8516,-1.1793,1,1,GeoNames: Fareham (GB)
+John,Faversham,51.3148,0.8886,1,2,GeoNames: Faversham (GB)
+John,Fotheringhay Priory,52.5254,-0.4397,1,2,"Wikidata Q17646071 (Fotheringhay Priory, priory)"
+John,Frome,51.231,-2.3218,1,1,OS Open Names (close spelling): Frome
+John,Gillingham,51.3692,0.5786,1,1,OS Open Names (close spelling): Gillingham
+John,Gravesend,51.4421,0.3711,1,1,GeoNames: Gravesend (GB)
+John,Grimsby,53.5651,-0.0838,1,2,"OS Open Names: Grimsby (Town, North East Lincolnshire)"
+John,Gunthorpe,52.9929,-0.9901,1,1,"OS Open Names: Gunthorpe (Village, Nottinghamshire)"
+John,Haseley Manor,52.3091,-1.6519,1,1,"Wikidata Q26286767 (Haseley Manor, manor house)"
+John,Hatfield,51.7651,-0.2201,1,1,"OS Open Names: Hatfield (Town, Hertfordshire)"
+John,Horsford,52.7015,1.2402,1,1,GeoNames: Horsford (GB)
+John,Huntingdon,52.3305,-0.1865,1,1,GeoNames: Huntingdon (GB)
+John,Immingham,53.6156,-0.2113,1,1,OS Open Names (close spelling): Immingham
+John,Irthington,54.9469,-2.7847,1,1,"OS Open Names: Irthington (Village, Cumberland)"
+John,Kidwelly,51.7363,-4.3071,1,1,"OS Open Names: Kidwelly (Town, Sir Gaerfyrddin - Carmarthenshire)"
+John,Kilkenny,52.6542,-7.2522,1,2,GeoNames: Kilkenny (IE)
+John,Kingsmead,53.2425,-2.5177,1,2,"OS Open Names: Kingsmead (Village, Cheshire West and Chester)"
+John,Kirkham Priory,54.0829,-0.8767,1,2,"Wikidata Q6415670 (Kirkham Priory, priory)"
+John,Kirton,52.9277,-0.0601,1,1,GeoNames: Kirton (GB)
+John,Laplume,44.1129,0.5298,1,3,GeoNames: Laplume (FR)
+John,"St Paul's, London",51.5128,-0.0918,1,2,GeoNames: City of London (GB)
+John,Le Lude,47.6465,0.1566,1,2,GeoNames: Le Lude (FR)
+John,Maldon,51.7311,0.6746,1,1,GeoNames: Maldon (GB)
+John,Margam Castle,51.5628,-3.7254,1,2,"Wikidata Q12061481 (Margam Castle, castle)"
+John,Milton Abbas,50.818,-2.2697,1,1,"OS Open Names: Milton Abbas (Village, Dorset)"
+John,Misterton,53.4449,-0.8503,1,1,GeoNames: Misterton (GB)
+John,Mortlake,51.4695,-0.2675,1,2,GeoNames: Mortlake (GB)
+John,Mountsorrel,52.7271,-1.1372,1,1,OS Open Names (close spelling): Mountsorrel
+John,Neath,51.6642,-3.8034,1,1,"OS Open Names: Neath (Town, Castell-nedd Port Talbot - Neath Port Talbot)"
+John,Le Neubourg,49.1505,0.9102,1,1,GeoNames (close spelling): Le Neubourg
+John,Newcastle-under-Lyme,53.0112,-2.228,1,1,OS Open Names (close spelling): Newcastle-under-Lyme
+John,Newport,51.9843,0.2135,1,1,GeoNames: Newport (GB)
+John,Newport,51.5879,-2.9967,1,1,"OS Open Names: Newport (City, Casnewydd - Newport)"
+John,Newport Pagnell,52.0868,-0.7222,1,4,"OS Open Names: Newport Pagnell (Town, Milton Keynes)"
+John,Norham Castle,55.7218,-2.1508,1,1,"Wikidata Q388705 (Norham Castle, castle)"
+John,Norwich,52.6289,1.2933,1,1,"OS Open Names: Norwich (City, Norfolk)"
+John,Oare,51.3306,0.8777,1,1,"OS Open Names: Oare (Village, Kent)"
+John,Orsett,51.5123,0.3675,1,1,GeoNames: Orsett (GB)
+John,Pagham,50.7708,-0.7448,1,2,"OS Open Names: Pagham (Village, West Sussex)"
+John,Pattishall,52.182,-1.0207,1,1,"OS Open Names: Pattishall (Village, West Northamptonshire)"
+John,Périgueux,45.1869,0.7144,1,1,GeoNames: Périgueux (FR)
+John,Pershore,52.1116,-2.0759,1,1,GeoNames: Pershore (GB)
+John,Plumpton,54.7258,-2.7834,1,1,"OS Open Names: Plumpton (Village, Westmorland and Furness)"
+John,Plumpton,52.1302,-1.1265,1,1,"OS Open Names: Plumpton (Hamlet, West Northamptonshire)"
+John,Pons,45.5802,-0.5481,1,1,GeoNames: Pons (FR)
+John,Pontvallain,47.7509,0.1919,1,1,GeoNames (close spelling): Pontvallain
+John,Rayleigh,51.5857,0.6046,1,2,GeoNames: Rayleigh (GB)
+John,Reigate,51.2377,-0.2058,1,3,"OS Open Names: Reigate (Town, Surrey)"
+John,Rothwell,53.7484,-1.4765,1,3,"OS Open Names: Rothwell (Town, )"
+John,Ruffec,46.0288,0.1984,1,2,GeoNames (close spelling): Ruffec
+John,Rushock,52.2191,-3.0149,1,1,"OS Open Names: Rushock (Hamlet, County of Herefordshire)"
+John,Saint-Junien,45.8875,0.9016,1,1,GeoNames: Saint-Junien (FR)
+John,Saint-Lô,49.1162,-1.0903,1,1,GeoNames: Saint-Lô (FR)
+John,Sainte-Mère-Église,49.41,-1.3173,1,1,GeoNames: Sainte-Mère-Église (FR)
+John,Saint-Pierre-sur-Dives,49.0167,-0.0333,1,1,GeoNames (close spelling): Saint-Pierre-sur-Dives
+John,Saint-Sever,43.7573,-0.5718,1,1,GeoNames: Saint-Sever (FR)
+John,Saint-Vaury,46.2042,1.7557,1,1,GeoNames: Saint-Vaury (FR)
+John,Scotter,53.4965,-0.6743,1,2,GeoNames: Scotter (GB)
+John,Staines,51.4309,-0.5061,1,1,GeoNames: Staines (GB)
+John,Stalbridge,50.9581,-2.3755,1,1,GeoNames: Stalbridge (GB)
+John,Stanley,51.4552,-2.0635,1,1,"OS Open Names: Stanley (Hamlet, Wiltshire)"
+John,Stogursey,51.1797,-3.1412,1,1,OS Open Names (close spelling): Stogursey
+John,Stony Stratford,52.0568,-0.8528,1,1,GeoNames: Stony Stratford (GB)
+John,Sturton,53.5326,-0.5363,1,1,"OS Open Names: Sturton (Suburban Area, North Lincolnshire)"
+John,Sudbury,52.0392,0.7319,1,1,"OS Open Names: Sudbury (Town, Suffolk)"
+John,Sutton Manor,53.2134,-1.3353,1,1,"Wikidata Q26451845 (Sutton Manor, manor house)"
+John,Tadcaster,53.8847,-1.264,1,2,"OS Open Names: Tadcaster (Town, North Yorkshire)"
+John,Thirsk,54.2325,-1.3429,1,2,"OS Open Names: Thirsk (Town, North Yorkshire)"
+John,Thorney,52.6215,-0.1081,1,1,GeoNames: Thorney (GB)
+John,Tonnay-Charente,45.944,-0.8919,1,1,GeoNames: Tonnay-Charente (FR)
+John,Great Totham,51.7732,0.6904,1,1,"OS Open Names: Great Totham (Village, Essex)"
+John,Towcester,52.1336,-0.9906,1,1,GeoNames: Towcester (GB)
+John,Upton,52.2168,-1.8239,1,1,"OS Open Names: Upton (Suburban Area, Warwickshire)"
+John,Wakefield,53.6837,-1.4982,1,4,"OS Open Names: Wakefield (City, ) [county as printed does not match]"
+John,Walton,51.8124,-0.8042,1,2,"OS Open Names: Walton (Suburban Area, Buckinghamshire)"
+John,Warkworth,55.35,-1.6167,1,1,GeoNames: Warkworth (GB)
+John,Welbury,54.4152,-1.3866,1,1,"OS Open Names: Welbury (Village, North Yorkshire)"
+John,Wherwell,51.1662,-1.4446,1,1,"OS Open Names: Wherwell (Village, Hampshire)"
+John,Willoughton Priory,53.4275,-0.5984,1,2,"Wikidata Q8022244 (Willoughton Priory, priory)"
+John,Yarlington,51.0613,-2.4936,1,2,"OS Open Names: Yarlington (Village, Somerset)"
+John,Barton-upon-Humber,53.6847,-0.4388,0,1,OS Open Names (close spelling): Barton-upon-Humber
+John,Beaulieu,43.7286,4.0219,0,1,GeoNames (close spelling): Beaulieu
+John,Beaumont,46.737,0.4297,0,1,GeoNames: Beaumont (FR)
+John,Brackley,52.0326,-1.1437,0,2,OS Open Names (close spelling): Brackley
+John,Bradford,53.7908,-1.7546,0,2,"OS Open Names: Bradford (City, ) [county as printed does not match]"
+John,Burg,56.5308,-6.2617,0,1,"OS Open Names: Burg (Other Settlement, Argyll and Bute)"
+John,Calne,51.4379,-2.0051,0,1,"OS Open Names: Calne (Town, Wiltshire)"
+John,Châtellerault,46.8171,0.5452,0,1,GeoNames (close spelling): Châtellerault
+John,Clare,52.0786,0.5817,0,1,GeoNames: Clare (GB)
+John,Clerkenwell,51.5244,-0.1102,0,1,GeoNames: Clerkenwell (GB)
+John,Coggeshall,51.8708,0.6854,0,1,GeoNames: Coggeshall (GB)
+John,Le Coudray,48.4211,1.5006,0,2,GeoNames (close spelling): Le Coudray
+John,Dorchester Abbey,51.6437,-1.1644,0,1,"Wikidata Q5297593 (Dorchester Abbey, abbey)"
+John,Gacé,48.7934,0.2962,0,1,GeoNames: Gacé (FR)
+John,Gaillon,49.161,1.3402,0,2,GeoNames: Gaillon (FR)
+John,Horton,51.5583,-2.3525,0,1,GeoNames: Horton (GB)
+John,Jarrow,54.9813,-1.4909,0,1,"OS Open Names: Jarrow (Town, )"
+John,Longchamp,47.2597,5.2869,0,1,GeoNames (close spelling): Longchamp
+John,Long Melford,52.0748,0.7164,0,1,GeoNames: Long Melford (GB)
+John,Louth,53.3671,-0.0039,0,1,"OS Open Names: Louth (Town, Lincolnshire)"
+John,Monmouth,51.8126,-2.7136,0,3,GeoNames: Monmouth (GB)
+John,Neyland,51.7094,-4.9487,0,1,"OS Open Names: Neyland (Town, Sir Benfro - Pembrokeshire) [county as printed does not match]"
+John,Osney,51.7502,-1.2734,0,1,OS Open Names (close spelling): Osney
+John,Paris,48.8534,2.3488,0,1,GeoNames: Paris (FR)
+John,Préaux,49.4914,1.2158,0,1,GeoNames: Préaux (FR)
+John,Prestbury,51.9136,-2.0445,0,1,"OS Open Names: Prestbury (Village, Gloucestershire)"
+John,Radnor,53.1758,-2.253,0,1,"OS Open Names: Radnor (Hamlet, Cheshire East)"
+John,Rathwire,53.5077,-7.1351,0,1,GeoNames: Rathwire (IE)
+John,Rye,50.9511,0.7336,0,1,"OS Open Names: Rye (Town, East Sussex)"
+John,Saint-Florent,42.6815,9.304,0,1,GeoNames (close spelling): Saint-Florent
+John,Saint-Léonard,49.7425,0.3591,0,1,GeoNames: Saint-Léonard (FR)
+John,Silchester,51.3535,-1.1006,0,1,"OS Open Names: Silchester (Village, Hampshire)"
+John,Stoke Lyne,51.9504,-1.1767,0,1,"OS Open Names: Stoke Lyne (Village, Oxfordshire)"
+John,Stretford,52.2185,-2.6938,0,2,OS Open Names (close spelling): Stretford
+John,Stretton,53.3333,-2.5667,0,4,GeoNames: Stretton (GB)
+John,Taynton,51.8215,-1.6623,0,1,"OS Open Names: Taynton (Village, Oxfordshire)"
+John,Waresley,52.175,-0.1736,0,1,"OS Open Names: Waresley (Village, Cambridgeshire)"
+John,Wedmore,51.2273,-2.8115,0,1,GeoNames: Wedmore (GB)
+John,Wisbech,52.6644,0.1618,0,1,OS Open Names (close spelling): Wisbech
