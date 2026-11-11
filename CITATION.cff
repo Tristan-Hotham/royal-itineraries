@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Governing on the Move: Where England's Kings Slept. Itineraries of Henry II, John, Edward I and Elizabeth I as Data"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23729639"
+url: "https://maps.tristanhotham.com/royal-itineraries/"
+repository-code: "https://github.com/Tristan-Hotham/royal-itineraries"
+license: CC-BY-SA-4.0
+keywords:
+  - "itinerant kingship"
+  - "royal itineraries"
+  - "King John"
+  - "Edward I"
+  - "Henry II"
+  - "Elizabeth I"
+  - "royal progresses"
+  - "Westminster"
+  - "historical GIS"
+  - "OCR"
